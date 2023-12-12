@@ -1,0 +1,20 @@
+Those are the versions of my libraries, if you're struggling to get it to compile, 
+you should try them out, as it's confirmed that they're functional on Psych Engine DS 2.0.0:
+
+You need Haxe 4.2.5: https://haxe.org/download/version/4.2.5/
+
+And these library versions:
+- discord_rpc: git, to install, use: haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc.git
+- flixel-addons: 3.0.2
+- flixel-tools: 1.5.1
+- flixel-ui: 2.5.0
+- flixel: 5.2.2
+- SScript: 4.0.1
+- tjson: 1.4.0
+- hxCodec: 2.6.1
+- lime: 8.0.1
+- linc_luajit: git, to install, use: haxelib git linc_luajit https://github.com/superpowers04/linc_luajit.git
+- openfl: 9.2.1
+
+If you want to install a specific version of Haxe's default libraries (like Flixel for example), 
+use haxelib set library version, here's an example: haxelib set flixel 5.2.2
