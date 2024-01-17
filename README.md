@@ -1,5 +1,5 @@
 # Friday Night Funkin' - Psych Engine DS
-A massive overhaul upgrade for [Psych Engine](https://gamebanana.com/mods/301107), intended to be a fix for the original's many issues that personally annoy me while keeping the good stuff from it. Also aiming to be more interchangable than the original. This is a replacement for my old DS Engine, hencewhy I've added some of the old DS Engine features.
+A massive overhaul upgrade for [Psych Engine](https://gamebanana.com/mods/309789), intended to be a fix for the original's many issues that personally annoy me while keeping the good stuff from it. Also aiming to be more interchangable than the original. This is a replacement for my old DS Engine, hencewhy I've added some of the old DS Engine features.
 I also fixed the manny bugs and issues from Psych Engine 0.7 source code.
 
 ## Installation:
@@ -10,17 +10,18 @@ Step 2: Open up a Command Prompt/PowerShell or Terminal, type `haxelib install h
 Step 3: After that finishes, type `haxelib run hmm install` in order to install all the needed libraries for *Psych Engine DS!*
 
 Step 4: Enter all these into the command prompt:
-        - haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc.git
-        - haxelib set flixel-addons 3.0.2
-        - haxelib set flixel-tools 1.5.1
-        - haxelib set flixel-ui 2.5.0
-        - haxelib set flixel 5.2.2
-        - haxelib set SScript 4.0.1
-        - haxelib set tjson 1.4.0
-        - haxelib set hxCodec 2.6.1 *{This is VERY important. DO NOT USE HXCODEC 3.0.2 AS IT WILL NOT COMPILE!}*
-        - haxelib set lime 8.0.1
-        - haxelib git linc_luajit https://github.com/superpowers04/linc_luajit.git
-        - haxelib set openfl 9.2.1
+  - haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc.git
+  - haxelib set flixel-addons 3.0.2
+  - haxelib set flixel-tools 1.5.1
+  - haxelib set flixel-ui 2.5.0
+  - haxelib set flixel 5.2.2
+  - haxelib set SScript 4.0.1
+  - haxelib set tjson 1.4.0
+  - haxelib set hxCodec 2.6.1 *{This is VERY important. DO NOT USE HXCODEC 3.0.2 AS IT WILL NOT COMPILE!}*
+  - haxelib set lime 8.0.1
+  - haxelib git linc_luajit https://github.com/superpowers04/linc_luajit.git
+  - haxelib set openfl 9.2.1
+
 This is to ensure all the needed libraries are at the correct version in order for the game to actually compile properly.
 
 Once you do all that you should be good to go!
@@ -50,6 +51,7 @@ same goes for *Lua Scripts*, comment out or delete the line with `LUA_ALLOWED`, 
 
 ### Special Thanks
 * kamvoy - New Pixel Boyfriend & New Pixel Girlfriend sprites
+* RonaTheRTD - Pico Dialogue Assets
 * DrkFon376 - Speakers Only Assets
 * Sage_With_A_V - Left Side Boyfriend Sprites
 * Elizm - BotPlay & Practice Text Sprites
@@ -93,7 +95,6 @@ _____________________________________
 
 
 ## Changes to story weeks:
-  * The EASY, NORMAL, & HARD difficulties actually live up to their names now.
   * Different vocals depending on the player character you play as.
   * Cutscenes now don't play when in BotPlay or Practice Mode
   * Added the dodge mechanic to the third song of Week 4. Good luck.
@@ -118,3 +119,4 @@ _____________________________________
 * Note splashes are the official ones from the vanilla FNF by default.
 * All health icons now have a winning sprite.
 * Added a customizable fifth note. There's a file in the `data` folder labeled `ExtraNoteData.json`. You can use that to change the fifth note's properties.
+* Achievements system & Mods system are now similar to Base Psych 0.7.2. You can add custom achievements in a similar manor to how you would in Base Psych 0.7.2, as well as Mod Settings.
