@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_assets-chip.png">
+<SubTexture name="arrowSPACE0000" x="0" y="0" width="164" height="164"/>
+<SubTexture name="space press0000" x="164" y="0" width="152" height="152" frameX="-5" frameY="-5" frameWidth="162" frameHeight="161"/>
+<SubTexture name="space press0001" x="164" y="0" width="152" height="152" frameX="-5" frameY="-5" frameWidth="162" frameHeight="161"/>
+<SubTexture name="space press0002" x="316" y="0" width="162" height="161"/>
+<SubTexture name="space press0003" x="316" y="0" width="162" height="161"/>
+<SubTexture name="space confirm0000" x="0" y="164" width="244" height="244"/>
+<SubTexture name="space confirm0001" x="244" y="164" width="244" height="244"/>
+<SubTexture name="space confirm0002" x="488" y="164" width="221" height="221" frameX="-8" frameY="-16" frameWidth="244" frameHeight="244"/>
+<SubTexture name="space confirm0003" x="488" y="164" width="221" height="221" frameX="-8" frameY="-16" frameWidth="244" frameHeight="244"/>
+<SubTexture name="blue0000" x="478" y="0" width="164" height="164"/>
+<SubTexture name="blue hold piece0000" x="624" y="0" width="50" height="44"/>
+<SubTexture name="blue hold end0000" x="693" y="0" width="50" height="64"/>
+<SubTexture name="green0000" x="478" y="0" width="164" height="164"/>
+<SubTexture name="green hold piece0000" x="624" y="0" width="50" height="44"/>
+<SubTexture name="green hold end0000" x="693" y="0" width="50" height="64"/>
+<SubTexture name="red0000" x="478" y="0" width="164" height="164"/>
+<SubTexture name="red hold piece0000" x="624" y="0" width="50" height="44"/>
+<SubTexture name="red hold end0000" x="693" y="0" width="50" height="64"/>
+<SubTexture name="purple0000" x="478" y="0" width="164" height="164"/>
+<SubTexture name="purple hold piece0000" x="624" y="0" width="50" height="44"/>
+<SubTexture name="purple hold end0000" x="693" y="0" width="50" height="64"/>
+</TextureAtlas>

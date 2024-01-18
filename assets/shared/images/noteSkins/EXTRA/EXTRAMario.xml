@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_assets-mario.png">
+<SubTexture name="arrowSPACE0000" x="0" y="0" width="160" height="160"/>
+<SubTexture name="space press0000" x="160" y="0" width="160" height="160"/>
+<SubTexture name="space press0001" x="160" y="0" width="160" height="160"/>
+<SubTexture name="space press0002" x="320" y="0" width="160" height="160"/>
+<SubTexture name="space press0003" x="320" y="0" width="160" height="160"/>
+<SubTexture name="space confirm0000" x="0" y="160" width="160" height="160"/>
+<SubTexture name="space confirm0001" x="160" y="160" width="160" height="160"/>
+<SubTexture name="space confirm0002" x="320" y="160" width="160" height="160"/>
+<SubTexture name="space confirm0003" x="320" y="160" width="160" height="160"/>
+<SubTexture name="blue0000" x="480" y="0" width="160" height="160"/>
+<SubTexture name="blue hold piece0000" x="480" y="160" width="50" height="44"/>
+<SubTexture name="blue hold end0000" x="530" y="160" width="50" height="64"/>
+<SubTexture name="green0000" x="480" y="0" width="160" height="160"/>
+<SubTexture name="green hold piece0000" x="480" y="160" width="50" height="44"/>
+<SubTexture name="green hold end0000" x="530" y="160" width="50" height="64"/>
+<SubTexture name="purple0000" x="480" y="0" width="160" height="160"/>
+<SubTexture name="purple hold piece0000" x="480" y="160" width="50" height="44"/>
+<SubTexture name="purple hold end0000" x="530" y="160" width="50" height="64"/>
+<SubTexture name="red0000" x="480" y="0" width="160" height="160"/>
+<SubTexture name="red hold piece0000" x="480" y="160" width="50" height="44"/>
+<SubTexture name="red hold end0000" x="530" y="160" width="50" height="64"/>
+</TextureAtlas>

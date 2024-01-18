@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_assets-ddlc.png">
+<SubTexture name="arrowSPACE0000" x="0" y="0" width="165" height="165"/>
+<SubTexture name="space press0000" x="165" y="0" width="165" height="165"/>
+<SubTexture name="space press0001" x="165" y="0" width="165" height="165"/>
+<SubTexture name="space press0002" x="330" y="0" width="165" height="165"/>
+<SubTexture name="space press0003" x="330" y="0" width="165" height="165"/>
+<SubTexture name="space confirm0000" x="0" y="165" width="165" height="165"/>
+<SubTexture name="space confirm0001" x="165" y="165" width="165" height="165"/>
+<SubTexture name="space confirm0002" x="330" y="165" width="165" height="165"/>
+<SubTexture name="space confirm0003" x="330" y="165" width="165" height="165"/>
+<SubTexture name="blue0000" x="495" y="0" width="165" height="165"/>
+<SubTexture name="blue hold piece0000" x="495" y="165" width="60" height="40"/>
+<SubTexture name="blue hold end0000" x="555" y="165" width="60" height="70"/>
+<SubTexture name="green0000" x="495" y="0" width="165" height="165"/>
+<SubTexture name="green hold piece0000" x="495" y="165" width="60" height="40"/>
+<SubTexture name="green hold end0000" x="555" y="165" width="60" height="70"/>
+<SubTexture name="red0000" x="495" y="0" width="165" height="165"/>
+<SubTexture name="red hold piece0000" x="495" y="165" width="60" height="40"/>
+<SubTexture name="red hold end0000" x="555" y="165" width="60" height="70"/>
+<SubTexture name="purple0000" x="495" y="0" width="165" height="165"/>
+<SubTexture name="purple hold piece0000" x="495" y="165" width="60" height="40"/>
+<SubTexture name="purple hold end0000" x="555" y="165" width="60" height="70"/>
+</TextureAtlas>
