@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bowserJrPixelDead.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DED instance 10000" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10001" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10002" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10003" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10004" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10005" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10006" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10007" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10008" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10009" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10010" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10011" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10012" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10013" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10014" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10015" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10016" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10017" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10018" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10019" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10020" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10021" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10022" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10023" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10024" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10025" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10026" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10027" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10028" x="64" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10029" x="64" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10030" x="64" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10031" x="64" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10032" x="96" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10033" x="96" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10034" x="96" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10035" x="96" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10036" x="128" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10037" x="128" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10038" x="128" y="0" width="32" height="51"/>
+	<SubTexture name="DED instance 10039" x="128" y="0" width="32" height="51"/>
+	<SubTexture name="LOOP instance 10000" x="0" y="51" width="32" height="51"/>
+	<SubTexture name="LOOP instance 10001" x="0" y="51" width="32" height="51"/>
+	<SubTexture name="LOOP instance 10002" x="32" y="51" width="32" height="51"/>
+	<SubTexture name="LOOP instance 10003" x="32" y="51" width="32" height="51"/>
+	<SubTexture name="LOOP instance 10004" x="64" y="51" width="32" height="51"/>
+	<SubTexture name="LOOP instance 10005" x="64" y="51" width="32" height="51"/>
+	<SubTexture name="CONFIRM instance 10000" x="96" y="51" width="32" height="51"/>
+	<SubTexture name="CONFIRM instance 10001" x="96" y="51" width="32" height="51"/>
+	<SubTexture name="CONFIRM instance 10002" x="128" y="51" width="32" height="51"/>
+</TextureAtlas>

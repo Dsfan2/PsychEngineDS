@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bowserJrPixel.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="IDLE instance 10000" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10001" x="0" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10002" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10003" x="32" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10004" x="64" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10005" x="64" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10006" x="96" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10007" x="96" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10008" x="128" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10009" x="128" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10010" x="128" y="0" width="32" height="51"/>
+	<SubTexture name="IDLE instance 10011" x="128" y="0" width="32" height="51"/>
+	<SubTexture name="UP NOTE instance 10000" x="0" y="51" width="32" height="51"/>
+	<SubTexture name="LEFT NOTE instance 10000" x="32" y="51" width="32" height="51"/>
+	<SubTexture name="RIGHT NOTE instance 10000" x="64" y="51" width="32" height="51"/>
+	<SubTexture name="DOWN NOTE instance 10000" x="96" y="51" width="32" height="51"/>
+	<SubTexture name="YAY instance 10000" x="128" y="51" width="32" height="51"/>
+	<SubTexture name="UP MISS instance 10000" x="0" y="102" width="32" height="51"/>
+	<SubTexture name="DOWN MISS instance 10000" x="32" y="102" width="32" height="51"/>
+	<SubTexture name="RIGHT MISS instance 10000" x="64" y="102" width="32" height="51"/>
+	<SubTexture name="LEFT MISS instance 10000" x="96" y="102" width="32" height="51"/>
+</TextureAtlas>
