@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DS_Dialogue.png">
+<SubTexture name="DS0000" x="676" y="0" width="338" height="632"/>
+<SubTexture name="DS0001" x="676" y="0" width="338" height="632"/>
+<SubTexture name="DS LOOP0000" x="0" y="0" width="338" height="632"/>
+<SubTexture name="DS LOOP0001" x="0" y="0" width="338" height="632"/>
+<SubTexture name="DS LOOP0002" x="338" y="0" width="338" height="632"/>
+<SubTexture name="DS LOOP0003" x="338" y="0" width="338" height="632"/>
+<SubTexture name="DS LOOP0004" x="676" y="0" width="338" height="632"/>
+<SubTexture name="DS LOOP0005" x="676" y="0" width="338" height="632"/>
+<SubTexture name="DS CHEER0000" x="0" y="632" width="338" height="632"/>
+<SubTexture name="DS CHEER0001" x="0" y="632" width="338" height="632"/>
+<SubTexture name="DS CHEER LOOP0000" x="1014" y="0" width="338" height="632"/>
+<SubTexture name="DS CHEER LOOP0001" x="1014" y="0" width="338" height="632"/>
+<SubTexture name="DS CHEER LOOP0002" x="1352" y="0" width="338" height="632"/>
+<SubTexture name="DS CHEER LOOP0003" x="1352" y="0" width="338" height="632"/>
+<SubTexture name="DS CHEER LOOP0004" x="0" y="632" width="338" height="632"/>
+<SubTexture name="DS CHEER LOOP0005" x="0" y="632" width="338" height="632"/>
+<SubTexture name="DS NERVOUS0000" x="1014" y="632" width="338" height="632"/>
+<SubTexture name="DS NERVOUS0001" x="1014" y="632" width="338" height="632"/>
+<SubTexture name="DS NERVOUS LOOP0000" x="338" y="632" width="338" height="632"/>
+<SubTexture name="DS NERVOUS LOOP0001" x="338" y="632" width="338" height="632"/>
+<SubTexture name="DS NERVOUS LOOP0002" x="676" y="632" width="338" height="632"/>
+<SubTexture name="DS NERVOUS LOOP0003" x="676" y="632" width="338" height="632"/>
+<SubTexture name="DS NERVOUS LOOP0004" x="1014" y="632" width="338" height="632"/>
+<SubTexture name="DS NERVOUS LOOP0005" x="1014" y="632" width="338" height="632"/>
+<SubTexture name="DS SCARED0000" x="338" y="1264" width="338" height="632"/>
+<SubTexture name="DS SCARED0001" x="338" y="1264" width="338" height="632"/>
+<SubTexture name="DS SCARED LOOP0000" x="1352" y="632" width="338" height="632"/>
+<SubTexture name="DS SCARED LOOP0001" x="1352" y="632" width="338" height="632"/>
+<SubTexture name="DS SCARED LOOP0002" x="0" y="1264" width="338" height="632"/>
+<SubTexture name="DS SCARED LOOP0003" x="0" y="1264" width="338" height="632"/>
+<SubTexture name="DS SCARED LOOP0004" x="338" y="1264" width="338" height="632"/>
+<SubTexture name="DS SCARED LOOP0005" x="338" y="1264" width="338" height="632"/>
+<SubTexture name="DS SADMAD0000" x="1352" y="1264" width="338" height="632"/>
+<SubTexture name="DS SADMAD0001" x="1352" y="1264" width="338" height="632"/>
+<SubTexture name="DS SADMAD LOOP0000" x="676" y="1264" width="338" height="632"/>
+<SubTexture name="DS SADMAD LOOP0001" x="676" y="1264" width="338" height="632"/>
+<SubTexture name="DS SADMAD LOOP0002" x="1014" y="1264" width="338" height="632"/>
+<SubTexture name="DS SADMAD LOOP0003" x="1014" y="1264" width="338" height="632"/>
+<SubTexture name="DS SADMAD LOOP0004" x="1352" y="1264" width="338" height="632"/>
+<SubTexture name="DS SADMAD LOOP0005" x="1352" y="1264" width="338" height="632"/>
+</TextureAtlas>

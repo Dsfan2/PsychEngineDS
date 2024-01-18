@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tankman_Dialogue.png">
+<SubTexture name="TANK0000" x="0" y="0" width="650" height="650"/>
+<SubTexture name="TANK0001" x="0" y="0" width="650" height="650"/>
+<SubTexture name="TANK LOOP0000" x="650" y="0" width="650" height="650"/>
+<SubTexture name="TANK LOOP0001" x="650" y="0" width="650" height="650"/>
+<SubTexture name="TANK LOOP0002" x="1300" y="0" width="650" height="650"/>
+<SubTexture name="TANK LOOP0003" x="1300" y="0" width="650" height="650"/>
+<SubTexture name="TANK LOOP0004" x="1950" y="0" width="650" height="650"/>
+<SubTexture name="TANK LOOP0005" x="1950" y="0" width="650" height="650"/>
+<SubTexture name="TANK LOOP0006" x="2600" y="0" width="650" height="650"/>
+<SubTexture name="TANK LOOP0007" x="2600" y="0" width="650" height="650"/>
+<SubTexture name="TANK SMUG0000" x="3250" y="0" width="650" height="650"/>
+<SubTexture name="TANK SMUG0001" x="3250" y="0" width="650" height="650"/>
+<SubTexture name="TANK SMUG LOOP0000" x="0" y="650" width="650" height="650"/>
+<SubTexture name="TANK SMUG LOOP0001" x="0" y="650" width="650" height="650"/>
+<SubTexture name="TANK SMUG LOOP0002" x="650" y="650" width="650" height="650"/>
+<SubTexture name="TANK SMUG LOOP0003" x="650" y="650" width="650" height="650"/>
+<SubTexture name="TANK SMUG LOOP0004" x="1300" y="650" width="650" height="650"/>
+<SubTexture name="TANK SMUG LOOP0005" x="1300" y="650" width="650" height="650"/>
+<SubTexture name="TANK SMUG LOOP0006" x="1950" y="650" width="650" height="650"/>
+<SubTexture name="TANK SMUG LOOP0007" x="1950" y="650" width="650" height="650"/>
+<SubTexture name="TANK FACEPALM0000" x="2600" y="650" width="650" height="650"/>
+<SubTexture name="TANK FACEPALM0001" x="2600" y="650" width="650" height="650"/>
+<SubTexture name="TANK FACEPALM LOOP0000" x="3250" y="650" width="650" height="650"/>
+<SubTexture name="TANK FACEPALM LOOP0001" x="3250" y="650" width="650" height="650"/>
+<SubTexture name="TANK FACEPALM LOOP0002" x="0" y="1300" width="650" height="650"/>
+<SubTexture name="TANK FACEPALM LOOP0003" x="0" y="1300" width="650" height="650"/>
+<SubTexture name="TANK FACEPALM LOOP0004" x="650" y="1300" width="650" height="650"/>
+<SubTexture name="TANK FACEPALM LOOP0005" x="650" y="1300" width="650" height="650"/>
+<SubTexture name="TANK FACEPALM LOOP0006" x="1300" y="1300" width="650" height="650"/>
+<SubTexture name="TANK FACEPALM LOOP0007" x="1300" y="1300" width="650" height="650"/>
+<SubTexture name="TANK ANGRY0000" x="1950" y="1300" width="650" height="650"/>
+<SubTexture name="TANK ANGRY0001" x="1950" y="1300" width="650" height="650"/>
+<SubTexture name="TANK ANGRY LOOP0000" x="2600" y="1300" width="650" height="650"/>
+<SubTexture name="TANK ANGRY LOOP0001" x="2600" y="1300" width="650" height="650"/>
+<SubTexture name="TANK ANGRY LOOP0002" x="3250" y="1300" width="650" height="650"/>
+<SubTexture name="TANK ANGRY LOOP0003" x="3250" y="1300" width="650" height="650"/>
+<SubTexture name="TANK ANGRY LOOP0004" x="0" y="1950" width="650" height="650"/>
+<SubTexture name="TANK ANGRY LOOP0005" x="0" y="1950" width="650" height="650"/>
+<SubTexture name="TANK ANGRY LOOP0006" x="650" y="1950" width="650" height="650"/>
+<SubTexture name="TANK ANGRY LOOP0007" x="650" y="1950" width="650" height="650"/>
+<SubTexture name="TANK GUN0000" x="1300" y="1950" width="650" height="650"/>
+<SubTexture name="TANK GUN0001" x="1300" y="1950" width="650" height="650"/>
+<SubTexture name="TANK GUN LOOP0000" x="1950" y="1950" width="650" height="650"/>
+<SubTexture name="TANK GUN LOOP0001" x="1950" y="1950" width="650" height="650"/>
+<SubTexture name="TANK GUN LOOP0002" x="2600" y="1950" width="650" height="650"/>
+<SubTexture name="TANK GUN LOOP0003" x="2600" y="1950" width="650" height="650"/>
+<SubTexture name="TANK GUN LOOP0004" x="3250" y="1950" width="650" height="650"/>
+<SubTexture name="TANK GUN LOOP0005" x="3250" y="1950" width="650" height="650"/>
+<SubTexture name="TANK GUN LOOP0006" x="0" y="2600" width="650" height="650"/>
+<SubTexture name="TANK GUN LOOP0007" x="0" y="2600" width="650" height="650"/>
+<SubTexture name="TANK BLEEP0000" x="650" y="2600" width="650" height="650"/>
+<SubTexture name="TANK BLEEP0001" x="650" y="2600" width="650" height="650"/>
+</TextureAtlas>

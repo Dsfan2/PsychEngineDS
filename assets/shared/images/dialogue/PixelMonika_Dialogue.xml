@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PixelMonika_Dialogue.png">
+<SubTexture name="Standard0000" x="0" y="0" width="100" height="100"/>
+<SubTexture name="Gasp0000" x="100" y="0" width="100" height="100"/>
+<SubTexture name="Happy0000" x="200" y="0" width="100" height="100"/>
+<SubTexture name="Upset0000" x="0" y="100" width="100" height="100"/>
+<SubTexture name="Dissapoint0000" x="100" y="100" width="100" height="100"/>
+<SubTexture name="UhOh0000" x="200" y="100" width="100" height="100"/>
+</TextureAtlas>

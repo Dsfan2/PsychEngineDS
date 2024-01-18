@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JR_Dialogue.png">
+<SubTexture name="JR0000" x="1300" y="0" width="650" height="650"/>
+<SubTexture name="JR0001" x="1300" y="0" width="650" height="650"/>
+<SubTexture name="JR LOOP0000" x="0" y="0" width="650" height="650"/>
+<SubTexture name="JR LOOP0001" x="0" y="0" width="650" height="650"/>
+<SubTexture name="JR LOOP0002" x="650" y="0" width="650" height="650"/>
+<SubTexture name="JR LOOP0003" x="650" y="0" width="650" height="650"/>
+<SubTexture name="JR LOOP0004" x="1300" y="0" width="650" height="650"/>
+<SubTexture name="JR LOOP0005" x="1300" y="0" width="650" height="650"/>
+<SubTexture name="JR EXCITED0000" x="3250" y="0" width="650" height="650"/>
+<SubTexture name="JR EXCITED0001" x="3250" y="0" width="650" height="650"/>
+<SubTexture name="JR EXCITED LOOP0000" x="1950" y="0" width="650" height="650"/>
+<SubTexture name="JR EXCITED LOOP0001" x="1950" y="0" width="650" height="650"/>
+<SubTexture name="JR EXCITED LOOP0002" x="2600" y="0" width="650" height="650"/>
+<SubTexture name="JR EXCITED LOOP0003" x="2600" y="0" width="650" height="650"/>
+<SubTexture name="JR EXCITED LOOP0004" x="3250" y="0" width="650" height="650"/>
+<SubTexture name="JR EXCITED LOOP0005" x="3250" y="0" width="650" height="650"/>
+<SubTexture name="JR TAUNT0000" x="650" y="650" width="650" height="650"/>
+<SubTexture name="JR TAUNT0001" x="650" y="650" width="650" height="650"/>
+<SubTexture name="JR TAUNT LOOP0000" x="0" y="650" width="650" height="650"/>
+<SubTexture name="JR TAUNT LOOP0001" x="0" y="650" width="650" height="650"/>
+<SubTexture name="JR TAUNT LOOP0002" x="650" y="650" width="650" height="650"/>
+<SubTexture name="JR TAUNT LOOP0003" x="650" y="650" width="650" height="650"/>
+<SubTexture name="JR TAUNT LOOP0004" x="1300" y="650" width="650" height="650"/>
+<SubTexture name="JR TAUNT LOOP0005" x="1300" y="650" width="650" height="650"/>
+<SubTexture name="JR UPSET0000" x="3250" y="650" width="650" height="650"/>
+<SubTexture name="JR UPSET0001" x="3250" y="650" width="650" height="650"/>
+<SubTexture name="JR UPSET LOOP0000" x="1950" y="650" width="650" height="650"/>
+<SubTexture name="JR UPSET LOOP0001" x="1950" y="650" width="650" height="650"/>
+<SubTexture name="JR UPSET LOOP0002" x="2600" y="650" width="650" height="650"/>
+<SubTexture name="JR UPSET LOOP0003" x="2600" y="650" width="650" height="650"/>
+<SubTexture name="JR UPSET LOOP0004" x="3250" y="650" width="650" height="650"/>
+<SubTexture name="JR UPSET LOOP0005" x="3250" y="650" width="650" height="650"/>
+<SubTexture name="JR SCARED0000" x="650" y="1300" width="650" height="650"/>
+<SubTexture name="JR SCARED0001" x="650" y="1300" width="650" height="650"/>
+<SubTexture name="JR SCARED LOOP0000" x="0" y="1300" width="650" height="650"/>
+<SubTexture name="JR SCARED LOOP0001" x="0" y="1300" width="650" height="650"/>
+<SubTexture name="JR SCARED LOOP0002" x="650" y="1300" width="650" height="650"/>
+<SubTexture name="JR SCARED LOOP0003" x="650" y="1300" width="650" height="650"/>
+<SubTexture name="JR SCARED LOOP0004" x="1300" y="1300" width="650" height="650"/>
+<SubTexture name="JR SCARED LOOP0005" x="1300" y="1300" width="650" height="650"/>
+<SubTexture name="PIRATE0000" x="3250" y="1300" width="650" height="650"/>
+<SubTexture name="PIRATE0001" x="3250" y="1300" width="650" height="650"/>
+<SubTexture name="PIRATE LOOP0000" x="1950" y="1300" width="650" height="650"/>
+<SubTexture name="PIRATE LOOP0001" x="1950" y="1300" width="650" height="650"/>
+<SubTexture name="PIRATE LOOP0002" x="2600" y="1300" width="650" height="650"/>
+<SubTexture name="PIRATE LOOP0003" x="2600" y="1300" width="650" height="650"/>
+<SubTexture name="PIRATE LOOP0004" x="3250" y="1300" width="650" height="650"/>
+<SubTexture name="PIRATE LOOP0005" x="3250" y="1300" width="650" height="650"/>
+<SubTexture name="PIRATE ANGRY0000" x="650" y="1950" width="650" height="650"/>
+<SubTexture name="PIRATE ANGRY0001" x="650" y="1950" width="650" height="650"/>
+<SubTexture name="PIRATE ANGRY LOOP0000" x="0" y="1950" width="650" height="650"/>
+<SubTexture name="PIRATE ANGRY LOOP0001" x="0" y="1950" width="650" height="650"/>
+<SubTexture name="PIRATE ANGRY LOOP0002" x="650" y="1950" width="650" height="650"/>
+<SubTexture name="PIRATE ANGRY LOOP0003" x="650" y="1950" width="650" height="650"/>
+<SubTexture name="PIRATE ANGRY LOOP0004" x="1300" y="1950" width="650" height="650"/>
+<SubTexture name="PIRATE ANGRY LOOP0005" x="1300" y="1950" width="650" height="650"/>
+</TextureAtlas>

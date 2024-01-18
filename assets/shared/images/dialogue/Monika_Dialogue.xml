@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Monika_Dialogue.png">
+<SubTexture name="MONI0000" x="1000" y="0" width="500" height="700"/>
+<SubTexture name="MONI0001" x="1000" y="0" width="500" height="700"/>
+<SubTexture name="MONI LOOP0000" x="0" y="0" width="500" height="700"/>
+<SubTexture name="MONI LOOP0001" x="0" y="0" width="500" height="700"/>
+<SubTexture name="MONI LOOP0002" x="500" y="0" width="500" height="700"/>
+<SubTexture name="MONI LOOP0003" x="500" y="0" width="500" height="700"/>
+<SubTexture name="MONI LOOP0004" x="1000" y="0" width="500" height="700"/>
+<SubTexture name="MONI LOOP0005" x="1000" y="0" width="500" height="700"/>
+<SubTexture name="MONI EXCITED0000" x="2500" y="0" width="500" height="700"/>
+<SubTexture name="MONI EXCITED0001" x="2500" y="0" width="500" height="700"/>
+<SubTexture name="MONI EXCITED LOOP0000" x="1500" y="0" width="500" height="700"/>
+<SubTexture name="MONI EXCITED LOOP0001" x="1500" y="0" width="500" height="700"/>
+<SubTexture name="MONI EXCITED LOOP0002" x="2000" y="0" width="500" height="700"/>
+<SubTexture name="MONI EXCITED LOOP0003" x="2000" y="0" width="500" height="700"/>
+<SubTexture name="MONI EXCITED LOOP0004" x="2500" y="0" width="500" height="700"/>
+<SubTexture name="MONI EXCITED LOOP0005" x="2500" y="0" width="500" height="700"/>
+<SubTexture name="MONI BLUSH0000" x="500" y="700" width="500" height="700"/>
+<SubTexture name="MONI BLUSH0001" x="500" y="700" width="500" height="700"/>
+<SubTexture name="MONI BLUSH LOOP0000" x="3000" y="0" width="500" height="700"/>
+<SubTexture name="MONI BLUSH LOOP0001" x="3000" y="0" width="500" height="700"/>
+<SubTexture name="MONI BLUSH LOOP0002" x="0" y="700" width="500" height="700"/>
+<SubTexture name="MONI BLUSH LOOP0003" x="0" y="700" width="500" height="700"/>
+<SubTexture name="MONI BLUSH LOOP0004" x="500" y="700" width="500" height="700"/>
+<SubTexture name="MONI BLUSH LOOP0005" x="500" y="700" width="500" height="700"/>
+<SubTexture name="MONI NERVOUS0000" x="2000" y="700" width="500" height="700"/>
+<SubTexture name="MONI NERVOUS0001" x="2000" y="700" width="500" height="700"/>
+<SubTexture name="MONI NERVOUS LOOP0000" x="1000" y="700" width="500" height="700"/>
+<SubTexture name="MONI NERVOUS LOOP0001" x="1000" y="700" width="500" height="700"/>
+<SubTexture name="MONI NERVOUS LOOP0002" x="1500" y="700" width="500" height="700"/>
+<SubTexture name="MONI NERVOUS LOOP0003" x="1500" y="700" width="500" height="700"/>
+<SubTexture name="MONI NERVOUS LOOP0004" x="2000" y="700" width="500" height="700"/>
+<SubTexture name="MONI NERVOUS LOOP0005" x="2000" y="700" width="500" height="700"/>
+<SubTexture name="MONI SHOCK0000" x="0" y="1400" width="500" height="700"/>
+<SubTexture name="MONI SHOCK0001" x="0" y="1400" width="500" height="700"/>
+<SubTexture name="MONI SHOCK LOOP0000" x="2500" y="700" width="500" height="700"/>
+<SubTexture name="MONI SHOCK LOOP0001" x="2500" y="700" width="500" height="700"/>
+<SubTexture name="MONI SHOCK LOOP0002" x="3000" y="700" width="500" height="700"/>
+<SubTexture name="MONI SHOCK LOOP0003" x="3000" y="700" width="500" height="700"/>
+<SubTexture name="MONI SHOCK LOOP0004" x="0" y="1400" width="500" height="700"/>
+<SubTexture name="MONI SHOCK LOOP0005" x="0" y="1400" width="500" height="700"/>
+<SubTexture name="MONI UPSET0000" x="1500" y="1400" width="500" height="700"/>
+<SubTexture name="MONI UPSET0001" x="1500" y="1400" width="500" height="700"/>
+<SubTexture name="MONI UPSET LOOP0000" x="500" y="1400" width="500" height="700"/>
+<SubTexture name="MONI UPSET LOOP0001" x="500" y="1400" width="500" height="700"/>
+<SubTexture name="MONI UPSET LOOP0002" x="1000" y="1400" width="500" height="700"/>
+<SubTexture name="MONI UPSET LOOP0003" x="1000" y="1400" width="500" height="700"/>
+<SubTexture name="MONI UPSET LOOP0004" x="1500" y="1400" width="500" height="700"/>
+<SubTexture name="MONI UPSET LOOP0005" x="1500" y="1400" width="500" height="700"/>
+<SubTexture name="NEO0000" x="0" y="2100" width="500" height="700"/>
+<SubTexture name="NEO0001" x="0" y="2100" width="500" height="700"/>
+<SubTexture name="NEO LOOP0000" x="2000" y="1400" width="500" height="700"/>
+<SubTexture name="NEO LOOP0001" x="2000" y="1400" width="500" height="700"/>
+<SubTexture name="NEO LOOP0002" x="2500" y="1400" width="500" height="700"/>
+<SubTexture name="NEO LOOP0003" x="2500" y="1400" width="500" height="700"/>
+<SubTexture name="NEO LOOP0004" x="3000" y="1400" width="500" height="700"/>
+<SubTexture name="NEO LOOP0005" x="3000" y="1400" width="500" height="700"/>
+<SubTexture name="NEO ANGRY0000" x="2000" y="2100" width="500" height="700"/>
+<SubTexture name="NEO ANGRY0001" x="2000" y="2100" width="500" height="700"/>
+<SubTexture name="NEO ANGRY LOOP0000" x="500" y="2100" width="500" height="700"/>
+<SubTexture name="NEO ANGRY LOOP0001" x="500" y="2100" width="500" height="700"/>
+<SubTexture name="NEO ANGRY LOOP0002" x="1000" y="2100" width="500" height="700"/>
+<SubTexture name="NEO ANGRY LOOP0003" x="1000" y="2100" width="500" height="700"/>
+<SubTexture name="NEO ANGRY LOOP0004" x="1500" y="2100" width="500" height="700"/>
+<SubTexture name="NEO ANGRY LOOP0005" x="1500" y="2100" width="500" height="700"/>
+</TextureAtlas>

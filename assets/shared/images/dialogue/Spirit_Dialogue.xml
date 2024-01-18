@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Spirit_Dialogue.png">
+<SubTexture name="Spirit0000" x="0" y="0" width="100" height="100"/>
+</TextureAtlas>

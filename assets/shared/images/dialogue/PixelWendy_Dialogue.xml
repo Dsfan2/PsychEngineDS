@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PixelBF_Dialogue.png">
+<SubTexture name="Standard0000" x="0" y="0" width="100" height="100"/>
+<SubTexture name="Mad0000" x="100" y="0" width="100" height="100"/>
+<SubTexture name="Cheer0000" x="200" y="0" width="100" height="100"/>
+<SubTexture name="Smirk0000" x="0" y="100" width="100" height="100"/>
+</TextureAtlas>

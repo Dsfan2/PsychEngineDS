@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Wendy_Dialogue.png">
+<SubTexture name="WENDY0000" x="800" y="0" width="400" height="500"/>
+<SubTexture name="WENDY0001" x="800" y="0" width="400" height="500"/>
+<SubTexture name="WENDY LOOP0000" x="0" y="0" width="400" height="500"/>
+<SubTexture name="WENDY LOOP0001" x="0" y="0" width="400" height="500"/>
+<SubTexture name="WENDY LOOP0002" x="400" y="0" width="400" height="500"/>
+<SubTexture name="WENDY LOOP0003" x="400" y="0" width="400" height="500"/>
+<SubTexture name="WENDY LOOP0004" x="800" y="0" width="400" height="500"/>
+<SubTexture name="WENDY LOOP0005" x="800" y="0" width="400" height="500"/>
+<SubTexture name="WENDY CHEER0000" x="0" y="500" width="400" height="500"/>
+<SubTexture name="WENDY CHEER0001" x="0" y="500" width="400" height="500"/>
+<SubTexture name="WENDY CHEER LOOP0000" x="1200" y="0" width="400" height="500"/>
+<SubTexture name="WENDY CHEER LOOP0001" x="1200" y="0" width="400" height="500"/>
+<SubTexture name="WENDY CHEER LOOP0002" x="1600" y="0" width="400" height="500"/>
+<SubTexture name="WENDY CHEER LOOP0003" x="1600" y="0" width="400" height="500"/>
+<SubTexture name="WENDY CHEER LOOP0004" x="0" y="500" width="400" height="500"/>
+<SubTexture name="WENDY CHEER LOOP0005" x="0" y="500" width="400" height="500"/>
+<SubTexture name="WENDY TAUNT0000" x="1200" y="500" width="400" height="500"/>
+<SubTexture name="WENDY TAUNT0001" x="1200" y="500" width="400" height="500"/>
+<SubTexture name="WENDY TAUNT LOOP0000" x="400" y="500" width="400" height="500"/>
+<SubTexture name="WENDY TAUNT LOOP0001" x="400" y="500" width="400" height="500"/>
+<SubTexture name="WENDY TAUNT LOOP0002" x="800" y="500" width="400" height="500"/>
+<SubTexture name="WENDY TAUNT LOOP0003" x="800" y="500" width="400" height="500"/>
+<SubTexture name="WENDY TAUNT LOOP0004" x="1200" y="500" width="400" height="500"/>
+<SubTexture name="WENDY TAUNT LOOP0005" x="1200" y="500" width="400" height="500"/>
+<SubTexture name="WENDY BORED0000" x="400" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY BORED0001" x="400" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY BORED LOOP0000" x="1600" y="500" width="400" height="500"/>
+<SubTexture name="WENDY BORED LOOP0001" x="1600" y="500" width="400" height="500"/>
+<SubTexture name="WENDY BORED LOOP0002" x="0" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY BORED LOOP0003" x="0" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY BORED LOOP0004" x="400" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY BORED LOOP0005" x="400" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY ANGRY0000" x="1600" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY ANGRY0001" x="1600" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY ANGRY LOOP0000" x="800" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY ANGRY LOOP0001" x="800" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY ANGRY LOOP0002" x="1200" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY ANGRY LOOP0003" x="1200" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY ANGRY LOOP0004" x="1600" y="1000" width="400" height="500"/>
+<SubTexture name="WENDY ANGRY LOOP0005" x="1600" y="1000" width="400" height="500"/>
+</TextureAtlas>
