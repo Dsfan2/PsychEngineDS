@@ -1,0 +1,20 @@
+{	
+	"alphabetScale":1.0,
+	"titlex":-150,
+	"titley":-100,
+	"startx":100,
+	"starty":576,
+	"gfx":512,
+	"gfy":40,
+	"backgroundSprite":"",
+	"scrollingBG":"false",
+	"bgScrollX":0,
+	"bgScrollY":0,
+	"bpm":102,
+	"midLine1":"Presented",
+	"midLine2":"by",
+	"midLine3":"Team DS",
+	"endLine1":"Friday",
+	"endLine2":"Night",
+	"endLine3":"Funkin'"
+}
