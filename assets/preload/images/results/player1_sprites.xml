@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="player1_sprites.png">
+<SubTexture name="Pending0000" x="0" y="0" width="600" height="800"/>
+<SubTexture name="S Rank0000" x="600" y="0" width="600" height="800"/>
+<SubTexture name="S Rank0001" x="600" y="0" width="600" height="800"/>
+<SubTexture name="S Rank0002" x="1200" y="0" width="600" height="800"/>
+<SubTexture name="S Rank0003" x="1200" y="0" width="600" height="800"/>
+<SubTexture name="S Rank0004" x="1800" y="0" width="600" height="800"/>
+<SubTexture name="S Rank0005" x="1800" y="0" width="600" height="800"/>
+<SubTexture name="C-A Rank0000" x="2400" y="0" width="600" height="800"/>
+<SubTexture name="C-A Rank0001" x="2400" y="0" width="600" height="800"/>
+<SubTexture name="C-A Rank0002" x="0" y="800" width="600" height="800"/>
+<SubTexture name="C-A Rank0003" x="0" y="800" width="600" height="800"/>
+<SubTexture name="H-D Rank0000" x="600" y="800" width="600" height="800"/>
+<SubTexture name="H-D Rank0001" x="600" y="800" width="600" height="800"/>
+<SubTexture name="H-D Rank0002" x="1200" y="800" width="600" height="800"/>
+<SubTexture name="H-D Rank0003" x="1200" y="800" width="600" height="800"/>
+<SubTexture name="H-D Rank0004" x="1800" y="800" width="600" height="800"/>
+<SubTexture name="H-D Rank0005" x="1800" y="800" width="600" height="800"/>
+<SubTexture name="H-D Rank0006" x="2400" y="800" width="600" height="800"/>
+<SubTexture name="H-D Rank0007" x="2400" y="800" width="600" height="800"/>
+<SubTexture name="U SUK Rank0000" x="0" y="1600" width="600" height="800"/>
+<SubTexture name="U SUK Rank0001" x="0" y="1600" width="600" height="800"/>
+<SubTexture name="U SUK Rank0002" x="600" y="1600" width="600" height="800"/>
+<SubTexture name="U SUK Rank0003" x="600" y="1600" width="600" height="800"/>
+<SubTexture name="U SUK Rank0004" x="1200" y="1600" width="600" height="800"/>
+<SubTexture name="U SUK Rank0005" x="1200" y="1600" width="600" height="800"/>
+<SubTexture name="U SUK Rank0006" x="1800" y="1600" width="600" height="800"/>
+<SubTexture name="U SUK Rank0007" x="1800" y="1600" width="600" height="800"/>
+</TextureAtlas>

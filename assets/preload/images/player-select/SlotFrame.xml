@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SlotFrame.png">
+<SubTexture name="Static0000" x="0" y="0" width="610" height="860"/>
+<SubTexture name="Selected0000" x="610" y="0" width="610" height="860"/>
+<SubTexture name="Selected0001" x="1220" y="0" width="610" height="860"/>
+<SubTexture name="Selected0002" x="610" y="0" width="610" height="860"/>
+<SubTexture name="Selected0003" x="1220" y="0" width="610" height="860"/>
+<SubTexture name="Selected0004" x="610" y="0" width="610" height="860"/>
+<SubTexture name="Selected0005" x="1220" y="0" width="610" height="860"/>
+<SubTexture name="Selected0006" x="610" y="0" width="610" height="860"/>
+<SubTexture name="Selected0007" x="1220" y="0" width="610" height="860"/>
+<SubTexture name="Selected0008" x="610" y="0" width="610" height="860"/>
+<SubTexture name="Selected0009" x="1220" y="0" width="610" height="860"/>
+<SubTexture name="Selected0010" x="610" y="0" width="610" height="860"/>
+<SubTexture name="Selected0011" x="1220" y="0" width="610" height="860"/>
+<SubTexture name="Selected0012" x="610" y="0" width="610" height="860"/>
+<SubTexture name="Selected0013" x="1220" y="0" width="610" height="860"/>
+<SubTexture name="Selected0014" x="610" y="0" width="610" height="860"/>
+<SubTexture name="Selected0015" x="1220" y="0" width="610" height="860"/>
+<SubTexture name="Selected0016" x="0" y="0" width="610" height="860"/>
+</TextureAtlas>

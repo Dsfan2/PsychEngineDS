@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ArrowsThing.png">
+<SubTexture name="Left Static0000" x="0" y="0" width="85" height="188"/>
+<SubTexture name="Left Press0000" x="85" y="0" width="85" height="188"/>
+<SubTexture name="Right Static0000" x="170" y="0" width="85" height="188"/>
+<SubTexture name="Right Press0000" x="255" y="0" width="85" height="188"/>
+</TextureAtlas>
