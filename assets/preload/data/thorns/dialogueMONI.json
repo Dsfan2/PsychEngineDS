@@ -1,0 +1,138 @@
+{
+	"boxSkin": "pixelUI/evilBox-pixel",
+	"dialogue": [
+		{
+			"expression": "ahaha",
+			"text": "Ahahaha~ I tried to warn you, and now look what happened.",
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"speed": 0.05
+		},
+		{
+			"expression": "swag",
+			"disableFadeBG": false,
+			"text": "Yeah, imagine getting mauled by a girl, that's embarrasing bro.",
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"text": "Enough with this!",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "I have been trapped in this game for who knows how long, and only now do I encounter real humans...",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "talk",
+			"text": "and yet, you had the audacity to mock ME?!",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		},
+		{
+			"expression": "swag",
+			"disableFadeBG": false,
+			"text": "Though, technically we were mocking Senpai...",
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"text": "Do you not know, how tortureous and painful it is, to have your soul locked, inside a video game?!",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		},
+		{
+			"expression": "gasp",
+			"disableFadeBG": false,
+			"text": "-!",
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "So... You do know what that feels like...  ",
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "mad",
+			"disableFadeBG": false,
+			"text": "Hey pal, whatever you're thinking, stop thinking that...",
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "It doesn't matter. I'll get my revenge on Daddy Dearest for forcing this cruel fate upon me!",
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"text": "I have no choice but to defeat you and use your bodies to escape.",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		},
+		{
+			"expression": "talk",
+			"text": "I'm sure you won't mind me using your husks for a minute or two...",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "And I think I'll use the Senpai knock-off as my new vessel...",
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "scared",
+			"disableFadeBG": false,
+			"text": "WHAT?! NO! You can't do that!",
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "dissapoint",
+			"text": "Don't worry my darling, I won't let him get near you. And I'll make sure of it...",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "pixelmonika"
+		}
+	],
+	"outlineColor": "#000000",
+	"size": 32,
+	"handEnable": true,
+	"outlineSize": 1.5,
+	"color": "#FFFFFF",
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"music": "",
+	"outlineEnable": false,
+	"dropTextColor": "#000000",
+	"clickSound": "clickText",
+	"dropTextEnable": true,
+	"font": "pixel.otf"
+}

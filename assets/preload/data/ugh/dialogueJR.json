@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"expression": "angry",
+			"text": "Hey! This is a war-zone! Furries not allowed!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "upset",
+			"text": "Wait, this isn't Newgrounds...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "talk",
+			"text": "Larger, non-reptilian furries allowed!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "Dig that stereo though. Bet movies would sound great on that!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "And that mic, you a singer or something?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "talk",
+			"text": "Well, not exactly... This is just a side-hobby...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "I'm Bowser Jr! Son of King Bowser! Otherwise known as: The Best Dad In The World!"
+		},
+		{
+			"expression": "talk",
+			"text": "Ah yes. King Bowser. Isn't he the one who always loses to that red-hat plumber?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Shut up! Don't disrespect my dad like that!"
+		},
+		{
+			"expression": "smug",
+			"text": "And you, on the speakers, what do you do?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "bored",
+			"text": "I'm just stuck here and have to move my head to the beat...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wendy"
+		},
+		{
+			"expression": "talk",
+			"text": "Sounds real helpful...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "talk",
+			"text": "I was just gonna kill you for intruding, but it's been pretty boring here recently...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "So let's see how you fair on the mic, kid!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		}
+	]
+}

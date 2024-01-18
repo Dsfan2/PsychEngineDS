@@ -1,0 +1,100 @@
+{
+	"dialogue": [
+		{
+			"expression": "angry",
+			"text": "Hey! This is a war-zone! Damsels not allowed!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "upset",
+			"text": "Wait, this isn't Newgrounds...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "talk",
+			"text": "Larger, masculine damsels allowed!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "Dig that stereo though. Bet movies would sound great on that!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "And that unusually long ponytail, you in high school or something?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "confused",
+			"text": "Uh... That's kind of the point of my origin game...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika"
+		},
+		{
+			"expression": "talk",
+			"text": "Ah, another self-aware video game character!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "And you, on the speakers, what do you do?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "worried",
+			"text": "I've been forced to sit on the speakers and move my head to the beat, please help me...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds"
+		},
+		{
+			"expression": "talk",
+			"text": "Sounds real helpful...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "talk",
+			"text": "I was just gonna kill you for intruding, but it's been pretty boring here recently...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "So let's see how you fair in a rap battle!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		}
+	]
+}

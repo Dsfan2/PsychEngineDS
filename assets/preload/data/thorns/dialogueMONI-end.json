@@ -1,0 +1,124 @@
+{
+	"boxSkin": "pixelUI/evilBox-pixel",
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "No... I can't lose!",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "Well, you kinda deserved it for trying to steal my boyfriend's body...",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "I can't be trapped here for the rest of eternity! That's why I need a vessel...",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText",
+			"expression": "mad",
+			"text": "I don't blame you for what you were trying to do, but there must be a peaceful solution to this...",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "Perhaps, if you could defeat Daddy Dearest, and free my soul from this game, and the souls of all the Dearest Family victims...",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"expression": "gasp",
+			"text": "I suppose that makes sense. The dude's super shady...",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText",
+			"expression": "mad",
+			"text": "I suppose that's better than having your soul trapped here forever...",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "Alright, it's a deal then...",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "talk",
+			"text": "Just promise, you'll win the war for me...",
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"text": "For all of us.",
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"text": "Good luck!",
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "idle",
+			"text": "We'll do our best...",
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "Yeah...",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText",
+			"expression": "scared",
+			"text": "(Quick Monika, let's get out of here.)",
+			"disableFadeBG": false
+		}
+	],
+	"outlineColor": "#000000",
+	"size": 32,
+	"handEnable": true,
+	"outlineSize": 1.5,
+	"color": "#FFFFFF",
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"music": "",
+	"outlineEnable": false,
+	"dropTextColor": "#000000",
+	"clickSound": "clickText",
+	"dropTextEnable": false,
+	"font": "pixel.otf"
+}

@@ -1,0 +1,651 @@
+{
+	"song": {
+		"events": [
+			[
+				9433.96226415094,
+				[
+					[
+						"Lyric Text Event",
+						"Your skin is freezing,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				12452.8301886792,
+				[
+					[
+						"Lyric Text Event",
+						"Here let me help you take it off.",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				15849.0566037736,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				21132.0754716981,
+				[
+					[
+						"Set GF Speed",
+						"2",
+						""
+					],
+					[
+						"Hey!",
+						"1",
+						""
+					],
+					[
+						"Lyric Text Event",
+						"Feasting with your friends,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				23207.5471698113,
+				[
+					[
+						"Lyric Text Event",
+						"What a perfect way to end",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				24528.3018867924,
+				[
+					[
+						"Lyric Text Event",
+						"All these lonely holidays.",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				26226.4150943396,
+				[
+					[
+						"Lyric Text Event",
+						"La, la, la, la.",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				27169.8113207547,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				33207.5471698113,
+				[
+					[
+						"Hey!",
+						"",
+						""
+					]
+				]
+			],
+			[
+				33396.2264150943,
+				[
+					[
+						"Lyric Text Event",
+						"Gonna take a piece of your rabies,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				36415.0943396226,
+				[
+					[
+						"Lyric Text Event",
+						"And vivisect your mind!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				38207.5471698113,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				45283.0188679245,
+				[
+					[
+						"Set GF Speed",
+						"1",
+						""
+					],
+					[
+						"Lyric Text Event",
+						"Snowmen smiling with your teeth,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				47547.1698113207,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				48301.8867924528,
+				[
+					[
+						"Lyric Text Event",
+						"Fallen angels created with your meat!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				50849.0566037735,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				53207.5471698113,
+				[
+					[
+						"Lyric Text Event",
+						"That pearly smile...",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				55849.0566037735,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				57358.4905660377,
+				[
+					[
+						"Set GF Speed",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				57547.1698113207,
+				[
+					[
+						"Lyric Text Event",
+						"Cut you in a thousand slices,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				58867.9245283018,
+				[
+					[
+						"Lyric Text Event",
+						"Bake you 'til golden brown!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				60377.358490566,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				63396.2264150943,
+				[
+					[
+						"Lyric Text Event",
+						"Stuff you with spices,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				65283.0188679245,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				66415.0943396226,
+				[
+					[
+						"Lyric Text Event",
+						"Serve to friends around!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				68679.2452830188,
+				[
+					[
+						"Hey!",
+						"",
+						""
+					],
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				69622.6415094339,
+				[
+					[
+						"Lyric Text Event",
+						"Separate you from your eyes,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				71132.0754716981,
+				[
+					[
+						"Lyric Text Event",
+						"Turn your girlfriend inside out",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				72264.1509433962,
+				[
+					[
+						"Lyric Text Event",
+						"And burn her fingernails!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				74528.3018867924,
+				[
+					[
+						"Lyric Text Event",
+						"La, la, la, la!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				75471.6981132075,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				81132.0754716981,
+				[
+					[
+						"Hey!",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				81509.4339622642,
+				[
+					[
+						"Set GF Speed",
+						"1",
+						""
+					],
+					[
+						"Lyric Text Event",
+						"Soak your hands in freezing water,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				83018.8679245283,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				84528.3018867925,
+				[
+					[
+						"Lyric Text Event",
+						"Watching as the skin gets softer.",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				86037.7358490566,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				87547.1698113208,
+				[
+					[
+						"Lyric Text Event",
+						"See your bones appear in dark red snow,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				90566.0377358491,
+				[
+					[
+						"Lyric Text Event",
+						"Drop further below!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				93773.5849056604,
+				[
+					[
+						"Lyric Text Event",
+						"Gonna take a piece of your rabies,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				96792.4528301887,
+				[
+					[
+						"Lyric Text Event",
+						"And vivisect your mind!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				98679.2452830189,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				99811.320754717,
+				[
+					[
+						"Lyric Text Event",
+						"And take a peak inside your head,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				102264.150943396,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				102830.188679245,
+				[
+					[
+						"Lyric Text Event",
+						"And find the worm inside.",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				104622.641509434,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				105660.377358491,
+				[
+					[
+						"Set GF Speed",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				105849.056603774,
+				[
+					[
+						"Lyric Text Event",
+						"Cut you in a thousand slices,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				107169.811320755,
+				[
+					[
+						"Lyric Text Event",
+						"Bake you 'til golden brown!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				108679.245283019,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				111698.113207547,
+				[
+					[
+						"Lyric Text Event",
+						"Fill you with spices,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				113679.245283019,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				114716.981132076,
+				[
+					[
+						"Lyric Text Event",
+						"Serve to friends around!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				116981.132075472,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				117735.849056604,
+				[
+					[
+						"Set GF Speed",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				117924.528301887,
+				[
+					[
+						"Lyric Text Event",
+						"Turn the heat on high,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				119056.603773585,
+				[
+					[
+						"Lyric Text Event",
+						"And we'll reduce your blood!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				121603.773584906,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				123773.584905661,
+				[
+					[
+						"Lyric Text Event",
+						"Boil 'lil Boyfriend,",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				125849.056603774,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				126792.452830189,
+				[
+					[
+						"Lyric Text Event",
+						"With brandy and plums!",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				128962.264150944,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#FFEE00"
+					]
+				]
+			],
+			[
+				131320.754716981,
+				[
+					[
+						"Hey!",
+						"",
+						""
+					]
+				]
+			]
+		]
+	}
+}

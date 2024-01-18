@@ -1,0 +1,241 @@
+{
+	"song": {
+		"events": [
+			[
+				5625,
+				[
+					[
+						"Lyric Text Event",
+						"Ugh!",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				6000,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				9375,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				9750,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				10125,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				10687.5,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				10875,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				11062.5,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				11250,
+				[
+					[
+						"Add Camera Zoom",
+						"0.03",
+						"0.06"
+					]
+				]
+			],
+			[
+				11437.5,
+				[
+					[
+						"Add Camera Zoom",
+						"0.03",
+						"0.06"
+					]
+				]
+			],
+			[
+				11625,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				11812.5,
+				[
+					[
+						"Add Camera Zoom",
+						"0.06",
+						"0.12"
+					]
+				]
+			],
+			[
+				12000,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					],
+					[
+						"Hey!",
+						"bf",
+						""
+					]
+				]
+			],
+			[
+				41625,
+				[
+					[
+						"Lyric Text Event",
+						"Ugh!",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				42000,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Hey!",
+						"bf",
+						""
+					]
+				]
+			],
+			[
+				49125,
+				[
+					[
+						"Lyric Text Event",
+						"Ugh!",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				49500,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				50625,
+				[
+					[
+						"Lyric Text Event",
+						"UghUgh!",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				50812.5,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				77625,
+				[
+					[
+						"Lyric Text Event",
+						"Ugh!",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				78000,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				84000,
+				[
+					[
+						"Hey!",
+						"bf",
+						""
+					]
+				]
+			]
+		]
+	}
+}

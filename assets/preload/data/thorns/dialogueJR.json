@@ -1,0 +1,93 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Enough with this!",
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "I've been trapped in this game for who knows how long, and only now do I finally encounter real beings...",
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixeljr",
+			"dialogueSound": "pixelText",
+			"expression": "swag",
+			"text": "Wow. You look so hideous it's actually kinda funny!",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "What do you mean \"it's funny\"?!",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelwendy",
+			"dialogueSound": "pixelText",
+			"expression": "smirk",
+			"text": "Well, you were the one who called us \"ugly\" but have you even seen yourself in the mirror?!",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "talk",
+			"text": "SHUT UP! I hate you two!",
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "That Daddy Dearest trapped me in this game and I can't take this kind of torture anymore!",
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "I'll force you two, to this fate while I finally escape and get my revenge!",
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"text": "I'm sure you won't mind if I borrow your husks for a minute or two... Even if you two are pretty ugly...",
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"speed": 0.05
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixeljr",
+			"dialogueSound": "pixelText",
+			"expression": "anger",
+			"text": "Hey! Nobody takes my body from me!",
+			"disableFadeBG": false
+		}
+	],
+	"boxSkin": "pixelUI/evilBox-pixel",
+	"size": 32,
+	"outlineColor": "#000000",
+	"handEnable": true,
+	"color": "#FFFFFF",
+	"outlineSize": 1.5,
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"outlineEnable": false,
+	"music": "",
+	"font": "pixel.otf",
+	"dropTextEnable": true,
+	"clickSound": "clickText",
+	"dropTextColor": "#000000"
+}

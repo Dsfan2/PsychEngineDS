@@ -1,0 +1,84 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "Well, well, well... Look who decided to show up..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Eep bop boop!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "pico",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yep. It's Pico from Newgrounds!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "pico",
+			"boxState": "normal",
+			"expression": "gun",
+			"text": "Don't mind me, I'm just gonna be blamming all these tank goons here."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh yeah, great idea!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Send the ginger with PTSD into a war-zone where he can watch everyone he cares about die all over again!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "You know what we do in situations like this?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "We rock! You little muts!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "oops",
+			"text": " "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "Really?! I got censored?! Oh peck off Dsfan2!"
+		}
+	]
+}

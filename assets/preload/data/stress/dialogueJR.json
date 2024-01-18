@@ -1,0 +1,124 @@
+{
+	"dialogue": [
+		{
+			"expression": "upset",
+			"text": "And then he turned himself into a pirate. Calls himself \"The Yar-Har Man.\"",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Funniest thing I've ever seen."
+		},
+		{
+			"expression": "pirate-angry",
+			"text": "Avast ye scurvy sea dog!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr"
+		},
+		{
+			"expression": "pirate-angry",
+			"text": "Tryin' to make us walk the plank?! Ye have no code of honor!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr"
+		},
+		{
+			"expression": "pirate-talk",
+			"text": "So I be showing you how to really swashbuckle! And then I'll make ye swab the deck, and that if ye be lucky...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "pico",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Uhhh... Just to let you know, I'm here too..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr",
+			"boxState": "normal",
+			"expression": "pirate-talk",
+			"text": "Aye! Pico, me mate! Ye think ye can show these goony bilge rats a thing or too? I be taking the captain head on!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "pico",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Aw yeah! Now we're talkin'!"
+		},
+		{
+			"expression": "talk",
+			"text": "Oh yeah, great idea!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "talk",
+			"text": "Send the ginger with PTSD into a war-zone where he can watch everyone he cares about die all over again!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr",
+			"boxState": "normal",
+			"expression": "pirate-angry",
+			"text": "Batten yer hatch ye scurvy swab! Don't make me force ye to walk the plank!"
+		},
+		{
+			"expression": "upset",
+			"text": "You know what we do in situations like this?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "angry",
+			"text": "We rock! You little muts!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "oops",
+			"text": " ",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "angry",
+			"text": "Really?! I got censored?! Oh peck off Dsfan2!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		}
+	]
+}

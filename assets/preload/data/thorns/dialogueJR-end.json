@@ -1,0 +1,54 @@
+{
+	"boxSkin": "pixelUI/evilBox-pixel",
+	"dialogue": [
+		{
+			"expression": "swag",
+			"text": "Give up loser! Admit it! I won!",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "pixeljr"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "Fine... You've bested me here...",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "talk",
+			"text": "Just, promise you'll defeat Daddy Dearest and avenge me...",
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"text": "And the rest of his victims...",
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelwendy",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "Okay. No promises though...",
+			"disableFadeBG": false
+		}
+	],
+	"outlineColor": "#000000",
+	"size": 32,
+	"handEnable": true,
+	"outlineSize": 1.5,
+	"color": "#FFFFFF",
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"music": "",
+	"outlineEnable": false,
+	"dropTextColor": "#000000",
+	"clickSound": "clickText",
+	"dropTextEnable": false,
+	"font": "pixel.otf"
+}

@@ -1,0 +1,68 @@
+{
+	"boxSkin": "pixelUI/evilBox-pixel",
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Enough with this!",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "I've been trapped in this game for who knows how long, and only now do I finally encounter real humans...",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "talk",
+			"text": "And yet... one of them just so happens to be HER...",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		},
+		{
+			"expression": "talk",
+			"text": "Her father had tortured me for trying to date her, and look where that got me...",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "spirit",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "I can only assume a similar fate happened to the other ex's of hers...",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "talk",
+			"text": "I have no choice but to defeat you and use your body to escape, and get my revenge...",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		},
+		{
+			"expression": "talk",
+			"text": "I'm sure you won't mind if I borrow your husks for a minute or two...",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "spirit"
+		}
+	],
+	"outlineColor": "#000000",
+	"size": 32,
+	"handEnable": true,
+	"outlineSize": 1.5,
+	"color": "#FFFFFF",
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"music": "",
+	"outlineEnable": false,
+	"dropTextColor": "#000000",
+	"clickSound": "clickText",
+	"dropTextEnable": true,
+	"font": "pixel.otf"
+}

@@ -1,0 +1,86 @@
+{
+	"song": {
+		"events": [
+			[
+				62022.4719101124,
+				[
+					[
+						"Play Animation",
+						"singDOWN-alt",
+						"dad"
+					],
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.08"
+					],
+					[
+						"Camera Follow Pos",
+						"320",
+						"504"
+					],
+					[
+						"Lyric Text Event",
+						"Heh...",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				62359.5505617977,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				63539.3258426966,
+				[
+					[
+						"Play Animation",
+						"singLEFT-alt",
+						"dad"
+					]
+				]
+			],
+			[
+				63707.8651685393,
+				[
+					[
+						"Lyric Text Event",
+						"Pretty good.",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				64382.0224719101,
+				[
+					[
+						"Lyric Text Event",
+						"",
+						"#DEDEDE"
+					]
+				]
+			],
+			[
+				64719.1011235955,
+				[
+					[
+						"Camera Follow Pos",
+						"",
+						""
+					],
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"0.9"
+					]
+				]
+			]
+		]
+	}
+}

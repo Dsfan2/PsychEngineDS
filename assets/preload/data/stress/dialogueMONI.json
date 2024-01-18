@@ -1,0 +1,172 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Wow, a magical girl transformation sequence? How original...",
+			"boxState": "normal",
+			"portrait": "tankman",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "neo-talk",
+			"text": "ENOUGH!",
+			"boxState": "angry",
+			"portrait": "monika",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "cheer",
+			"text": "Pico! Thanks for saving my butt there!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds"
+		},
+		{
+			"expression": "talk",
+			"text": "Don't mention it pal.",
+			"boxState": "normal",
+			"portrait": "pico",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "gun",
+			"text": "Now if you'll excuse me, I'm gonna be blamming all these tank goons here.",
+			"boxState": "normal",
+			"portrait": "pico",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "Oh yeah, great idea!",
+			"boxState": "normal",
+			"portrait": "tankman",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "Send the ginger with PTSD into a war-zone where he can watch everyone he cares about die all over again!",
+			"boxState": "normal",
+			"portrait": "tankman",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "neo-obliterate",
+			"text": "I SAID ENOUGH!",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika"
+		},
+		{
+			"expression": "neo-talk",
+			"text": "NOBODY TRIES TO HARM MY BOYFRIEND AND GETS AWAY WITH IT!",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika"
+		},
+		{
+			"expression": "smug",
+			"text": "I see. Once a master manipulator, always a master manipulator.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "neo-obliterate",
+			"text": "STOP TRYING TO TEAR US APART!!!",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika"
+		},
+		{
+			"expression": "umm",
+			"text": "You really shouldn't have tried to kill me bub...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds"
+		},
+		{
+			"expression": "umm",
+			"text": "Guess I'll have to rap with my darling Monika to get the point across...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds"
+		},
+		{
+			"expression": "smug",
+			"text": "Oh so NOW you decide to join the battle...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "neo-obliterate",
+			"text": "IN A 1-ON-1 BATTLE, NEO NEVER LOSES... BUT WITH DSFAN2 BY MY SIDE...",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika"
+		},
+		{
+			"expression": "umm",
+			"text": "WE'RE UNSTOPPABLE!!!",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds"
+		},
+		{
+			"expression": "upset",
+			"text": "So it's a 2-on-1 you want... Well, you know what we do in situations like these?",
+			"boxState": "normal",
+			"portrait": "tankman",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "angry",
+			"text": "We rock! You little muts!",
+			"boxState": "normal",
+			"portrait": "tankman",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "oops",
+			"text": " ",
+			"boxState": "normal",
+			"portrait": "tankman",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "umm",
+			"text": "THOU SHALL NOT CURSE",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds"
+		},
+		{
+			"expression": "angry",
+			"text": "Really?! Oh peck off Dsfan2!",
+			"boxState": "normal",
+			"portrait": "tankman",
+			"speed": 0.05,
+			"sound": ""
+		}
+	]
+}
