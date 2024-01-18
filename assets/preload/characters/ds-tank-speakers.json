@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "DS Dancing At Gunpoint 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "DS Dancing At Gunpoint 2",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "DS Sad At Gunpoint",
+			"indices": []
+		}
+	],
+	"player2": "",
+	"player3": "",
+	"no_antialiasing": true,
+	"image": "characters/Dsfan2Tankmen",
+	"position": [
+		-40,
+		-190
+	],
+	"healthicon": "ds-speakers",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		140
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

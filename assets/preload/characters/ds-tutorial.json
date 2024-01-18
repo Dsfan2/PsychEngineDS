@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "DS Dancing Beat 1"
+		},
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "DS Dancing Beat 2"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "DS Left Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "DS Down Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "DS Up Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "DS Right Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "DS THYDI",
+			"indices": []
+		}
+	],
+	"player2": "",
+	"player3": "",
+	"no_antialiasing": false,
+	"image": "characters/Dsfan2_Tutorial_Assets",
+	"position": [
+		-10,
+		-340
+	],
+	"healthicon": "ds-speakers",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

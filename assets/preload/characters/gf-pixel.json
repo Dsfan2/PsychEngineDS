@@ -1,0 +1,69 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "left dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "right dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "happy",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "sad",
+			"indices": []
+		}
+	],
+	"player2": "wendy-pixel",
+	"player3": "ds-pixel",
+	"no_antialiasing": true,
+	"image": "characters/gfPixelNew",
+	"position": [
+		0,
+		-30
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		-80,
+		60
+	],
+	"sing_duration": 6.1,
+	"scale": 5.69999999999999
+}

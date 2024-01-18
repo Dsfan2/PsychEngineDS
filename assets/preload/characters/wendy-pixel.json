@@ -1,0 +1,47 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "left dance"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "right dance"
+		}
+	],
+	"player2": "",
+	"player3": "",
+	"no_antialiasing": true,
+	"image": "characters/Wendy-Koopa_Pixels",
+	"position": [
+		0,
+		-30
+	],
+	"healthicon": "wendy",
+	"flip_x": false,
+	"healthbar_colors": [
+		239,
+		76,
+		87
+	],
+	"camera_position": [
+		-80,
+		60
+	],
+	"sing_duration": 6.1,
+	"scale": 5.69999999999999
+}

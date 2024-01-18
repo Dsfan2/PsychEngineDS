@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Duet System Error",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "Duet Error Loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Duet System Restart",
+			"indices": []
+		}
+	],
+	"player2": "",
+	"player3": "",
+	"no_antialiasing": false,
+	"image": "characters/MonikaNEO_andDsfan2-DEAD",
+	"position": [
+		-80,
+		30
+	],
+	"healthicon": "monika-neo",
+	"flip_x": true,
+	"healthbar_colors": [
+		143,
+		209,
+		102
+	],
+	"camera_position": [
+		30,
+		70
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

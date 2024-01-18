@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "cheer",
+			"indices": [],
+			"name": "DS Cheer"
+		},
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "DS Dancing Beat 1"
+		},
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "DS Dancing Beat 2"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "DS Sad",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "hairBlow",
+			"fps": 24,
+			"name": "DS Wind Loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "hairFall",
+			"fps": 24,
+			"name": "DS Wind End",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				-9
+			],
+			"anim": "scared",
+			"fps": 24,
+			"name": "DS Fear",
+			"indices": []
+		}
+	],
+	"player2": "",
+	"player3": "",
+	"no_antialiasing": false,
+	"image": "characters/Dsfan2_Speakers_Assets",
+	"position": [
+		-10,
+		-200
+	],
+	"healthicon": "ds-speakers",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

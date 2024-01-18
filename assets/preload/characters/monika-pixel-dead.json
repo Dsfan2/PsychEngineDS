@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "monika first death"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "monika loop"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "monika confirm"
+		}
+	],
+	"player2": "",
+	"player3": "",
+	"no_antialiasing": true,
+	"image": "characters/monika_pixel_dead",
+	"position": [
+		-40,
+		120
+	],
+	"healthicon": "monika-pixel",
+	"flip_x": true,
+	"healthbar_colors": [
+		62,
+		255,
+		0
+	],
+	"camera_position": [
+		240,
+		-160
+	],
+	"sing_duration": 6.1,
+	"scale": 6.2
+}

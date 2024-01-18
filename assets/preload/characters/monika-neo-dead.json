@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "System Error"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "Error Loop"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": false,
+			"name": "System Restart"
+		}
+	],
+	"player2": "",
+	"player3": "",
+	"no_antialiasing": false,
+	"image": "characters/Monika_NEO_Dead",
+	"position": [
+		-80,
+		30
+	],
+	"healthicon": "monika-neo",
+	"flip_x": true,
+	"healthbar_colors": [
+		143,
+		209,
+		102
+	],
+	"camera_position": [
+		30,
+		70
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

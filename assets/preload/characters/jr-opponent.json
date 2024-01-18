@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Def Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Def Down Note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Def Up Note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Def Right Note"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Def Left Note"
+		}
+	],
+	"player2": "bf-opponent",
+	"player3": "jr-opponent",
+	"no_antialiasing": false,
+	"image": "characters/BowserJrAllAssets",
+	"position": [
+		-40,
+		180
+	],
+	"healthicon": "jr",
+	"flip_x": true,
+	"healthbar_colors": [
+		215,
+		88,
+		46
+	],
+	"camera_position": [
+		30,
+		100
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

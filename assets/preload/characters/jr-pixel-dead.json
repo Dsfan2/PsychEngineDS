@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "DED"
+		},
+		{
+			"offsets": [
+				0,
+				100
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "LOOP"
+		},
+		{
+			"offsets": [
+				0,
+				100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "CONFIRM"
+		}
+	],
+	"player2": "",
+	"player3": "",
+	"no_antialiasing": true,
+	"image": "characters/bowserJrPixelDead",
+	"position": [
+		-50,
+		220
+	],
+	"healthicon": "jr-pixel",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		94,
+		0
+	],
+	"camera_position": [
+		150,
+		30
+	],
+	"sing_duration": 6.1,
+	"scale": 6.00000000000001
+}

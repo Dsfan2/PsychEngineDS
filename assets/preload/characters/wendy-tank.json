@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "Wendy Dancing At Gunpoint 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "Wendy Dancing At Gunpoint 2",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "Wendy Sad At Gunpoint",
+			"indices": []
+		}
+	],
+	"player2": "",
+	"player3": "",
+	"no_antialiasing": true,
+	"image": "characters/Wendy-Koopa_Tankmen",
+	"position": [
+		-30,
+		-80
+	],
+	"healthicon": "wendy",
+	"flip_x": false,
+	"healthbar_colors": [
+		239,
+		76,
+		87
+	],
+	"camera_position": [
+		0,
+		140
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,157 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "monika idle dance"
+		},
+		{
+			"offsets": [
+				43,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "monika NOTE LEFT0"
+		},
+		{
+			"offsets": [
+				-3,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "monika NOTE DOWN0"
+		},
+		{
+			"offsets": [
+				10,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "monika NOTE UP0"
+		},
+		{
+			"offsets": [
+				-6,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "monika NOTE RIGHT0"
+		},
+		{
+			"offsets": [
+				43,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "monika NOTE LEFT MISS"
+		},
+		{
+			"offsets": [
+				-3,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "monika NOTE DOWN MISS"
+		},
+		{
+			"offsets": [
+				10,
+				-2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "monika NOTE UP MISS"
+		},
+		{
+			"offsets": [
+				-6,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "monika NOTE RIGHT MISS"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "monika HEY!!"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "scared",
+			"indices": [],
+			"name": "monika idle shaking"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "monika dodging",
+			"indices": []
+		}
+	],
+	"player2": "",
+	"player3": "",
+	"no_antialiasing": false,
+	"image": "characters/monika_new_assets",
+	"position": [
+		0,
+		40
+	],
+	"healthicon": "monika",
+	"flip_x": true,
+	"healthbar_colors": [
+		143,
+		209,
+		102
+	],
+	"camera_position": [
+		40,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

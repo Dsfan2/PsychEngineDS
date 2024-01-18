@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "monika idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				29,
+				-2
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "monika NOTE DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				-2
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "monika NOTE UP0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				18,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "monika NOTE LEFT0"
+		},
+		{
+			"offsets": [
+				8,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "monika NOTE RIGHT0"
+		}
+	],
+	"player2": "",
+	"player3": "bf-opponent",
+	"no_antialiasing": false,
+	"image": "characters/monika_new_assets",
+	"position": [
+		0,
+		40
+	],
+	"healthicon": "monika",
+	"flip_x": true,
+	"healthbar_colors": [
+		143,
+		209,
+		102
+	],
+	"camera_position": [
+		40,
+		40
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
