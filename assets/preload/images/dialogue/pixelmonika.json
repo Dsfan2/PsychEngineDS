@@ -1,0 +1,90 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		240,
+		190
+	],
+	"no_antialiasing": true,
+	"scale": 7.09999999999998,
+	"animations": [
+		{
+			"loop_name": "Standard",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Standard",
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Gasp",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Gasp",
+			"anim": "gasp",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Happy",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Upset",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Upset",
+			"anim": "upset",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Dissapoint",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Dissapoint",
+			"anim": "dissapoint",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "UhOh",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "UhOh",
+			"anim": "ahaha",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "PixelMonika_Dialogue"
+}

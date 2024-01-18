@@ -1,0 +1,89 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		0,
+		-60
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "TANK LOOP",
+			"idle_name": "TANK0"
+		},
+		{
+			"loop_name": "TANK SMUG LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "TANK SMUG0",
+			"anim": "smug",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "TANK FACEPALM LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "TANK FACEPALM0",
+			"anim": "upset",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "TANK ANGRY LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "TANK ANGRY0",
+			"anim": "angry",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "TANK GUN LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "TANK GUN0",
+			"anim": "smuguns",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "TANK BLEEP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "TANK BLEEP",
+			"anim": "oops",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Tankman_Dialogue"
+}

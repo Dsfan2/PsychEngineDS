@@ -1,0 +1,76 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		20,
+		-30
+	],
+	"scale": 1.4,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "DS LOOP",
+			"idle_name": "DS0"
+		},
+		{
+			"loop_name": "DS CHEER LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "DS CHEER0",
+			"anim": "cheer",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "DS NERVOUS LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "DS NERVOUS0",
+			"anim": "worried",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "DS SCARED LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "DS SCARED0",
+			"anim": "shock",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "DS SADMAD LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "DS SADMAD0",
+			"anim": "umm",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "DS_Dialogue"
+}

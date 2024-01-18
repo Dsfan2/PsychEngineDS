@@ -1,0 +1,102 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		-30,
+		-80
+	],
+	"scale": 1,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "JR LOOP",
+			"idle_name": "JR0"
+		},
+		{
+			"loop_name": "JR EXCITED LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "JR EXCITED0",
+			"anim": "excited",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "JR TAUNT LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "JR TAUNT0",
+			"anim": "taunt",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "JR UPSET LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "JR UPSET0",
+			"anim": "confused",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "JR SCARED LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "JR SCARED0",
+			"anim": "scared",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "PIRATE LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "PIRATE0",
+			"anim": "pirate-talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "PIRATE ANGRY LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "PIRATE ANGRY0",
+			"anim": "pirate-angry",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "JR_Dialogue"
+}

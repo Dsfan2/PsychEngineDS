@@ -1,0 +1,115 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		20,
+		-70
+	],
+	"scale": 1.2,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "MONI LOOP",
+			"idle_name": "MONI0"
+		},
+		{
+			"loop_name": "MONI EXCITED LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "MONI EXCITED0",
+			"anim": "excited",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "MONI BLUSH LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "MONI BLUSH0",
+			"anim": "blushing",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "MONI NERVOUS LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "MONI NERVOUS0",
+			"anim": "confused",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "MONI SHOCK LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "MONI SHOCK0",
+			"anim": "scared",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "MONI UPSET LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "MONI UPSET0",
+			"anim": "upset",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "NEO LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "NEO0",
+			"anim": "neo-talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "NEO ANGRY LOOP",
+			"idle_offsets": [
+				40,
+				0
+			],
+			"idle_name": "NEO ANGRY0",
+			"anim": "neo-obliterate",
+			"loop_offsets": [
+				40,
+				0
+			]
+		}
+	],
+	"image": "Monika_Dialogue"
+}

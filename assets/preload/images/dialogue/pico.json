@@ -1,0 +1,76 @@
+{
+	"position": [
+		0,
+		50
+	],
+	"dialogue_pos": "center",
+	"scale": 1.25,
+	"image": "Pico_Dialogue_By_RonaTheRTD",
+	"animations": [
+		{
+			"idle_offsets": [
+				-6,
+				0
+			],
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_name": "PicoIdle",
+			"loop_name": "PicoTalkLoop"
+		},
+		{
+			"idle_offsets": [
+				28,
+				-8
+			],
+			"anim": "excited",
+			"loop_offsets": [
+				34,
+				0
+			],
+			"idle_name": "PicoHappy",
+			"loop_name": "PicoJoyLoop"
+		},
+		{
+			"idle_offsets": [
+				-6,
+				0
+			],
+			"anim": "pissed",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "PicoMad",
+			"loop_name": "PicoPissedLoop"
+		},
+		{
+			"loop_offsets": [
+				-6,
+				0
+			],
+			"anim": "confused",
+			"idle_offsets": [
+				-10,
+				1
+			],
+			"loop_name": "PicoConfusedLoop",
+			"idle_name": "PicoWhat"
+		},
+		{
+			"loop_offsets": [
+				40,
+				0
+			],
+			"anim": "gun",
+			"idle_offsets": [
+				40,
+				0
+			],
+			"loop_name": "PicoAimLoop",
+			"idle_name": "PicoGun"
+		}
+	]
+}

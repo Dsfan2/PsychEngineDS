@@ -1,0 +1,64 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		240,
+		220
+	],
+	"no_antialiasing": true,
+	"scale": 7.09999999999998,
+	"animations": [
+		{
+			"loop_name": "Standard",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Standard",
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Swag",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Swag",
+			"anim": "swag",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Wut",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Wut",
+			"anim": "wut",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Angor",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Angor",
+			"anim": "anger",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "PixelBF_Dialogue"
+}

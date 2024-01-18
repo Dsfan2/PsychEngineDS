@@ -1,0 +1,76 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		0,
+		40
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "WENDY LOOP",
+			"idle_name": "WENDY0"
+		},
+		{
+			"loop_name": "WENDY CHEER LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "WENDY CHEER0",
+			"anim": "cheer",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "WENDY TAUNT LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "WENDY TAUNT0",
+			"anim": "taunt",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "WENDY BORED LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "WENDY BORED0",
+			"anim": "bored",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "WENDY ANGRY LOOP",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "WENDY ANGRY0",
+			"anim": "angry",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Wendy_Dialogue"
+}

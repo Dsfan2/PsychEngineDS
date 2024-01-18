@@ -1,0 +1,64 @@
+{
+	"position": [
+		240,
+		220
+	],
+	"dialogue_pos": "right",
+	"no_antialiasing": true,
+	"scale": 7.09999999999998,
+	"image": "PixelJR_Dialogue",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Standard",
+			"idle_name": "Standard"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "swag",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Swag",
+			"idle_name": "Swag"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "wut",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Wut",
+			"idle_name": "Wut"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "anger",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Angor",
+			"idle_name": "Angor"
+		}
+	]
+}

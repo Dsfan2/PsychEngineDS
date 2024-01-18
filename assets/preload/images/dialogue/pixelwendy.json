@@ -1,0 +1,64 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		210,
+		220
+	],
+	"no_antialiasing": true,
+	"scale": 7.09999999999998,
+	"animations": [
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Standard",
+			"loop_name": "Standard"
+		},
+		{
+			"loop_name": "Mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Mad",
+			"anim": "upset",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Cheer",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Cheer",
+			"anim": "cheer",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "Smirk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Smirk",
+			"anim": "smirk",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "PixelWendy_Dialogue"
+}

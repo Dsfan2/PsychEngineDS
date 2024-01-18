@@ -1,0 +1,90 @@
+{
+	"position": [
+		180,
+		230
+	],
+	"dialogue_pos": "center",
+	"no_antialiasing": true,
+	"scale": 6.99999999999998,
+	"image": "PixelDS_Dialogue",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Standard",
+			"idle_name": "Standard"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "cheer",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Cheer",
+			"loop_name": "Cheer"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Sad",
+			"loop_name": "Sad"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "scared",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Scared",
+			"loop_name": "Scared"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "swag",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Cocky",
+			"idle_name": "Cocky"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "Upset",
+			"idle_name": "Upset"
+		}
+	]
+}
