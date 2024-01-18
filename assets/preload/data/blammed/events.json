@@ -1,0 +1,188 @@
+{
+	"song": {
+		"events": [
+			[
+				23272.7272727273,
+				[
+					[
+						"Hey!",
+						"",
+						""
+					]
+				]
+			],
+			[
+				34909.0909090909,
+				[
+					[
+						"Hey!",
+						"",
+						""
+					]
+				]
+			],
+			[
+				46545.4545454546,
+				[
+					[
+						"Philly Glow",
+						"1",
+						""
+					],
+					[
+						"Philly Glow",
+						"2",
+						""
+					],
+					[
+						"Change Note Skin",
+						"Future",
+						""
+					],
+					[
+						"Change Splash Skin",
+						"Sparkles",
+						""
+					]
+				]
+			],
+			[
+				56181.8181818182,
+				[
+					[
+						"Camera Follow Pos",
+						"570",
+						"550"
+					],
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.22"
+					],
+					[
+						"Set Property",
+						"cameraSpeed",
+						"2"
+					]
+				]
+			],
+			[
+				56363.6363636364,
+				[
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					],
+					[
+						"Camera Follow Pos",
+						"570",
+						"520"
+					]
+				]
+			],
+			[
+				56727.2727272728,
+				[
+					[
+						"Philly Glow",
+						"1",
+						""
+					]
+				],
+				[
+					[
+						"Camera Follow Pos",
+						"600",
+						"490"
+					]
+				]
+			],
+			[
+				57272.7272727273,
+				[
+					[
+						"Camera Follow Pos",
+						"630",
+						"520"
+					]
+				]
+			],
+			[
+				57454.5454545455,
+				[
+					[
+						"Camera Follow Pos",
+						"600",
+						"490"
+					]
+				]
+			],
+			[
+				57818.1818181818,
+				[
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.05"
+					],
+					[
+						"Camera Follow Pos",
+						"630",
+						"520"
+					]
+				]
+			],
+			[
+				58181.8181818182,
+				[
+					[
+						"Camera Follow Pos",
+						"",
+						""
+					],
+					[
+						"Set Property",
+						"cameraSpeed",
+						"1"
+					]
+				]
+			],
+			[
+				69818.1818181819,
+				[
+					[
+						"Philly Glow",
+						"0",
+						""
+					],
+					[
+						"Hey!",
+						"1",
+						""
+					],
+					[
+						"Change Note Skin",
+						"",
+						""
+					],
+					[
+						"Change Splash Skin",
+						"",
+						""
+					]
+				]
+			],
+			[
+				93090.9090909091,
+				[
+					[
+						"Hey!",
+						"",
+						""
+					]
+				]
+			]
+		]
+	}
+}
