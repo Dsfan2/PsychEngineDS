@@ -1,0 +1,16 @@
+{
+	"disableRGB":false,
+	"rgbShaderR":"#FAD000",
+	"rgbShaderG":"#FFFFFF",
+	"rgbShaderB":"#473A00",
+	"disableNoteSplash":false,
+	"hitHealth":0.0,
+	"missHealth":0.1,
+	"hitScore":0,
+	"missScore":100,
+	"ignoreNote":false,
+	"hitSoundEnabled":true,
+	"hitSound":"hitsound",
+	"playAnim":true,
+	"charAnimation":"hey"
+}
