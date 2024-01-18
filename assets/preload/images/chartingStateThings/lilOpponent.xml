@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="lilOpponent.png">
+<SubTexture name="Idle0000" x="0" y="0" width="180" height="190"/>
+<SubTexture name="Idle0001" x="180" y="0" width="180" height="190"/>
+<SubTexture name="Left0000" x="360" y="0" width="180" height="190"/>
+<SubTexture name="Left0001" x="540" y="0" width="180" height="190"/>
+<SubTexture name="Left0002" x="720" y="0" width="180" height="190"/>
+<SubTexture name="Down0000" x="0" y="190" width="180" height="190"/>
+<SubTexture name="Down0001" x="180" y="190" width="180" height="190"/>
+<SubTexture name="Down0002" x="360" y="190" width="180" height="190"/>
+<SubTexture name="Up0000" x="540" y="190" width="180" height="190"/>
+<SubTexture name="Up0001" x="720" y="190" width="180" height="190"/>
+<SubTexture name="Up0002" x="0" y="380" width="180" height="190"/>
+<SubTexture name="Right0000" x="180" y="380" width="180" height="190"/>
+<SubTexture name="Right0001" x="360" y="380" width="180" height="190"/>
+<SubTexture name="Right0002" x="540" y="380" width="180" height="190"/>
+</TextureAtlas>
