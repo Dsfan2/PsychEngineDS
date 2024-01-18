@@ -1,0 +1,2 @@
+Thes are all the scripts that were from the base game or prior versions of Psych DS that serve no purpose in this newer version.
+I would suggest not messing with these, they're here just for archiving.
