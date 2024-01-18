@@ -1,4 +1,4 @@
-Those are the versions of my libraries, if you're struggling to get it to compile, 
+These are the versions of my libraries, if you're struggling to get it to compile, 
 you should try them out, as it's confirmed that they're functional on Psych Engine DS 2.0.0:
 
 You need Haxe 4.2.5: https://haxe.org/download/version/4.2.5/
