@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"expression": "angry",
+			"text": "Oh, you think you can insult ME you UGLY WORM?!",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "senpai"
+		},
+		{
+			"expression": "angry",
+			"text": "I guess I don't need to hold back on you or your girlfriend anymore!",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "senpai"
+		},
+		{
+			"expression": "swag",
+			"text": "Bop ski bep.",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "pixelbf"
+		},
+		{
+			"expression": "scared",
+			"disableFadeBG": false,
+			"text": "*scared of being harrased by a loser*",
+			"speed": 0.05,
+			"portrait": "pixelgf",
+			"dialogueSound": "pixelText"
+		}
+	],
+	"boxSkin": "pixelUI/senpaiMadBox-pixel",
+	"size": 32,
+	"outlineColor": "#000000",
+	"handEnable": true,
+	"color": "#3F2021",
+	"outlineSize": 1.5,
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"outlineEnable": false,
+	"music": "",
+	"font": "pixel.otf",
+	"dropTextEnable": true,
+	"clickSound": "clickText",
+	"dropTextColor": "#D89494"
+}

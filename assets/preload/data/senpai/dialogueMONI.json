@@ -1,0 +1,110 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Looks like a new lovely lady has wandered here on a quest for romance.",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "senpai"
+		},
+		{
+			"expression": "talk",
+			"text": "But it looks like this... weirdo... is another possible romatic option...",
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "So how about a sing-off to determine who this beautiful girl will belong to...",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "mad",
+			"text": "Hey, back off buddy! That's my girlfriend you're talking about there!",
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "gasp",
+			"disableFadeBG": false,
+			"text": "Yeah, I'm kinda already taken bub...",
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "upset",
+			"disableFadeBG": false,
+			"text": "Seriously?!",
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "I mean... A girl as cute as you doesn't deserve a, faker, such as that guy...",
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "mad",
+			"disableFadeBG": false,
+			"text": "Hey! Who are you calling faker?! This look is all me!",
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "Don't worry my darling. Nothing this bozo says can tear us apart.",
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "You poor misguided maiden... You don't really understand what love is, don't you?",
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "Allow me to do my best to properly tell you why I'm the man you deserve.",
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "dissapoint",
+			"disableFadeBG": false,
+			"text": "...",
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText"
+		}
+	],
+	"boxSkin": "pixelUI/dialogueBox-pixel",
+	"size": 32,
+	"outlineColor": "#000000",
+	"handEnable": true,
+	"color": "#3F2021",
+	"outlineSize": 1.5,
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"outlineEnable": false,
+	"music": "",
+	"font": "pixel.otf",
+	"dropTextEnable": true,
+	"clickSound": "clickText",
+	"dropTextColor": "#D89494"
+}

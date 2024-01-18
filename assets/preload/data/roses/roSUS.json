@@ -1,0 +1,101 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "You sussy baka!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelbf",
+			"dialogueSound": "pixelText",
+			"expression": "wut",
+			"text": "Bep?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "Stop posting about Among Us! I'm tired of seeing it!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "My friends on TikTok send me memes. On Discord it's pecking memes!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "I was in a server, right? And ALL of the channels are just Among Us stuff!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "I...I showed my Champion Underwear to my girlfriend, and the logo I flipped it..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "And I said, \"Hey babe, when the underwear's sus!\" Haha!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "Ding Ding Ding Ding Ding Ding Ding! Ding Ding Ding!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "I pecking looked at a trash can and I thought, \"That's a bit sussy!\""
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "I looked at the eraser of a pencil, and I immediately think of the astronaut's helmet"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "And I go, \"Pencil? More like Pen-SUS!\""
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+		}
+	],
+	"boxSkin": "pixelUI/senpaiMadBox-pixel",
+	"size": 32,
+	"outlineColor": "#000000",
+	"handEnable": true,
+	"color": "#3F2021",
+	"outlineSize": 1.5,
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"outlineEnable": false,
+	"music": "",
+	"font": "pixel.otf",
+	"dropTextEnable": true,
+	"clickSound": "clickText",
+	"dropTextColor": "#D89494"
+}

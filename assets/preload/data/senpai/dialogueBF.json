@@ -1,0 +1,54 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Looks like a new lovely lady has wandered here on a quest for romance.",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "senpai"
+		},
+		{
+			"expression": "talk",
+			"text": "But it looks like this little blue shrimp is another romatic option here...",
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "So how about a little sing-off to see who this beautiful girl will belong to.",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "talk",
+			"text": "16-bit beep.",
+			"speed": 0.05,
+			"portrait": "pixelbf",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "*vacant stare*",
+			"speed": 0.05,
+			"portrait": "pixelgf",
+			"dialogueSound": "pixelText"
+		}
+	],
+	"boxSkin": "pixelUI/dialogueBox-pixel",
+	"size": 32,
+	"outlineColor": "#000000",
+	"handEnable": true,
+	"color": "#3F2021",
+	"outlineSize": 1.5,
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"outlineEnable": false,
+	"music": "",
+	"font": "pixel.otf",
+	"dropTextEnable": true,
+	"clickSound": "clickText",
+	"dropTextColor": "#D89494"
+}

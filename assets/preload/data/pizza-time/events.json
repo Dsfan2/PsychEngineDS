@@ -1,0 +1,106 @@
+{
+	"song": {
+		"events": [
+			[
+				9600,
+				[
+					[
+						"Change Scroll Speed",
+						"1.5",
+						"3.4"
+					]
+				]
+			],
+			[
+				13167.2131147541,
+				[
+					[
+						"Set Property",
+						"dad.alpha",
+						"1"
+					],
+					[
+						"Set Property",
+						"iconP2.alpha",
+						"1"
+					],
+					[
+						"Set Property",
+						"defaultCamZoom",
+						"1.05"
+					]
+				]
+			],
+			[
+				47910.0702576113,
+				[
+					[
+						"Philly Glow",
+						"1",
+						""
+					],
+					[
+						"Philly Glow",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				69243.4035909446,
+				[
+					[
+						"Philly Glow",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				173243.403590945,
+				[
+					[
+						"Change Scroll Speed",
+						"2.25",
+						"1"
+					]
+				]
+			],
+			[
+				178909.426250456,
+				[
+					[
+						"Screen Shake",
+						"33.78,0.02",
+						"33.78,0.02"
+					],
+					[
+						"Set Property",
+						"canPause",
+						"false"
+					]
+				]
+			],
+			[
+				203257.252337412,
+				[
+					[
+						"Change Scroll Speed",
+						"0.55",
+						"9.43"
+					]
+				]
+			],
+			[
+				212685.011900254,
+				[
+					[
+						"Set Property",
+						"blackStart2.alpha",
+						"1"
+					]
+				]
+			]
+		]
+	}
+}

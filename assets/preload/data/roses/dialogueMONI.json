@@ -1,0 +1,114 @@
+{
+	"dialogue": [
+		{
+			"expression": "upset",
+			"text": "Really?",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "senpai"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "You're still not sold?",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText",
+			"expression": "swag",
+			"text": "Sorry loser! I think she's made her point clear...",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "Shut up you identity fraudster!",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "You should know that your hideously attractive \"girlfriend\" isn't exactly... \"real.\"",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText",
+			"expression": "sad",
+			"text": "Hey! I take offense to that! She IS real! (To me at least)",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "angry",
+			"text": "Well, keep this up, and the things I'll do to both you and her aren't going to be very E for Everyone!",
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "gasp",
+			"text": "Wait... did you just call me, \"hideously attractive\"?",
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "upset",
+			"text": "It's gross how hot you are.",
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "gasp",
+			"text": "Um...I am literally the textbook definition of hot.",
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelds",
+			"dialogueSound": "pixelText",
+			"expression": "cheer",
+			"text": "Oh! Eat it!",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "angry",
+			"text": "Can you stop being so savage?!",
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"expression": "ahaha",
+			"text": "Ahaha~ I don't think you'd want to push me too hard.",
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText"
+		}
+	],
+	"boxSkin": "pixelUI/senpaiMadBox-pixel",
+	"size": 32,
+	"outlineColor": "#000000",
+	"handEnable": true,
+	"color": "#3F2021",
+	"outlineSize": 1.5,
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"outlineEnable": false,
+	"music": "",
+	"font": "pixel.otf",
+	"dropTextEnable": true,
+	"clickSound": "clickText",
+	"dropTextColor": "#D89494"
+}

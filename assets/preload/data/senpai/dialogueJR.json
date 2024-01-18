@@ -1,0 +1,71 @@
+{
+	"boxSkin": "pixelUI/dialogueBox-pixel",
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Looks like a new lovely lady has wandered here on a quest for romance.",
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"speed": 0.05
+		},
+		{
+			"expression": "upset",
+			"text": "Eh... Hold up...",
+			"dialogueSound": "pixelText",
+			"speed": 0.05,
+			"portrait": "senpai"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "Excuse me but, you're the ugliest girl I've ever seen!",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelwendy",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "Excuse me buddy?!",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "Oh wait, I think you're both turtle-like creatures, aren't you...",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "talk",
+			"disableFadeBG": false,
+			"text": "Well, nevermind that. I'm sure a friendly rap battle will put whatever that was behind us.",
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixeljr",
+			"dialogueSound": "pixelText",
+			"expression": "wut",
+			"text": "You DARE challenge the mighty Bowser Jr?!",
+			"disableFadeBG": false
+		}
+	],
+	"outlineColor": "#000000",
+	"size": 32,
+	"handEnable": true,
+	"outlineSize": 1.5,
+	"color": "#3F2021",
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"music": "",
+	"outlineEnable": false,
+	"dropTextColor": "#D89494",
+	"clickSound": "clickText",
+	"dropTextEnable": true,
+	"font": "pixel.otf"
+}

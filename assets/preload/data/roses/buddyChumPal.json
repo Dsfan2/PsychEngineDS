@@ -1,0 +1,73 @@
+{
+	"boxSkin": "pixelUI/senpaiMadBox-pixel",
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"expression": "idle",
+			"text": "Hey there buddy chum pal friend buddy pal chum bud friend fella bruther amigo pal buddy friend chummy chum chum pal"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"expression": "idle",
+			"text": "I don't mean to be rude, my friend pal home slice bread slice dawg"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"expression": "ahaha",
+			"text": "But I gotta warn ya, if u take one more diddly darn step right there I'm gonna have to diddly darn snap ur neck"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"expression": "happy",
+			"text": "And wowza, wouldn't that be a crummy juncture huh? do u want that?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"expression": "happy",
+			"text": "Do u wish upon yourself to come into physical experience with a crummy juncture?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "Because friend buddy chum friend chum pally pal chum friend, if u keep this up"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"expression": "ahaha",
+			"text": "Then well gosh diddly darn I just might have to get not so friendly with u"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelmonika",
+			"dialogueSound": "pixelText",
+			"expression": "ahaha",
+			"text": "My friendly friend friend pal friend buddy chum pally friend chum buddy."
+		}
+	],
+	"outlineColor": "#000000",
+	"size": 32,
+	"handEnable": true,
+	"outlineSize": 1.5,
+	"color": "#3F2021",
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"music": "",
+	"outlineEnable": false,
+	"dropTextColor": "#D89494",
+	"clickSound": "clickText",
+	"dropTextEnable": true,
+	"font": "pixel.otf"
+}

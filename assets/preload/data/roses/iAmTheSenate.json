@@ -1,0 +1,105 @@
+{
+	"boxSkin": "pixelUI/senpaiMadBox-pixel",
+	"dialogue": [
+		{
+			"expression": "swag",
+			"text": "Ha! Eat that dude!",
+			"disableFadeBG": false,
+			"dialogueSound": "pixelText",
+			"portrait": "pixeljr",
+			"speed": 0.05
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixeljr",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "I take it I won that previous rap battle?",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixeljr",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "I must say, you got angry, sooner than I expected.",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "In the name of the 16-Bit Senate of the Republic...",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "...you're under arrest, Bowser Jr!",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixeljr",
+			"dialogueSound": "pixelText",
+			"expression": "wut",
+			"text": "Are you threatening me, Mr. Senpai?",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "upset",
+			"text": "The Senate will decide your fate.",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixeljr",
+			"dialogueSound": "pixelText",
+			"expression": "swag",
+			"text": "Well, actually, I AM THE SENATE.",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "Not yet.",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixeljr",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "...",
+			"disableFadeBG": false
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixeljr",
+			"dialogueSound": "pixelText",
+			"expression": "talk",
+			"text": "It's treason then...",
+			"disableFadeBG": false
+		}
+	],
+	"outlineColor": "#000000",
+	"size": 32,
+	"handEnable": true,
+	"outlineSize": 1.5,
+	"color": "#3F2021",
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"music": "",
+	"outlineEnable": false,
+	"dropTextColor": "#D89494",
+	"clickSound": "clickText",
+	"dropTextEnable": true,
+	"font": "pixel.otf"
+}

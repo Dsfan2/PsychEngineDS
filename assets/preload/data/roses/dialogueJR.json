@@ -1,0 +1,62 @@
+{
+	"boxSkin": "pixelUI/senpaiMadBox-pixel",
+	"dialogue": [
+		{
+			"expression": "angry",
+			"text": "Oh, you think you can insult ME you UGLY TURTLE?!",
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"speed": 0.05
+		},
+		{
+			"expression": "angry",
+			"text": "I guess I don't need to hold back on you or your ugly little friend anymore!",
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"speed": 0.05
+		},
+		{
+			"speed": 0.05,
+			"portrait": "senpai",
+			"dialogueSound": "pixelText",
+			"expression": "angry",
+			"text": "I'll make you rip the hair off of your ugly little head!",
+			"disableFadeBG": false
+		},
+		{
+			"expression": "swag",
+			"text": "That sounds like a very effective threat.",
+			"portrait": "pixeljr",
+			"dialogueSound": "pixelText",
+			"speed": 0.05
+		},
+		{
+			"expression": "swag",
+			"text": "Mind if I use it on you instead?",
+			"disableFadeBG": false,
+			"dialogueSound": "pixelText",
+			"portrait": "pixeljr",
+			"speed": 0.05
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pixelwendy",
+			"dialogueSound": "pixelText",
+			"expression": "cheer",
+			"text": "Oh! Burn! Let that bozo know!!",
+			"disableFadeBG": false
+		}
+	],
+	"outlineColor": "#000000",
+	"size": 32,
+	"handEnable": true,
+	"outlineSize": 1.5,
+	"color": "#3F2021",
+	"handSkin": "pixelUI/hand_textbox-pixel",
+	"music": "",
+	"outlineEnable": false,
+	"dropTextColor": "#D89494",
+	"clickSound": "clickText",
+	"dropTextEnable": true,
+	"font": "pixel.otf"
+}
