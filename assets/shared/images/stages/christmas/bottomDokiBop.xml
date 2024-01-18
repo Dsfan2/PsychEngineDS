@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bottomDokiBop.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bottom Level Boppers Idle0000" x="0" y="0" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0001" x="0" y="0" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0002" x="1978" y="0" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0003" x="1978" y="0" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0004" x="0" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0005" x="0" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0006" x="1978" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0007" x="1978" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0008" x="1978" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0009" x="1978" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0010" x="1978" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0011" x="1978" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0012" x="1978" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0013" x="1978" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0014" x="1978" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers Idle0015" x="1978" y="674" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0000" x="0" y="1348" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0001" x="1978" y="1348" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0002" x="1978" y="1348" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0003" x="0" y="2022" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0004" x="0" y="2022" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0005" x="1978" y="2022" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0006" x="1978" y="2022" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0007" x="1978" y="2022" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0008" x="1978" y="2022" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0009" x="1978" y="2022" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0010" x="1978" y="2022" width="1978" height="674"/>
+	<SubTexture name="Bottom Level Boppers HEY0011" x="1978" y="2022" width="1978" height="674"/>
+</TextureAtlas>
