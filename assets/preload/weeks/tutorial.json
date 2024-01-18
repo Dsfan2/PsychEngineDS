@@ -1,0 +1,20 @@
+{
+	"storyName": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"player",
+		"speakers"
+	],
+	"songs": [
+		[
+			"Tutorial",
+			"week1"
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Tutorial"
+}

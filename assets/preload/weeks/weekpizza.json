@@ -1,0 +1,21 @@
+{
+	"storyName": "Pizza Forever",
+	"difficulties": "Very Hard",
+	"hideFreeplay": false,
+	"weekBackground": "secret",
+	"weekBefore": "hiddentec",
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"player",
+		"speakers"
+	],
+	"songs": [
+		[
+			"Pizza Time",
+			"secret4"
+		]
+	],
+	"weekName": "Pizza Time Never Ends"
+}

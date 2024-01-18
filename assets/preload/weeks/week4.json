@@ -1,0 +1,28 @@
+{
+	"storyName": "MOMMY MUST MURDER",
+	"hideFreeplay": false,
+	"weekBackground": "limo",
+	"weekBefore": "week3",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"mom",
+		"player",
+		"speakers"
+	],
+	"songs": [
+		[
+			"SP",
+			"week4"
+		],
+		[
+			"High",
+			"week4"
+		],
+		[
+			"Mild",
+			"week4"
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 4"
+}
