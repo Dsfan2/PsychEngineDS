@@ -1,0 +1,10 @@
+{
+	"idle_anim": "M Wendy Idle",
+	"confirm_anim": "M Wendy Idle",
+	"position": [
+		158,
+		209
+	],
+	"scale": 0.45,
+	"image": "Menu_Wendy"
+}

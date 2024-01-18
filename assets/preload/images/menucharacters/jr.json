@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "M Def Hey",
+	"idle_anim": "M Def Idle",
+	"position": [
+		185,
+		113
+	],
+	"scale": 0.5,
+	"image": "Menu_JR",
+	"flipX": false
+}

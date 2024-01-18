@@ -1,0 +1,10 @@
+{
+	"idle_anim": "M DS Idle",
+	"confirm_anim": "M DS Idle",
+	"position": [
+		63,
+		133
+	],
+	"scale": 0.7,
+	"image": "Menu_DS"
+}

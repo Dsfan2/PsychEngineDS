@@ -1,0 +1,11 @@
+{
+	"idle_anim": "M Monika Idle",
+	"confirm_anim": "M Monika Hey",
+	"position": [
+		115,
+		178
+	],
+	"scale": 0.55,
+	"flipX": false,
+	"image": "Menu_Monika"
+}

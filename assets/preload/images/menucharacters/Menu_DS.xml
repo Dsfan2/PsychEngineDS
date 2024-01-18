@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_DS.png">
+<SubTexture name="M DS Idle0000" x="0" y="0" width="500" height="567"/>
+<SubTexture name="M DS Idle0001" x="500" y="0" width="500" height="567"/>
+<SubTexture name="M DS Idle0002" x="1000" y="0" width="500" height="567"/>
+<SubTexture name="M DS Idle0003" x="1500" y="0" width="500" height="567"/>
+<SubTexture name="M DS Idle0004" x="2000" y="0" width="500" height="567"/>
+<SubTexture name="M DS Idle0005" x="0" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0006" x="500" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0007" x="1000" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0008" x="1000" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0009" x="1000" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0010" x="1500" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0011" x="1500" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0012" x="2000" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0013" x="2000" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0014" x="2000" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0015" x="2000" y="567" width="500" height="567"/>
+<SubTexture name="M DS Idle0016" x="0" y="1134" width="500" height="567"/>
+<SubTexture name="M DS Idle0017" x="500" y="1134" width="500" height="567"/>
+<SubTexture name="M DS Idle0018" x="1000" y="1134" width="500" height="567"/>
+<SubTexture name="M DS Idle0019" x="1500" y="1134" width="500" height="567"/>
+<SubTexture name="M DS Idle0020" x="2000" y="1134" width="500" height="567"/>
+<SubTexture name="M DS Idle0021" x="0" y="1701" width="500" height="567"/>
+<SubTexture name="M DS Idle0022" x="500" y="1701" width="500" height="567"/>
+<SubTexture name="M DS Idle0023" x="1000" y="1701" width="500" height="567"/>
+<SubTexture name="M DS Idle0024" x="1000" y="1701" width="500" height="567"/>
+<SubTexture name="M DS Idle0025" x="1000" y="1701" width="500" height="567"/>
+<SubTexture name="M DS Idle0026" x="1500" y="1701" width="500" height="567"/>
+<SubTexture name="M DS Idle0027" x="1500" y="1701" width="500" height="567"/>
+<SubTexture name="M DS Idle0028" x="2000" y="1701" width="500" height="567"/>
+<SubTexture name="M DS Idle0029" x="2000" y="1701" width="500" height="567"/>
+<SubTexture name="M DS Idle0030" x="2000" y="1701" width="500" height="567"/>
+<SubTexture name="M DS Idle0031" x="2000" y="1701" width="500" height="567"/>
+</TextureAtlas>
