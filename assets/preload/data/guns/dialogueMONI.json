@@ -1,0 +1,132 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Hey, here's some Doki Doki Literature Club lore for ya...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "You're not real, and you're boyfriend's hallucinating!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds",
+			"boxState": "normal",
+			"expression": "umm",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "Hey! We take great offense to that you heartless monster!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds",
+			"boxState": "normal",
+			"expression": "umm",
+			"text": "Yeah! You're just trying to tear us apart, aren't you!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "Your dumb lines of dialogue can NEVER break our love for each other."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika",
+			"boxState": "normal",
+			"expression": "blushing",
+			"text": "I will ALWAYS love you DS. <3"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds",
+			"boxState": "normal",
+			"expression": "cheer",
+			"text": "And I will always love you my dear! <3"
+		},
+		{
+			"expression": "smug",
+			"text": "Yeah, yeah, that's cute, but love can only get you so far. When smoochy-smoochy fails...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smuguns",
+			"text": "That's what these bad boys are for!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "scared",
+			"text": "Woah, maybe actually don't wave that around?!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika"
+		},
+		{
+			"expression": "smuguns",
+			"text": "Relax! The safety's on... (It is not)",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds",
+			"boxState": "normal",
+			"expression": "shock",
+			"text": "Please put that away while singing..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "Fine..."
+		},
+		{
+			"expression": "talk",
+			"text": "But you really outta understand why guns get my turret rising.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "Consider this basic training, if you live long enough to join us that is...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		}
+	]
+}

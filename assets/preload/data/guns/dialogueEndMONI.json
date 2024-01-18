@@ -1,0 +1,148 @@
+{
+	"dialogue": [
+		{
+			"expression": "angry",
+			"text": "Alright you little zit!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "angry",
+			"text": "I was having fun before, but now I'm getting really annoyed!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "upset",
+			"text": "All I really wanted was to rap about guns and movies!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "angry",
+			"text": "But you just HAD to make everything \"emotional\" and \"metophorical\" and \"advertiser friendly.\"",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "confused",
+			"text": "Hey! You were the one who wanted to make it sound violent.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "And I'm just barely recovering from the events of 2017..."
+		},
+		{
+			"expression": "angry",
+			"text": "Yeah yeah, I get that you had accidently caused some psychological horror in you original game...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "talk",
+			"text": "Too bad I lack a little something called \"empathy.\"",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "So let's see how emotional you are once we WASTE YOUR BOYFRIEND!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "shock",
+			"text": "Excuse me what did you just say?!?!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds"
+		},
+		{
+			"expression": "angry",
+			"text": "Alright boys! Get ready to fire!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "shock",
+			"text": "WAIT! NO! DON'T DO THIS! I DON't WANNA DIE YOUNG!!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika",
+			"boxState": "normal",
+			"expression": "scared",
+			"text": "DSFAN2!! NOOOO!!!"
+		},
+		{
+			"expression": "talk",
+			"text": "Sorry pretty lady but...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "This is war, and in war, people die!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.1,
+			"portrait": "tankman"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ds",
+			"boxState": "normal",
+			"expression": "umm",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "monika",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "os.execute(\"neo-program.bat\");"
+		}
+	]
+}

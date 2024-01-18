@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Hmph, not bad...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "For a runt who always gets beat by a red-hat plumber every single time!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Hey! My dad says I'm getting better, and with enough practice, and new gadgets, I'll be able to finally defeat Mario!"
+		},
+		{
+			"expression": "smug",
+			"text": "But practice and all that gunk can only get you so far. When funny gizmos fail...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smuguns",
+			"text": "That's what these bad boys are for!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wendy",
+			"boxState": "normal",
+			"expression": "cheer",
+			"text": "That's a coincidence, Bowser already has LOTS of Bullet Bill blasters."
+		},
+		{
+			"expression": "smuguns",
+			"text": "Oh, these things don't fire Bullet Bills... One flick of this trigger... and POW!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smuguns",
+			"text": "With one of these friendly firearms, Mario will be as good as dead in a couple seconds flat!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "Consider this basic training, if you live long enough to join us that is...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		}
+	]
+}

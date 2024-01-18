@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Press SPACE to dodge!",
+			"boxState": "normal",
+			"portrait": "blank",
+			"speed": 0.05,
+			"sound": "dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Dodge on the THIRD BEAT after the second warning sign flashes!",
+			"boxState": "normal",
+			"portrait": "blank",
+			"speed": 0.05,
+			"sound": "dialogue"
+		},
+		{
+			"expression": "talk",
+			"text": "Good luck!",
+			"boxState": "normal",
+			"portrait": "blank",
+			"speed": 0.05,
+			"sound": "dialogue"
+		}
+	]
+}

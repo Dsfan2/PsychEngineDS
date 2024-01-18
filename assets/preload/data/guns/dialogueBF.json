@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I'll admit ya little gremlin, you've got some pretty tight bars..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "But bars can only get you so far. When funny rapping fails..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "smuguns",
+			"text": "That's what these bad boys are for!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bip boop be bep"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "smuguns",
+			"text": "Yeah yeah, I know, guns are great, aren't they."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "But you really outta understand why they get my turret rising."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "Consider this basic training, if you live long enough to join us that is..."
+		}
+	]
+}

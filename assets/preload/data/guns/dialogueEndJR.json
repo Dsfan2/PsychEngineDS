@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"expression": "angry",
+			"text": "Alright you little zit!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "angry",
+			"text": "I was having fun before, but now I'm getting really annoyed!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "upset",
+			"text": "All I really wanted was to rap about guns and movies!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "angry",
+			"text": "But you just HAD to ruin it for me!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "taunt",
+			"text": "Looks like somebody's a sore loser!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wendy",
+			"boxState": "normal",
+			"expression": "taunt",
+			"text": "Yeah pal, you REALLY don't know how to sing!"
+		},
+		{
+			"expression": "angry",
+			"text": "Well, you might be right... I may not know how to effectively sing...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "talk",
+			"text": "Guess I'll just have to do what I do best...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "And WASTE YOU BOTH!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "bored",
+			"text": "Yeah... Like that could scare ME...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "wendy"
+		},
+		{
+			"expression": "angry",
+			"text": "Alright boys! Get ready to fire!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "scared",
+			"text": "HEY! BACK OFF!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "jr"
+		},
+		{
+			"expression": "talk",
+			"text": "Sorry kid but...",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman"
+		},
+		{
+			"expression": "smug",
+			"text": "This is war, and in war, people die!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.1,
+			"portrait": "tankman"
+		}
+	]
+}

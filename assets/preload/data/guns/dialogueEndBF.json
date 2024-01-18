@@ -1,0 +1,108 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "Alright you little zit!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "I was having fun before, but now I'm getting really annoyed!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "upset",
+			"text": "All I really wanted was to rap about guns and movies!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "But you just HAD to ruin it for me!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Skidop bop beep"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "Yeah yeah, I get your little antisocial idiot facade..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Too bad it ain't gonna work on me!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "So let's see your true colors when we WASTE YOUR GIRLFRIEND!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "*empty stare*"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "angry",
+			"text": "Alright boys! Get ready to fire!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bip boop skidoop"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Sorry kid but..."
+		},
+		{
+			"sound": "",
+			"speed": 0.1,
+			"portrait": "tankman",
+			"boxState": "normal",
+			"expression": "smug",
+			"text": "This is war, and in war, people die!"
+		}
+	]
+}
