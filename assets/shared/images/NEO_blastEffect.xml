@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NEO_blastEffect.png">
+<SubTexture name="Blast0000" x="0" y="0" width="700" height="600"/>
+<SubTexture name="Blast0001" x="0" y="0" width="700" height="600"/>
+<SubTexture name="Blast0002" x="700" y="0" width="700" height="600"/>
+<SubTexture name="Blast0003" x="700" y="0" width="700" height="600"/>
+<SubTexture name="Blast0004" x="0" y="600" width="700" height="600"/>
+<SubTexture name="Blast0005" x="0" y="600" width="700" height="600"/>
+</TextureAtlas>

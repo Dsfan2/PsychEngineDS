@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Warning_Thing.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Show0000" x="512" y="256" width="256" height="256"/>
+	<SubTexture name="Show0001" x="512" y="256" width="256" height="256"/>
+	<SubTexture name="Show0002" x="256" y="256" width="256" height="256"/>
+	<SubTexture name="Show0003" x="0" y="256" width="256" height="256"/>
+	<SubTexture name="Show0004" x="512" y="0" width="256" height="256"/>
+	<SubTexture name="Show0005" x="256" y="0" width="256" height="256"/>
+	<SubTexture name="Show0006" x="0" y="0" width="256" height="256"/>
+</TextureAtlas>
