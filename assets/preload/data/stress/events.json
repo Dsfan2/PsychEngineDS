@@ -10,9 +10,9 @@
 						"dad"
 					],
 					[
-						"Set Property",
-						"defaultCamZoom",
-						"1.08"
+						"Camera Zoom",
+						"1.08",
+						""
 					],
 					[
 						"Camera Follow Pos",
@@ -75,9 +75,9 @@
 						""
 					],
 					[
-						"Set Property",
-						"defaultCamZoom",
-						"0.9"
+						"Camera Zoom",
+						"0.9",
+						""
 					]
 				]
 			]
