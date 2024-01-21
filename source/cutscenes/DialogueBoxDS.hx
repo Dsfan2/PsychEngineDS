@@ -24,7 +24,6 @@ typedef DialogueFileDS = {
 	var outlineSize:Null<Float>;
 	var handEnable:Null<Bool>;
 	var handSkin:Null<String>;
-	var music:Null<String>;
 	var clickSound:Null<String>;
 }
 
@@ -392,6 +391,7 @@ class DialogueBoxDS extends FlxSpriteGroup
 		lastCharacter = character;
 
 		daText.resetText(curDialogue.text);
+		daText.delay = curDialogue.speed;
 		daText.start(curDialogue.speed, true);
 		daText.completeCallback = function() {
 			handSelect.visible = true;

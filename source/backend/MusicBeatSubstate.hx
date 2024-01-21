@@ -106,12 +106,12 @@ class MusicBeatSubstate extends FlxSubState
 
 	public function beatHit():Void
 	{
-		//do literally nothing dumbbutt
+		//do literally nothing
 	}
 	
 	public function sectionHit():Void
 	{
-		//yep, you guessed it, nothing again, dumbbutt
+		//yep, you guessed it, nothing again
 	}
 	
 	function getBeatsOnSection()
