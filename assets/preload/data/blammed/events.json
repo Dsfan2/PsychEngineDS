@@ -55,9 +55,9 @@
 						"550"
 					],
 					[
-						"Set Property",
-						"defaultCamZoom",
-						"1.22"
+						"Camera Zoom",
+						"1.22",
+						""
 					],
 					[
 						"Set Property",
@@ -122,9 +122,9 @@
 				57818.1818181818,
 				[
 					[
-						"Set Property",
-						"defaultCamZoom",
-						"1.05"
+						"Camera Zoom",
+						"1.05",
+						""
 					],
 					[
 						"Camera Follow Pos",
