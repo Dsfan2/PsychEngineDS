@@ -200,7 +200,7 @@ class FunkinLua {
 		set('songBlurb', ClientPrefs.data.songBlurb);
 		set('freeplayCutscenes', ClientPrefs.data.freeplayCutscenes);
 		set('resultsScreen', ClientPrefs.data.resultsScreen);
-		set('instKillNotes', game.instaKillNotes);
+		set('instaKillNotes', game.instaKillNotes);
 		set('dsFilter', PlayState.instance.dsFilterOn);
 		set('dsBorderType', ClientPrefs.data.dsBorder);
 		set('hudSkin', PlayState.stageUI);
@@ -1176,10 +1176,10 @@ class FunkinLua {
 			luaTrace('setObjectVelocity: Couldnt find object: ' + obj, false, false, FlxColor.RED);
 		});
 
-		Lua_helper.add_callback(lua, "makeLuaVideoSprite", function(tag:String, videoFile:String, ?start:Bool = false) {
+		Lua_helper.add_callback(lua, "makeLuaVideoSprite", function(tag:String, videoFile:String) {
 			tag = tag.replace('.', '');
 			LuaUtils.resetVideoTag(tag);
-			var leSprite:ModchartVideo = new ModchartVideo(videoFile, start);
+			var leSprite:ModchartVideo = new ModchartVideo(videoFile);
 			game.modchartVideos.set(tag, leSprite);
 			leSprite.active = true;
 		});

@@ -1,19 +1,23 @@
 package psychlua;
 
-import hxcodec.VideoHandler as NetStreamHandler;
-import hxcodec.VideoSprite;
+#if VIDEOS_ALLOWED
+import hxcodec.VideoSprite as VideoSprite;
+#end
 
 class ModchartVideo extends VideoSprite
 {
 	public var animOffsets:Map<String, Array<Float>> = new Map<String, Array<Float>>();
-	public function new(videoFile:String, ?startOnLoad:Bool = false)
+	public var videoStr:String = '';
+	public function new(videoFile:String)
 	{
 		super();
 		antialiasing = ClientPrefs.data.antialiasing;
-		if (startOnLoad)
-			videoSpriteStart(Paths.video(videoFile), true);
+		videoStr = videoFile;
+		videoSpriteStart(videoFile, true);
 		bitmap.canSkip = false;
 		scrollFactor.set();
+		setGraphicSize(Std.int(width / PlayState.instance.defaultCamZoom));
+		updateHitbox();
 	}
 
 	public function videoSpriteStart(filename:String, ?loop:Bool = true)
