@@ -50,7 +50,8 @@ class Pizza extends BaseStage
 			add(blackStart2);
 		dad.alpha = 0;
 		FlxTween.tween(blackStart2, {alpha: 0}, 15.5);
-		FlxTween.tween(FlxG.camera, {zoom: game.defaultCamZoom - 0.55}, 15.5);
+		if (dsFilterOn) FlxTween.tween(FlxG.camera, {zoom: game.defaultCamZoom - 0.55 - 0.42}, 15.5);
+		else FlxTween.tween(FlxG.camera, {zoom: game.defaultCamZoom - 0.55}, 15.5);
 	}
 
 	override function beatHit()
