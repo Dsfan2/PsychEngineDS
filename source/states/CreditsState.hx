@@ -61,6 +61,7 @@ class CreditsState extends MusicBeatState
 			['Tour de Pizza',		'peppino',			'Pizza Tower References & Sprites',								'https://twitter.com/PizzaTowergame',	 'FFFFFF'],
 			['NoahGani1',			'gani',				'Peppino Soundfont (FNATPT)',									'https://gamebanana.com/members/2089459','FFFFFF'],
 			['Rozebud',				'rozebud',			'Inspiration for the ChartingState things (FPS Plus)',			'https://gamebanana.com/members/1767623','FFFFFF'],
+			['Danur S.',			'danur',			'Tankman Ascends Video inspiration & Green Screen used',		'https://www.youtube.com/watch?v=ZWIs_4k6ICE', 'FFFFFF'],
 			[''],
 			['Former Engine Contributors'],
 			["DMZapp",				'sr',				"Old Bowser Jr Sprites (Spriter's Resource)",					'https://www.spriters-resource.com/custom_edited/mariocustoms/sheet/144817/','FFD500'],
