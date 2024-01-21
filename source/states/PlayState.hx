@@ -56,7 +56,7 @@ import sys.io.File;
 #end
 
 #if VIDEOS_ALLOWED
-import hxcodec.VideoSprite as VideoSprite;
+import hxcodec.VideoSprite;
 #end
 
 import objects.Note.EventNote;
@@ -1312,6 +1312,11 @@ class PlayState extends MusicBeatState
 			add(bg);
 
 			var video:VideoSprite = new VideoSprite();
+			video.scrollFactor.set();
+			video.setGraphicSize(Std.int(video.width / 1));
+			video.updateHitbox();
+			video.antialiasing = ClientPrefs.data.antialiasing;
+			video.cameras = [camDialogue];
 			video.bitmap.canSkip = false;
 			video.playVideo(filepath, false);
 			video.finishCallback = function()
