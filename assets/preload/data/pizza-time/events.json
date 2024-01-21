@@ -23,11 +23,16 @@
 						"Set Property",
 						"iconP2.alpha",
 						"1"
-					],
+					]
+				]
+			],
+			[
+				13252.9274004684,
+				[
 					[
-						"Set Property",
-						"defaultCamZoom",
-						"1.05"
+						"Camera Zoom",
+						"1.05",
+						""
 					]
 				]
 			],
