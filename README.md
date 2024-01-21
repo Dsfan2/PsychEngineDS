@@ -61,6 +61,7 @@ same goes for *Lua Scripts*, comment out or delete the line with `LUA_ALLOWED`, 
 * Tour de Pizza - Pizza Tower References & Sprites
 * NoahGani1 - Peppino Soundfont (FNATPT)
 * Rozebud - Creator of FPS Plus
+* Danur S. - Inspiration for the Tankman Ascends video & green screen I used.
 * bbpanzu - Ex-Programmer
 * Yoshubs - New Input System
 * SqirraRNG - Crash Handler and Base code for Chart Editor's Waveform
