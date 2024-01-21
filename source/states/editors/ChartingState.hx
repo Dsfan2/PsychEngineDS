@@ -399,6 +399,14 @@ class ChartingState extends MusicBeatState
 			tipText.scrollFactor.set();
 			add(tipText);
 		}
+
+		var texttwo:String = "Press 1-8 to add\nA Note to the chart\nwithout clicking on\nthe chart.";
+
+		var tipTextTwo:FlxText = new FlxText(UI_box.x + UI_box.width + 8, UI_box.y, 0, texttwo, 16);
+		tipTextTwo.setFormat(Paths.font("vcr.ttf"), 14, FlxColor.WHITE, LEFT);
+		tipTextTwo.scrollFactor.set();
+		add(tipTextTwo);
+
 		add(UI_box);
 
 		addSongUI();
