@@ -33,11 +33,14 @@ class SchoolEvil extends BaseStage
 
 		FlxG.sound.playMusic(Paths.music('LunchboxScary'), 0);
 		FlxG.sound.music.fadeIn(1, 0, 0.8);
-		if(isStoryMode && !seenCutscene)
+		if((isStoryMode || freeplayCutscenes) && !seenCutscene)
 		{
 			setStartCallback(schoolIntro);
 		}
-		setEndCallback(thornsEnd);
+		if(isStoryMode || freeplayCutscenes)
+		{
+			setEndCallback(thornsEnd);
+		}
 	}
 	override function createPost()
 	{

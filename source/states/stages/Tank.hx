@@ -90,11 +90,19 @@ class Tank extends BaseStage
 			{
 				case 'guns':
 					setStartCallback(presongDialogue);
-					setEndCallback(postsongDialogue);
 				case 'stress':
 					setStartCallback(videoCutscene);
 				default:
 					setStartCallback(presongDialogue);
+			}
+		}
+
+		if (isStoryMode || freeplayCutscenes)
+		{
+			switch (songName)
+			{
+				case 'guns':
+					setEndCallback(postsongDialogue);
 			}
 		}
 
