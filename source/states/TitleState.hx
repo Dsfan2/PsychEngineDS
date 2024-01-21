@@ -102,6 +102,7 @@ class TitleState extends MusicBeatState
 			ClientPrefs.loadPrefs();
 		}
 
+		// gonna remove this because I could never get this to work for whatever reason...
 		#if CHECK_FOR_UPDATES
 		if(ClientPrefs.data.checkForUpdates && !closedState) {
 			trace('checking for update');
@@ -130,7 +131,8 @@ class TitleState extends MusicBeatState
 
 		// IGNORE THIS!!!
 		titleJSON = Json.parse(Paths.getTextFromFile('images/title.json'));
-		alphabetScale = titleJSON.alphabetScale;
+		if (titleJSON.alphabetScale > 0)
+			alphabetScale = titleJSON.alphabetScale;
 
 		#if TITLE_SCREEN_EASTER_EGG
 		if (FlxG.save.data.psychDevsEasterEgg == null) FlxG.save.data.psychDevsEasterEgg = ''; //Crash prevention

@@ -10,8 +10,7 @@ import objects.Character;
 import cutscenes.DialogueBoxPsych;
 
 #if VIDEOS_ALLOWED
-import hxcodec.VideoHandler as NetStreamHandler;
-import hxcodec.VideoSprite;
+import hxcodec.VideoSprite as VideoSprite;
 #end
 
 class Tank extends BaseStage
@@ -106,7 +105,8 @@ class Tank extends BaseStage
 		tankascends.setGraphicSize(Std.int(tankascends.width / defaultCamZoom));
 		tankascends.updateHitbox();
 		tankascends.antialiasing = ClientPrefs.data.antialiasing;
-		tankascends.cameras = [camHUD];
+		if (dsFilterOn) tankascends.cameras = [camDialogue];
+		else tankascends.cameras = [camHUD];
 		tankascends.alpha = 0;
 		add(tankascends);
 	}
@@ -212,6 +212,22 @@ class Tank extends BaseStage
 				PlayState.instance.startVideo('Stress-Cutscene-JR');
 			case 3:
 				PlayState.instance.startVideo('Stress-Cutscene-MONI');
+		}
+	}
+
+	override function openSubState(SubState:flixel.FlxSubState)
+	{
+		if(paused)
+		{
+			tankascends.bitmap.pause();
+		}
+	}
+
+	override function closeSubState()
+	{
+		if(paused)
+		{
+			tankascends.bitmap.resume();
 		}
 	}
 }

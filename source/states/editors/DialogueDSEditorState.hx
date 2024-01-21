@@ -68,7 +68,6 @@ class DialogueDSEditorState extends MusicBeatState
 			outlineSize:1.5,
 			handEnable:true,
 			handSkin: DEFAULT_HAND,
-			music:'',
 			clickSound:'dialogueClose'
 		};
 		
@@ -151,7 +150,6 @@ class DialogueDSEditorState extends MusicBeatState
 	var outlineSizeStepper:FlxUINumericStepper;
 	var handCheckbox:FlxUICheckBox;
 	var handskinInputText:FlxUIInputText;
-	var musicInputText:FlxUIInputText;
 	var clickSoundInputText:FlxUIInputText;
 
 	function addDialogueLineUI() {
@@ -196,23 +194,28 @@ class DialogueDSEditorState extends MusicBeatState
 		fontInputText = new FlxUIInputText(140, 20, 110, DEFAULT_FONT, 8);
 		blockPressWhileTypingOn.push(fontInputText);
 
-		colorInputText = new FlxUIInputText(10, boxskinInputText.y + 40, 110, DEFAULT_COLOR, 8);
+		colorInputText = new FlxUIInputText(10, boxskinInputText.y + 40, 57, DEFAULT_COLOR, 8);
 		blockPressWhileTypingOn.push(colorInputText);
 
-		sizeInputText = new FlxUIInputText(140, boxskinInputText.y + 40, 110, '32', 8);
+		sizeInputText = new FlxUIInputText(140, boxskinInputText.y + 40, 30, '32', 8);
 		blockPressWhileTypingOn.push(sizeInputText);
 
-		droptextCheckbox = new FlxUICheckBox(10, sizeInputText.y + 35, null, null, "Drop Text", 200);
+		dropColorInputText = new FlxUIInputText(10, sizeInputText.y + 40, 57, dialogueFile.dropTextColor, 8);
+		blockPressWhileTypingOn.push(dropColorInputText);
+
+		droptextCheckbox = new FlxUICheckBox(140, sizeInputText.y + 35, null, null, "Drop Text", 200);
 		droptextCheckbox.callback = function()
 		{
 			dialogueFile.dropTextEnable = droptextCheckbox.checked;
 			updateText();
 		};
 
-		dropColorInputText = new FlxUIInputText(110, sizeInputText.y + 40, 80, dialogueFile.dropTextColor, 8);
-		blockPressWhileTypingOn.push(dropColorInputText);
+		outlineSizeStepper = new FlxUINumericStepper(10, droptextCheckbox.y + 40, 0.1, 1.5, 0.5, 5.0, 1);
 
-		outlineCheckbox = new FlxUICheckBox(10, droptextCheckbox.y + 35, null, null, "Outline", 200);
+		outlineColorInputText = new FlxUIInputText(140, droptextCheckbox.y + 40, 57, dialogueFile.outlineColor, 8);
+		blockPressWhileTypingOn.push(outlineColorInputText);
+
+		outlineCheckbox = new FlxUICheckBox(230, droptextCheckbox.y + 40, null, null, "Outline", 200);
 		outlineCheckbox.checked = true;
 		outlineCheckbox.callback = function()
 		{
@@ -220,35 +223,27 @@ class DialogueDSEditorState extends MusicBeatState
 			updateText();
 		};
 
-		outlineColorInputText = new FlxUIInputText(110, droptextCheckbox.y + 45, 80, dialogueFile.outlineColor, 8);
-		blockPressWhileTypingOn.push(outlineColorInputText);
+		handskinInputText = new FlxUIInputText(10, outlineCheckbox.y + 40, 110, DEFAULT_HAND, 8);
+		blockPressWhileTypingOn.push(handskinInputText);
 
-		outlineSizeStepper = new FlxUINumericStepper(210, droptextCheckbox.y + 45, 0.1, 1.5, 0.5, 5.0, 1);
-
-		handCheckbox = new FlxUICheckBox(10, outlineSizeStepper.y + 35, null, null, "Hand", 200);
+		handCheckbox = new FlxUICheckBox(140, outlineCheckbox.y + 40, null, null, "Hand", 200);
 		handCheckbox.checked = true;
 		handCheckbox.callback = function()
 		{
 			handSelect.visible = handCheckbox.checked;
 			dialogueFile.handEnable = handCheckbox.checked;
 		};
-
-		handskinInputText = new FlxUIInputText(110, outlineSizeStepper.y + 40, 110, DEFAULT_HAND, 8);
-		blockPressWhileTypingOn.push(handskinInputText);
-
-		musicInputText = new FlxUIInputText(10, handCheckbox.y + 45, 110, '', 8);
-		blockPressWhileTypingOn.push(musicInputText);
 		
-		clickSoundInputText = new FlxUIInputText(140, handCheckbox.y + 45, 110, 'dialogueClose', 8);
+		clickSoundInputText = new FlxUIInputText(10, handCheckbox.y + 40, 110, 'dialogueClose', 8);
 		blockPressWhileTypingOn.push(clickSoundInputText);
 
-		var loadButton:FlxButton = new FlxButton(10, clickSoundInputText.y + 25, "Load Dialogue", function() {
+		var loadButton:FlxButton = new FlxButton(60, clickSoundInputText.y + 35, "Load Dialogue", function() {
 			loadDialogue();
 		});
-		var saveButton:FlxButton = new FlxButton(loadButton.x + 80, loadButton.y, "Save Dialogue", function() {
+		var saveButton:FlxButton = new FlxButton(loadButton.x + 85, loadButton.y, "Save Dialogue", function() {
 			saveDialogue();
 		});
-		var reloadboxButton:FlxButton = new FlxButton(saveButton.x + 80, loadButton.y, "Reload Box", function() {
+		var reloadboxButton:FlxButton = new FlxButton(170, handCheckbox.y + 40, "Reload Box", function() {
 			if (boxskinInputText.text == 'Pizza Forever')
 			{
 				Difficulty.list = ['Very Hard'];
@@ -271,12 +266,11 @@ class DialogueDSEditorState extends MusicBeatState
 		tab_group_B.add(new FlxText(140, fontInputText.y - 18, 0, 'Font:'));
 		tab_group_B.add(new FlxText(10, colorInputText.y - 18, 0, 'Color:'));
 		tab_group_B.add(new FlxText(140, sizeInputText.y - 18, 0, 'Size:'));
-		tab_group_B.add(new FlxText(110, dropColorInputText.y - 18, 0, 'Drop Text Color:'));
-		tab_group_B.add(new FlxText(110, outlineColorInputText.y - 18, 0, 'Outline Color:'));
-		tab_group_B.add(new FlxText(210, outlineSizeStepper.y - 18, 0, 'Outline Size:'));
-		tab_group_B.add(new FlxText(110, handskinInputText.y - 18, 0, 'Hand Skin:'));
-		tab_group_B.add(new FlxText(10, musicInputText.y - 18, 0, 'Music:'));
-		tab_group_B.add(new FlxText(140, clickSoundInputText.y - 18, 0, 'Click Sound:'));
+		tab_group_B.add(new FlxText(10, dropColorInputText.y - 18, 0, 'Drop Text Color:'));
+		tab_group_B.add(new FlxText(10, outlineColorInputText.y - 18, 0, 'Outline Color:'));
+		tab_group_B.add(new FlxText(140, outlineSizeStepper.y - 18, 0, 'Outline Size:'));
+		tab_group_B.add(new FlxText(10, handskinInputText.y - 18, 0, 'Hand Skin:'));
+		tab_group_B.add(new FlxText(10, clickSoundInputText.y - 18, 0, 'Click Sound:'));
 		tab_group_B.add(boxskinInputText);
 		tab_group_B.add(fontInputText);
 		tab_group_B.add(colorInputText);
@@ -288,7 +282,6 @@ class DialogueDSEditorState extends MusicBeatState
 		tab_group_B.add(outlineSizeStepper);
 		tab_group_B.add(handCheckbox);
 		tab_group_B.add(handskinInputText);
-		tab_group_B.add(musicInputText);
 		tab_group_B.add(clickSoundInputText);
 		tab_group_B.add(loadButton);
 		tab_group_B.add(saveButton);
@@ -466,10 +459,6 @@ class DialogueDSEditorState extends MusicBeatState
 			{
 				dialogueFile.handSkin = handskinInputText.text;
 			}
-			else if (sender == musicInputText)
-			{
-				dialogueFile.music = musicInputText.text;
-			}
 			else if (sender == clickSoundInputText)
 			{
 				dialogueFile.clickSound = clickSoundInputText.text;
@@ -493,6 +482,7 @@ class DialogueDSEditorState extends MusicBeatState
 					dialogueFile.dialogue[curSelected].speed = 0.0;
 				}
 				daText.delay = dialogueFile.dialogue[curSelected].speed;
+				reloadText(false);
 			}
 			else if (sender == outlineSizeStepper)
 			{
@@ -713,7 +703,6 @@ class DialogueDSEditorState extends MusicBeatState
 		else
 			handCheckbox.checked = false;
 		handskinInputText.text = dialogueFile.handSkin;
-		musicInputText.text = dialogueFile.music;
 		clickSoundInputText.text = dialogueFile.clickSound;
 	}
 

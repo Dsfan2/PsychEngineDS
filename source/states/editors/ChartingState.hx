@@ -84,6 +84,7 @@ class ChartingState extends MusicBeatState
 		['Change Scroll Speed', "Value 1: Scroll Speed Multiplier (1 is default)\nValue 2: Time it takes to change fully in seconds."],
 		['Set Property', "Value 1: Variable name\nValue 2: New value"],
 		['Play Sound', "Value 1: Sound file name\nValue 2: Volume (Default: 1), ranges from 0 to 1"],
+		['Camera Zoom', "Changes the defaultCamZoom variable without it\nmessing up when DS Filter is on\n\nValue 1: Camera Zoom Value (Default is the value for the stage)"],
 		['Change Note Skin', "Value 1: Note Skin Name (Leave it black for the default skin)\nValue 2: Side to change\n(Dad: Opponent side, BF: Player Side, Anything else: Both)"],
 		['Change Splash Skin', "Value 1: Splash Skin Name (Leave it black for the default skin)"],
 		['Lyric Text Event', "Value 1: Text String\nValue 2: Color code (Example: #FFFFFF)"],

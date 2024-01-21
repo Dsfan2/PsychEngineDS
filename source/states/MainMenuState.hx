@@ -63,7 +63,7 @@ class MainMenuState extends MusicBeatState
 
 	public var versionText:FlxText;
 	public var funkText:FlxText;
-	public var customControls:Bool = false;
+	public var spritesCanTween:Bool = true;
 
 	var charFile:Array<String> = [];
 	
@@ -364,14 +364,14 @@ class MainMenuState extends MusicBeatState
 			if (spr.ID == curSelected)
 			{
 				spr.animation.play('selected');
-				FlxTween.tween(spr, {x: 130}, 0.1, {ease: FlxEase.linear});
+				if (spritesCanTween) FlxTween.tween(spr, {x: 130}, 0.1, {ease: FlxEase.linear});
 				var add:Float = 0;
 				if(menuItems.length > 4) {
 					add = menuItems.length * 8;
 				}
 			}
 			else
-				FlxTween.tween(spr, {x: 0}, 0.1, {ease: FlxEase.linear});
+				if (spritesCanTween) FlxTween.tween(spr, {x: 0}, 0.1, {ease: FlxEase.linear});
 		});
 	}
 

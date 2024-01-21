@@ -56,8 +56,7 @@ import sys.io.File;
 #end
 
 #if VIDEOS_ALLOWED
-import hxcodec.VideoHandler as NetStreamHandler;
-import hxcodec.VideoSprite;
+import hxcodec.VideoSprite as VideoSprite;
 #end
 
 import objects.Note.EventNote;
@@ -221,6 +220,8 @@ class PlayState extends MusicBeatState
 	public var scoreTxt:FlxText;
 	var timeTxt:FlxText;
 	var scoreTxtTween:FlxTween;
+
+	public var stageZoomVal:Float = 1; //For the Camera Zoom event.
 
 	public static var campaignScore:Int = 0;
 	public static var campaignMisses:Int = 0;
@@ -490,6 +491,7 @@ class PlayState extends MusicBeatState
 		}
 
 		defaultCamZoom = stageData.defaultZoom;
+		stageZoomVal = stageData.defaultZoom;
 		isPixelStage = stageData.isPixelStage;
 
 		stageUI = ClientPrefs.data.comboHUDDir;
@@ -1310,18 +1312,14 @@ class PlayState extends MusicBeatState
 			add(bg);
 
 			var video:VideoSprite = new VideoSprite();
-			video.scrollFactor.set();
-			video.setGraphicSize(Std.int(video.width / 1));
-			video.updateHitbox();
-			video.antialiasing = ClientPrefs.data.antialiasing;
-			video.cameras = [camDialogue];
 			video.bitmap.canSkip = false;
 			video.playVideo(filepath, false);
 			video.finishCallback = function()
 			{
 				remove(bg);
 				remove(video);
-				startAndEnd();
+				if (SONG.song.toLowerCase() == 'stress' && !endingSong) stressDialogue();
+				else startAndEnd();
 				return;
 			}
 			add(video);
@@ -1346,10 +1344,7 @@ class PlayState extends MusicBeatState
 			else
 				endSong();
 		} else {
-			if (SONG.song.toLowerCase() == 'stress')
-				stressDialogue();
-			else
-				startCountdown();
+			startCountdown();
 		}
 	}
 
@@ -1381,38 +1376,46 @@ class PlayState extends MusicBeatState
 	//You don't have to add a song, just saying. You can just do "startDialogue(DialogueBoxPsych.parseDialogue(Paths.json(songName + '/dialogue')))" and it should load dialogue.json
 	public function startDialogue(dialogueFile:DialogueFile, ?song:String = null):Void
 	{
-		// TO DO: Make this more flexible, maybe?
-		if(psychDialogue != null) return;
+		if (!usedPractice)
+		{
+			// TO DO: Make this more flexible, maybe?
+			if(psychDialogue != null) return;
 
-		if(dialogueFile.dialogue.length > 0) {
-			seenCutscene = true;
-			inCutscene = true;
-			dialogueCount = 0;
-			precacheList.set('dialogue', 'sound');
-			precacheList.set('dialogueClose', 'sound');
-			psychDialogue = new DialogueBoxPsych(dialogueFile, song);
-			psychDialogue.scrollFactor.set();
-			if(endingSong) {
-				psychDialogue.finishThing = function() {
-					psychDialogue = null;
-					if (!isStoryMode)
-						showResults()
-					else
-						endSong();
+			if(dialogueFile.dialogue.length > 0) {
+				seenCutscene = true;
+				inCutscene = true;
+				dialogueCount = 0;
+				precacheList.set('dialogue', 'sound');
+				precacheList.set('dialogueClose', 'sound');
+				psychDialogue = new DialogueBoxPsych(dialogueFile, song);
+				psychDialogue.scrollFactor.set();
+				if(endingSong) {
+					psychDialogue.finishThing = function() {
+						psychDialogue = null;
+						if (!isStoryMode)
+							showResults()
+						else
+							endSong();
+					}
+				} else {
+					psychDialogue.finishThing = function() {
+						psychDialogue = null;
+						startCountdown();
+					}
 				}
+				psychDialogue.nextDialogueThing = startNextDialogue;
+				psychDialogue.skipDialogueThing = skipDialogue;
+				psychDialogue.cameras = [camDialogue];
+				add(psychDialogue);
 			} else {
-				psychDialogue.finishThing = function() {
-					psychDialogue = null;
-					startCountdown();
-				}
+				FlxG.log.warn('Your dialogue file is badly formatted!');
+				startAndEnd();
 			}
-			psychDialogue.nextDialogueThing = startNextDialogue;
-			psychDialogue.skipDialogueThing = skipDialogue;
-			psychDialogue.cameras = [camDialogue];
-			add(psychDialogue);
-		} else {
-			FlxG.log.warn('Your dialogue file is badly formatted!');
+		}
+		else
+		{
 			startAndEnd();
+			return;
 		}
 	}
 
@@ -1420,38 +1423,46 @@ class PlayState extends MusicBeatState
 	//You don't have to add a song, just saying. You can just do "startDSDialogue(dialogueJson);" and it should work
 	public function startDSDialogue(dialogueFile:DialogueFileDS, ?song:String = null):Void
 	{
-		// TO DO: Make this more flexible, maybe?
-		if(dsDialogue != null) return;
+		if (!usedPractice)
+		{
+			// TO DO: Make this more flexible, maybe?
+			if(dsDialogue != null) return;
 
-		if(dialogueFile.dialogue.length > 0) {
-			inCutscene = true;
-			seenCutscene = true;
-			dialogueCount = 0;
-			precacheList.set('dialogue', 'sound');
-			precacheList.set('dialogueClose', 'sound');
-			dsDialogue = new DialogueBoxDS(dialogueFile, song);
-			dsDialogue.scrollFactor.set();
-			if(endingSong) {
-				dsDialogue.finishThing = function() {
-					dsDialogue = null;
-					if (!isStoryMode)
-						showResults()
-					else
-						endSong();
+			if(dialogueFile.dialogue.length > 0) {
+				inCutscene = true;
+				seenCutscene = true;
+				dialogueCount = 0;
+				precacheList.set('dialogue', 'sound');
+				precacheList.set('dialogueClose', 'sound');
+				dsDialogue = new DialogueBoxDS(dialogueFile, song);
+				dsDialogue.scrollFactor.set();
+				if(endingSong) {
+					dsDialogue.finishThing = function() {
+						dsDialogue = null;
+						if (!isStoryMode)
+							showResults()
+						else
+							endSong();
+					}
+				} else {
+					dsDialogue.finishThing = function() {
+						dsDialogue = null;
+						startCountdown();
+					}
 				}
+				dsDialogue.nextDialogueThing = startNextDialogue;
+				dsDialogue.skipDialogueThing = skipDialogue;
+				dsDialogue.cameras = [camDialogue];
+				add(dsDialogue);
 			} else {
-				dsDialogue.finishThing = function() {
-					dsDialogue = null;
-					startCountdown();
-				}
+				FlxG.log.warn('Your dialogue file is badly formatted!');
+				startAndEnd();
 			}
-			dsDialogue.nextDialogueThing = startNextDialogue;
-			dsDialogue.skipDialogueThing = skipDialogue;
-			dsDialogue.cameras = [camDialogue];
-			add(dsDialogue);
-		} else {
-			FlxG.log.warn('Your dialogue file is badly formatted!');
+		}
+		else
+		{
 			startAndEnd();
+			return;
 		}
 	}
 
@@ -2167,6 +2178,7 @@ class PlayState extends MusicBeatState
 			#if LUA_ALLOWED
 			for (tween in modchartTweens) tween.active = false;
 			for (timer in modchartTimers) timer.active = false;
+			for (video in modchartVideos) video.bitmap.pause();
 			#end
 		}
 
@@ -2195,6 +2207,7 @@ class PlayState extends MusicBeatState
 			#if LUA_ALLOWED
 			for (tween in modchartTweens) tween.active = true;
 			for (timer in modchartTimers) timer.active = true;
+			for (video in modchartVideos) video.bitmap.resume();
 			#end
 
 			paused = false;
@@ -2209,6 +2222,11 @@ class PlayState extends MusicBeatState
 	{
 		if (health > 0 && !paused) resetRPC(Conductor.songPosition > 0.0);
 		super.onFocus();
+		#if LUA_ALLOWED
+		if (paused) {
+			for (video in modchartVideos) video.bitmap.pause();
+		}
+		#end
 	}
 
 	override public function onFocusLost():Void
@@ -2216,8 +2234,6 @@ class PlayState extends MusicBeatState
 		#if desktop
 		if (health > 0 && !paused) DiscordClient.changePresence(detailsPausedText, SONG.song + " (" + storyDifficultyText + ")", iconP2.getCharacter());
 		#end
-
-		super.onFocusLost();
 	}
 
 	// Updating Discord Rich Presence.
@@ -3109,6 +3125,21 @@ class PlayState extends MusicBeatState
 						val1 = ClientPrefs.data.splashSkin;
 				}
 				splashTexture = val1;
+
+			case 'Camera Zoom':
+				if(camZooming)
+				{
+					if(flValue1 != null && flValue1 > 0)
+					{
+						if (dsFilterOn) defaultCamZoom = flValue1 - 0.42;
+						else defaultCamZoom = flValue1;
+					}
+					else
+					{
+						if (dsFilterOn) defaultCamZoom = stageZoomVal - 0.42;
+						else defaultCamZoom = stageZoomVal;
+					}
+				}
 		}
 		
 		stagesFunc(function(stage:BaseStage) stage.eventCalled(eventName, value1, value2, flValue1, flValue2, strumTime));
@@ -4167,7 +4198,8 @@ class PlayState extends MusicBeatState
 			if(ClientPrefs.data.camZooms && FlxG.camera.zoom < 1.35)
 			{
 				FlxG.camera.zoom += 0.03;
-				camHUD.zoom += 0.06;
+				if (!dsFilterOn)
+					camHUD.zoom += 0.06;
 			}
 			var color:FlxColor = phillyLightsColors[curLightEvent];
 			var chars:Array<Character> = [boyfriend, gf, dad];

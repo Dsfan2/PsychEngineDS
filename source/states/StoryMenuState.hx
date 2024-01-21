@@ -331,7 +331,7 @@ class StoryMenuState extends MusicBeatState
 				songArray.push(leWeek[i][0]);
 			}
 
-			// Nevermind that's stupid lmao
+			// Nevermind that's stupid
 			try
 			{
 				PlayState.storyPlaylist = songArray;
