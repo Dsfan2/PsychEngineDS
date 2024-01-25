@@ -99,11 +99,11 @@ _____________________________________
   * Different vocals depending on the player character you play as.
   * Cutscenes now don't play when in BotPlay or Practice Mode
   * Added the dodge mechanic to the third song of Week 4. Good luck.
-  * In week 5, the Upper Boppers are different in Eggnog
+  * In Week 5, the Upper Boppers are different in Eggnog
   * In Week 5, the Bottom Boppers are different depending on which character you play as.
   * In Week 6, I brought back the random chance easter egg dialogue.
   * In Week 6, the dialogue will be different depending on which character you play as.
-  * In Week 7, the cutscenes are now mp4 videos and will be different depending on which character you play as.
+  * In Week 7, the cutscenes are changed to dialogue, with an mp4 video for Stress, and they change depending on which character you play as.
 
 
 ## New options menu features:
