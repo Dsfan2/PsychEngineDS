@@ -225,11 +225,17 @@ class Paths
 		}
 		else if (ClientPrefs.data.playerChar == 2)
 		{
-			songKey = '${formatToSongPath(song)}/VoicesP2';
+			if (FileSystem.exists('assets/songs/${formatToSongPath(song)}/VoicesP2.ogg'))
+				songKey = '${formatToSongPath(song)}/VoicesP2';
+			else
+				songKey = '${formatToSongPath(song)}/Voices';
 		}
 		else
 		{
-			songKey = '${formatToSongPath(song)}/VoicesP3';
+			if (FileSystem.exists('assets/songs/${formatToSongPath(song)}/VoicesP3.ogg'))
+				songKey = '${formatToSongPath(song)}/VoicesP3';
+			else
+				songKey = '${formatToSongPath(song)}/Voices';
 		}
 		var voices = returnSound('songs', songKey);
 		return voices;
