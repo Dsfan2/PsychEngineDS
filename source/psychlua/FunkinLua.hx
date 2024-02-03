@@ -1176,6 +1176,7 @@ class FunkinLua {
 			luaTrace('setObjectVelocity: Couldnt find object: ' + obj, false, false, FlxColor.RED);
 		});
 
+		#if VIDEOS_ALLOWED
 		Lua_helper.add_callback(lua, "makeLuaVideoSprite", function(tag:String, videoFile:String) {
 			tag = tag.replace('.', '');
 			LuaUtils.resetVideoTag(tag);
@@ -1228,6 +1229,7 @@ class FunkinLua {
 			var sophist:ModchartVideo = game.modchartVideos.get(tag);
 			sophist.setTime(time);
 		});
+		#end
 
 		Lua_helper.add_callback(lua, "luaSpriteExists", function(tag:String) {
 			return game.modchartSprites.exists(tag);
@@ -1241,9 +1243,11 @@ class FunkinLua {
 		Lua_helper.add_callback(lua, "luaBackdropExists", function(tag:String) {
 			return game.modchartBackdrops.exists(tag);
 		});
+		#if VIDEOS_ALLOWED
 		Lua_helper.add_callback(lua, "luaVideoExists", function(tag:String) {
 			return game.modchartVideos.exists(tag);
 		});
+		#end
 
 		Lua_helper.add_callback(lua, "setHealthBarColors", function(left:String, right:String) {
 			game.healthBar.setColors(CoolUtil.colorFromString(left), CoolUtil.colorFromString(right));

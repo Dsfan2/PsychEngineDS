@@ -2,7 +2,6 @@ package psychlua;
 
 #if VIDEOS_ALLOWED
 import hxcodec.VideoSprite as VideoSprite;
-#end
 
 class ModchartVideo extends VideoSprite
 {
@@ -31,3 +30,4 @@ class ModchartVideo extends VideoSprite
 		bitmap.time = time;
 	}
 }
+#end
