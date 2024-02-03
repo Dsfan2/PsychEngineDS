@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Monika_NEO_Mk_II.png">
+<SubTexture name="neo monika idle0000" x="0" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0001" x="0" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0002" x="600" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0003" x="600" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0004" x="1200" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0005" x="1200" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0006" x="1800" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0007" x="1800" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0008" x="2400" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0009" x="2400" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0010" x="2400" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0011" x="2400" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0012" x="2400" y="0" width="600" height="800"/>
+<SubTexture name="neo monika idle0013" x="2400" y="0" width="600" height="800"/>
+<SubTexture name="neo monika left0000" x="3000" y="0" width="600" height="800"/>
+<SubTexture name="neo monika left0001" x="3000" y="0" width="600" height="800"/>
+<SubTexture name="neo monika left0002" x="3600" y="0" width="600" height="800"/>
+<SubTexture name="neo monika left0003" x="3600" y="0" width="600" height="800"/>
+<SubTexture name="neo monika left0004" x="0" y="800" width="600" height="800"/>
+<SubTexture name="neo monika left0005" x="0" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss left0000" x="600" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss left0001" x="600" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss left0002" x="1200" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss left0003" x="1200" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss left0004" x="1200" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss left0005" x="1200" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss left0006" x="1200" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss left0007" x="1200" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss left0008" x="1200" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss left0009" x="1200" y="800" width="600" height="800"/>
+<SubTexture name="neo monika down0000" x="1800" y="800" width="600" height="800"/>
+<SubTexture name="neo monika down0001" x="1800" y="800" width="600" height="800"/>
+<SubTexture name="neo monika down0002" x="2400" y="800" width="600" height="800"/>
+<SubTexture name="neo monika down0003" x="2400" y="800" width="600" height="800"/>
+<SubTexture name="neo monika down0004" x="3000" y="800" width="600" height="800"/>
+<SubTexture name="neo monika down0005" x="3000" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss down0000" x="3600" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss down0001" x="3600" y="800" width="600" height="800"/>
+<SubTexture name="neo monika miss down0002" x="0" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0003" x="0" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0004" x="600" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0005" x="600" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0006" x="1200" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0007" x="1200" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0008" x="1200" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0009" x="1200" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0010" x="1200" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0011" x="1200" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0012" x="1200" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss down0013" x="1200" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika up0000" x="1800" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika up0001" x="1800" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika up0002" x="2400" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika up0003" x="2400" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika up0004" x="3000" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika up0005" x="3000" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss up0000" x="3600" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss up0001" x="3600" y="1600" width="600" height="800"/>
+<SubTexture name="neo monika miss up0002" x="0" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss up0003" x="0" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss up0004" x="0" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss up0005" x="0" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss up0006" x="0" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss up0007" x="0" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss up0008" x="0" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss up0009" x="0" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika right0000" x="600" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika right0001" x="600" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika right0002" x="1200" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika right0003" x="1200" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika right0004" x="1800" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika right0005" x="1800" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0000" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0001" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0002" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0003" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0004" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0005" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0006" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0007" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0008" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0009" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0010" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0011" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0012" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0013" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0014" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0015" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0016" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0017" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0018" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0019" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0020" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0021" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0022" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0023" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0024" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0025" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0026" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0027" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0028" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0029" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0030" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0031" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0032" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0033" x="2400" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0034" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika miss right0035" x="3000" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika scared0000" x="3600" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika scared0001" x="0" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika scared0002" x="3600" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika scared0003" x="0" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika scared0004" x="3600" y="2400" width="600" height="800"/>
+<SubTexture name="neo monika scared0005" x="0" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika shot normal0000" x="600" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika shot normal0001" x="600" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika shot normal0002" x="1200" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika shot normal0003" x="1200" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika shot normal0004" x="1800" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika shot normal0005" x="1800" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika charging0000" x="2400" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika charging0001" x="2400" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika charging0002" x="3000" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika charging0003" x="3000" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika charging0004" x="3600" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika charging0005" x="3600" y="3200" width="600" height="800"/>
+<SubTexture name="neo monika charging0006" x="0" y="4000" width="600" height="800"/>
+<SubTexture name="neo monika charging0007" x="0" y="4000" width="600" height="800"/>
+<SubTexture name="neo monika shot charged0000" x="600" y="4000" width="600" height="800"/>
+<SubTexture name="neo monika shot charged0001" x="600" y="4000" width="600" height="800"/>
+<SubTexture name="neo monika shot charged0002" x="1200" y="4000" width="600" height="800"/>
+<SubTexture name="neo monika shot charged0003" x="1200" y="4000" width="600" height="800"/>
+<SubTexture name="neo monika shot charged0004" x="1800" y="4000" width="600" height="800"/>
+<SubTexture name="neo monika shot charged0005" x="1800" y="4000" width="600" height="800"/>
+<SubTexture name="neo monika shot charged0006" x="2400" y="4000" width="600" height="800"/>
+<SubTexture name="neo monika shot charged0007" x="2400" y="4000" width="600" height="800"/>
+</TextureAtlas>

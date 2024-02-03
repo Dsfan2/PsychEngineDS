@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Wendy-Koopa_Christmas.png">
+	<!-- Created with Adobe Animate version 19.1.0.349 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Wendy Dancing Beat 10000" x="0" y="0" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 10001" x="830" y="0" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 10002" x="1660" y="0" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 10003" x="2490" y="0" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 10004" x="3320" y="0" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 10005" x="0" y="847" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 10006" x="830" y="847" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 10007" x="1660" y="847" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 10008" x="1660" y="847" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 10009" x="1660" y="847" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 20000" x="2490" y="847" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 20001" x="3320" y="847" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 20002" x="0" y="1694" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 20003" x="830" y="1694" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 20004" x="1660" y="1694" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 20005" x="2490" y="1694" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 20006" x="3320" y="1694" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 20007" x="0" y="2541" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 20008" x="0" y="2541" width="830" height="847"/>
+	<SubTexture name="Wendy Dancing Beat 20009" x="0" y="2541" width="830" height="847"/>
+	<SubTexture name="Wendy Cheer0000" x="830" y="2541" width="830" height="847"/>
+	<SubTexture name="Wendy Cheer0001" x="830" y="2541" width="830" height="847"/>
+	<SubTexture name="Wendy Cheer0002" x="1660" y="2541" width="830" height="847"/>
+	<SubTexture name="Wendy Cheer0003" x="1660" y="2541" width="830" height="847"/>
+	<SubTexture name="Wendy Cheer0004" x="2490" y="2541" width="830" height="847"/>
+	<SubTexture name="Wendy Cheer0005" x="2490" y="2541" width="830" height="847"/>
+	<SubTexture name="Wendy Cheer0006" x="2490" y="2541" width="830" height="847"/>
+	<SubTexture name="Wendy Cheer0007" x="2490" y="2541" width="830" height="847"/>
+</TextureAtlas>

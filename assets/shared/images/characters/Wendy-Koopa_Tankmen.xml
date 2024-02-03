@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Wendy-Koopa_Tankmen.png">
+<SubTexture name="Wendy Dancing At Gunpoint 10000" x="0" y="0" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 10001" x="1000" y="0" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 10002" x="2000" y="0" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 10003" x="3000" y="0" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 10004" x="4000" y="0" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 10005" x="0" y="750" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 10006" x="0" y="750" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 10007" x="0" y="750" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 20000" x="1000" y="750" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 20001" x="2000" y="750" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 20002" x="3000" y="750" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 20003" x="4000" y="750" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 20004" x="0" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 20005" x="1000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 20006" x="1000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Dancing At Gunpoint 20007" x="1000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0000" x="2000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0001" x="2000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0002" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0003" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0004" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0005" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0006" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0007" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0008" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0009" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0010" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0011" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0012" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0013" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0014" x="3000" y="1500" width="1000" height="750"/>
+<SubTexture name="Wendy Sad At Gunpoint0015" x="3000" y="1500" width="1000" height="750"/>
+</TextureAtlas>
