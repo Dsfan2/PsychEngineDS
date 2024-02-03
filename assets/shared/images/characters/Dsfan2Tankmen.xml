@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Dsfan2Tankmen.png">
+<SubTexture name="DS Dancing At Gunpoint 10000" x="0" y="0" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10001" x="1000" y="0" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10002" x="2000" y="0" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10003" x="3000" y="0" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10004" x="4000" y="0" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10005" x="0" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10006" x="0" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10007" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10008" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10009" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10010" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10011" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10012" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10013" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10014" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10015" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10016" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10017" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10018" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10019" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10020" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 10021" x="1000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20000" x="2000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20001" x="3000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20002" x="4000" y="850" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20003" x="0" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20004" x="1000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20005" x="2000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20006" x="2000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20007" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20008" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20009" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20010" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20011" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20012" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20013" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20014" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20015" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20016" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20017" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20018" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20019" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20020" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Dancing At Gunpoint 20021" x="3000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0000" x="4000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0001" x="4000" y="1700" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0002" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0003" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0004" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0005" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0006" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0007" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0008" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0009" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0010" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0011" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0012" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0013" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0014" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0015" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0016" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0017" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0018" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0019" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0020" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0021" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0022" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0023" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0024" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0025" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0026" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0027" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0028" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0029" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0030" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0031" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0032" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0033" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0034" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0035" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0036" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0037" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0038" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0039" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0040" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0041" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0042" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0043" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0044" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0045" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0046" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0047" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0048" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0049" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0050" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0051" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0052" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0053" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0054" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0055" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0056" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0057" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0058" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0059" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0060" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0061" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0062" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0063" x="0" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0064" x="1000" y="2550" width="1000" height="850"/>
+<SubTexture name="DS Sad At Gunpoint0065" x="1000" y="2550" width="1000" height="850"/>
+</TextureAtlas>

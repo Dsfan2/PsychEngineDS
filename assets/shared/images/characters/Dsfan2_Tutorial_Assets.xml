@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Dsfan2_Tutorial_Assets.png">
+<SubTexture name="DS Dancing Beat 10000" x="0" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10001" x="750" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10002" x="1500" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10003" x="2250" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10004" x="3000" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10005" x="3750" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10006" x="4500" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10007" x="5250" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10008" x="5250" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10009" x="5250" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10010" x="6000" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10011" x="6000" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 10012" x="6750" y="0" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20000" x="0" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20001" x="750" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20002" x="1500" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20003" x="2250" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20004" x="3000" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20005" x="3750" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20006" x="4500" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20007" x="5250" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20008" x="5250" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20009" x="5250" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20010" x="6000" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20011" x="6000" y="850" width="750" height="850"/>
+<SubTexture name="DS Dancing Beat 20012" x="6750" y="0" width="750" height="850"/>
+
+<SubTexture name="DS Left Note0000" x="6750" y="850" width="750" height="850"/>
+<SubTexture name="DS Left Note0001" x="0" y="1700" width="750" height="850"/>
+<SubTexture name="DS Left Note0002" x="750" y="1700" width="750" height="850"/>
+<SubTexture name="DS Left Note0003" x="1500" y="1700" width="750" height="850"/>
+<SubTexture name="DS Left Note0004" x="2250" y="1700" width="750" height="850"/>
+<SubTexture name="DS Left Note0005" x="3000" y="1700" width="750" height="850"/>
+<SubTexture name="DS Left Note0006" x="3750" y="1700" width="750" height="850"/>
+<SubTexture name="DS Left Note0007" x="3750" y="1700" width="750" height="850"/>
+
+<SubTexture name="DS Down Note0000" x="4500" y="1700" width="750" height="850"/>
+<SubTexture name="DS Down Note0001" x="5250" y="1700" width="750" height="850"/>
+<SubTexture name="DS Down Note0002" x="6000" y="1700" width="750" height="850"/>
+<SubTexture name="DS Down Note0003" x="6750" y="1700" width="750" height="850"/>
+<SubTexture name="DS Down Note0004" x="0" y="2550" width="750" height="850"/>
+<SubTexture name="DS Down Note0005" x="750" y="2550" width="750" height="850"/>
+<SubTexture name="DS Down Note0006" x="1500" y="2550" width="750" height="850"/>
+<SubTexture name="DS Down Note0007" x="1500" y="2550" width="750" height="850"/>
+
+<SubTexture name="DS Up Note0000" x="2250" y="2550" width="750" height="850"/>
+<SubTexture name="DS Up Note0001" x="3000" y="2550" width="750" height="850"/>
+<SubTexture name="DS Up Note0002" x="3750" y="2550" width="750" height="850"/>
+<SubTexture name="DS Up Note0003" x="4500" y="2550" width="750" height="850"/>
+<SubTexture name="DS Up Note0004" x="5250" y="2550" width="750" height="850"/>
+<SubTexture name="DS Up Note0005" x="6000" y="2550" width="750" height="850"/>
+<SubTexture name="DS Up Note0006" x="6750" y="2550" width="750" height="850"/>
+<SubTexture name="DS Up Note0007" x="6750" y="2550" width="750" height="850"/>
+
+<SubTexture name="DS Right Note0000" x="0" y="3400" width="750" height="850"/>
+<SubTexture name="DS Right Note0001" x="750" y="3400" width="750" height="850"/>
+<SubTexture name="DS Right Note0002" x="1500" y="3400" width="750" height="850"/>
+<SubTexture name="DS Right Note0003" x="2250" y="3400" width="750" height="850"/>
+<SubTexture name="DS Right Note0004" x="3000" y="3400" width="750" height="850"/>
+<SubTexture name="DS Right Note0005" x="3750" y="3400" width="750" height="850"/>
+<SubTexture name="DS Right Note0006" x="4500" y="3400" width="750" height="850"/>
+<SubTexture name="DS Right Note0007" x="4500" y="3400" width="750" height="850"/>
+
+<SubTexture name="DS THYDI0000" x="5250" y="3400" width="750" height="850"/>
+<SubTexture name="DS THYDI0001" x="6000" y="3400" width="750" height="850"/>
+<SubTexture name="DS THYDI0002" x="6750" y="3400" width="750" height="850"/>
+<SubTexture name="DS THYDI0003" x="0" y="4250" width="750" height="850"/>
+<SubTexture name="DS THYDI0004" x="750" y="4250" width="750" height="850"/>
+<SubTexture name="DS THYDI0005" x="1500" y="4250" width="750" height="850"/>
+<SubTexture name="DS THYDI0006" x="2250" y="4250" width="750" height="850"/>
+<SubTexture name="DS THYDI0007" x="3000" y="4250" width="750" height="850"/>
+<SubTexture name="DS THYDI0008" x="3750" y="4250" width="750" height="850"/>
+<SubTexture name="DS THYDI0009" x="4500" y="4250" width="750" height="850"/>
+<SubTexture name="DS THYDI0010" x="5250" y="4250" width="750" height="850"/>
+<SubTexture name="DS THYDI0011" x="6000" y="4250" width="750" height="850"/>
+<SubTexture name="DS THYDI0012" x="6750" y="4250" width="750" height="850"/>
+<SubTexture name="DS THYDI0013" x="0" y="5100" width="750" height="850"/>
+<SubTexture name="DS THYDI0014" x="750" y="5100" width="750" height="850"/>
+<SubTexture name="DS THYDI0015" x="1500" y="5100" width="750" height="850"/>
+<SubTexture name="DS THYDI0016" x="2250" y="5100" width="750" height="850"/>
+<SubTexture name="DS THYDI0017" x="3000" y="5100" width="750" height="850"/>
+<SubTexture name="DS THYDI0018" x="3750" y="5100" width="750" height="850"/>
+</TextureAtlas>

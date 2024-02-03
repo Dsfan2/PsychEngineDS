@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Dsfan2Christmas.png">
+<SubTexture name="DS Dancing Beat 10000" x="0" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10001" x="830" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10002" x="1660" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10003" x="2490" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10004" x="3320" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10005" x="4150" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10006" x="4980" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10007" x="5810" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10008" x="5810" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10009" x="5810" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10010" x="6640" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10011" x="6640" y="0" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 10012" x="0" y="1950" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20000" x="0" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20001" x="830" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20002" x="1660" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20003" x="2490" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20004" x="3320" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20005" x="4150" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20006" x="4980" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20007" x="5810" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20008" x="5810" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20009" x="5810" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20010" x="6640" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20011" x="6640" y="975" width="830" height="975"/>
+<SubTexture name="DS Dancing Beat 20012" x="0" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0000" x="830" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0001" x="1660" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0002" x="2490" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0003" x="3320" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0004" x="4150" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0005" x="4980" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0006" x="5810" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0007" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0008" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0009" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0010" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0011" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0012" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0013" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0014" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0015" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0016" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0017" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0018" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0019" x="6640" y="1950" width="830" height="975"/>
+<SubTexture name="DS Cheer0020" x="6640" y="1950" width="830" height="975"/>
+</TextureAtlas>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bowserJrPixelNew.png">
+<SubTexture name="IDLE instance 10000" x="0" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10001" x="0" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10002" x="80" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10003" x="80" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10004" x="160" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10005" x="160" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10006" x="240" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10007" x="240" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10008" x="320" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10009" x="320" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10010" x="320" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10011" x="320" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10012" x="320" y="0" width="80" height="80"/>
+<SubTexture name="IDLE instance 10013" x="320" y="0" width="80" height="80"/>
+<SubTexture name="LEFT NOTE instance 10000" x="0" y="80" width="80" height="80"/>
+<SubTexture name="LEFT NOTE instance 10001" x="0" y="80" width="80" height="80"/>
+<SubTexture name="LEFT NOTE instance 10002" x="80" y="80" width="80" height="80"/>
+<SubTexture name="LEFT NOTE instance 10003" x="80" y="80" width="80" height="80"/>
+<SubTexture name="LEFT NOTE instance 10004" x="80" y="80" width="80" height="80"/>
+<SubTexture name="LEFT NOTE instance 10005" x="80" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10000" x="160" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10001" x="160" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10002" x="240" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10003" x="240" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10004" x="240" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10005" x="240" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10006" x="240" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10007" x="240" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10008" x="240" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10009" x="240" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10010" x="240" y="80" width="80" height="80"/>
+<SubTexture name="LEFT MISS instance 10011" x="240" y="80" width="80" height="80"/>
+<SubTexture name="DOWN NOTE instance 10000" x="320" y="80" width="80" height="80"/>
+<SubTexture name="DOWN NOTE instance 10001" x="320" y="80" width="80" height="80"/>
+<SubTexture name="DOWN NOTE instance 10002" x="0" y="160" width="80" height="80"/>
+<SubTexture name="DOWN NOTE instance 10003" x="0" y="160" width="80" height="80"/>
+<SubTexture name="DOWN NOTE instance 10004" x="0" y="160" width="80" height="80"/>
+<SubTexture name="DOWN NOTE instance 10005" x="0" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10000" x="80" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10001" x="80" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10002" x="160" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10003" x="160" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10004" x="160" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10005" x="160" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10006" x="160" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10007" x="160" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10008" x="160" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10009" x="160" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10010" x="160" y="160" width="80" height="80"/>
+<SubTexture name="DOWN MISS instance 10011" x="160" y="160" width="80" height="80"/>
+<SubTexture name="UP NOTE instance 10000" x="240" y="160" width="80" height="80"/>
+<SubTexture name="UP NOTE instance 10001" x="240" y="160" width="80" height="80"/>
+<SubTexture name="UP NOTE instance 10002" x="320" y="160" width="80" height="80"/>
+<SubTexture name="UP NOTE instance 10003" x="320" y="160" width="80" height="80"/>
+<SubTexture name="UP NOTE instance 10004" x="0" y="240" width="80" height="80"/>
+<SubTexture name="UP NOTE instance 10005" x="0" y="240" width="80" height="80"/>
+<SubTexture name="UP NOTE instance 10006" x="0" y="240" width="80" height="80"/>
+<SubTexture name="UP NOTE instance 10007" x="0" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10000" x="80" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10001" x="80" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10002" x="160" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10003" x="160" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10004" x="160" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10005" x="160" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10006" x="160" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10007" x="160" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10008" x="160" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10009" x="160" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10010" x="160" y="240" width="80" height="80"/>
+<SubTexture name="UP MISS instance 10011" x="160" y="240" width="80" height="80"/>
+<SubTexture name="RIGHT NOTE instance 10000" x="240" y="240" width="80" height="80"/>
+<SubTexture name="RIGHT NOTE instance 10001" x="240" y="240" width="80" height="80"/>
+<SubTexture name="RIGHT NOTE instance 10002" x="320" y="240" width="80" height="80"/>
+<SubTexture name="RIGHT NOTE instance 10003" x="320" y="240" width="80" height="80"/>
+<SubTexture name="RIGHT NOTE instance 10004" x="320" y="240" width="80" height="80"/>
+<SubTexture name="RIGHT NOTE instance 10005" x="320" y="240" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10000" x="0" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10001" x="0" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10002" x="80" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10003" x="80" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10004" x="80" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10005" x="80" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10006" x="80" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10007" x="80" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10008" x="80" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10009" x="80" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10010" x="80" y="320" width="80" height="80"/>
+<SubTexture name="RIGHT MISS instance 10011" x="80" y="320" width="80" height="80"/>
+<SubTexture name="YAY instance 10000" x="160" y="320" width="80" height="80"/>
+<SubTexture name="YAY instance 10001" x="160" y="320" width="80" height="80"/>
+<SubTexture name="YAY instance 10002" x="240" y="320" width="80" height="80"/>
+<SubTexture name="YAY instance 10003" x="240" y="320" width="80" height="80"/>
+<SubTexture name="YAY instance 10004" x="240" y="320" width="80" height="80"/>
+<SubTexture name="YAY instance 10005" x="240" y="320" width="80" height="80"/>
+<SubTexture name="YAY instance 10006" x="240" y="320" width="80" height="80"/>
+<SubTexture name="YAY instance 10007" x="240" y="320" width="80" height="80"/>
+</TextureAtlas>

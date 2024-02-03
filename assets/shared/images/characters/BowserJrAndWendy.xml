@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BowserJrAndWendy.png">
+<SubTexture name="Duet Idle0000" x="0" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0001" x="0" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0002" x="700" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0003" x="700" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0004" x="1400" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0005" x="1400" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0006" x="2100" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0007" x="2100" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0008" x="2800" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0009" x="2800" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0010" x="3500" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0011" x="3500" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0012" x="3500" y="0" width="700" height="700"/>
+<SubTexture name="Duet Idle0013" x="3500" y="0" width="700" height="700"/>
+<SubTexture name="Duet Left Note0000" x="0" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0001" x="0" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0002" x="700" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0003" x="700" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0004" x="1400" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0005" x="1400" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0006" x="2100" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0007" x="2100" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0008" x="2800" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0009" x="2800" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0010" x="2800" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Note0011" x="2800" y="700" width="700" height="700"/>
+<SubTexture name="Duet Down Note0000" x="0" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0001" x="0" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0002" x="700" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0003" x="700" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0004" x="1400" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0005" x="1400" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0006" x="2100" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0007" x="2100" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0008" x="2800" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0009" x="2800" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0010" x="2800" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Note0011" x="2800" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Up Note0000" x="0" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0001" x="0" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0002" x="700" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0003" x="700" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0004" x="1400" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0005" x="1400" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0006" x="2100" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0007" x="2100" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0008" x="2800" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0009" x="2800" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0010" x="2800" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Note0011" x="2800" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Right Note0000" x="0" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0001" x="0" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0002" x="700" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0003" x="700" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0004" x="1400" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0005" x="1400" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0006" x="2100" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0007" x="2100" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0008" x="2800" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0009" x="2800" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0010" x="2800" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Note0011" x="2800" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Left Miss0000" x="3500" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Miss0001" x="3500" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Miss0002" x="3500" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Miss0003" x="3500" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Miss0004" x="3500" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Miss0005" x="3500" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Miss0006" x="3500" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Miss0007" x="3500" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Miss0008" x="3500" y="700" width="700" height="700"/>
+<SubTexture name="Duet Left Miss0009" x="3500" y="700" width="700" height="700"/>
+<SubTexture name="Duet Down Miss0000" x="3500" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Miss0001" x="3500" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Miss0002" x="3500" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Miss0003" x="3500" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Miss0004" x="3500" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Miss0005" x="3500" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Miss0006" x="3500" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Miss0007" x="3500" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Miss0008" x="3500" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Down Miss0009" x="3500" y="1400" width="700" height="700"/>
+<SubTexture name="Duet Up Miss0000" x="3500" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Miss0001" x="3500" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Miss0002" x="3500" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Miss0003" x="3500" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Miss0004" x="3500" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Miss0005" x="3500" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Miss0006" x="3500" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Miss0007" x="3500" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Miss0008" x="3500" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Up Miss0009" x="3500" y="2100" width="700" height="700"/>
+<SubTexture name="Duet Right Miss0000" x="3500" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Miss0001" x="3500" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Miss0002" x="3500" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Miss0003" x="3500" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Miss0004" x="3500" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Miss0005" x="3500" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Miss0006" x="3500" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Miss0007" x="3500" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Miss0008" x="3500" y="2800" width="700" height="700"/>
+<SubTexture name="Duet Right Miss0009" x="3500" y="2800" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0000" x="2800" y="3500" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0001" x="2800" y="3500" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0002" x="3500" y="3500" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0003" x="3500" y="3500" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0004" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0005" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0006" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0007" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0008" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0009" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0010" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet HEY!!0011" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0000" x="0" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0001" x="0" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0002" x="700" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0003" x="700" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0004" x="1400" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0005" x="1400" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0006" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0007" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0008" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0009" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0010" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0011" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0012" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0013" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0014" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0015" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0016" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0017" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0018" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0019" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0020" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0021" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0022" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0023" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0024" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0025" x="2100" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0026" x="2800" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0027" x="2800" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0028" x="3500" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0029" x="3500" y="3500" width="700" height="700"/>
+<SubTexture name="Duet Catch0030" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0031" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0032" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0033" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0034" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0035" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0036" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0037" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0038" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0039" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0040" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0041" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0042" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0043" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0044" x="0" y="4200" width="700" height="700"/>
+<SubTexture name="Duet Catch0045" x="0" y="4200" width="700" height="700"/>
+</TextureAtlas>
