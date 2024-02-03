@@ -115,7 +115,9 @@ class PlayState extends MusicBeatState
 	#if LUA_ALLOWED
 	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
 	public var modchartSprites:Map<String, ModchartSprite> = new Map<String, ModchartSprite>();
+	#if VIDEOS_ALLOWED
 	public var modchartVideos:Map<String, ModchartVideo> = new Map<String, ModchartVideo>();
+	#end
 	public var modchartBackdrops:Map<String, ModchartBackdrop> = new Map<String, ModchartBackdrop>();
 	public var modchartTimers:Map<String, FlxTimer> = new Map<String, FlxTimer>();
 	public var modchartSounds:Map<String, FlxSound> = new Map<String, FlxSound>();
@@ -329,6 +331,7 @@ class PlayState extends MusicBeatState
 	public static var songAccuracy:Float;
 	var usedPractice:Bool = (ClientPrefs.getGameplaySetting('practice', false) || ClientPrefs.getGameplaySetting('botplay', false));
 	var songBlurbStuff:CoolSongBlurb = null;
+	var blurbTimer:FlxTimer;
 	public var customUnlock:String = '';
 	var phillyGlowOn:Bool = false;
 	public var phillyGlowFG:BGSprite;
@@ -1502,7 +1505,7 @@ class PlayState extends MusicBeatState
 		songBlurbStuff.cameras = [camOther];
 		songBlurbStuff.tweenIn();
 
-		new FlxTimer().start(5, function(tmr:FlxTimer)
+		blurbTimer = new FlxTimer().start(5, function(tmr:FlxTimer)
 		{
 			songBlurbStuff.tweenOut();
 		});
@@ -2174,6 +2177,7 @@ class PlayState extends MusicBeatState
 			if (startTimer != null && !startTimer.finished) startTimer.active = false;
 			if (finishTimer != null && !finishTimer.finished) finishTimer.active = false;
 			if (songSpeedTween != null) songSpeedTween.active = false;
+			if (blurbTimer != null && !blurbTimer.finished) blurbTimer.active = false;
 
 			var chars:Array<Character> = [boyfriend, gf, dad];
 			for (char in chars)
@@ -2183,7 +2187,9 @@ class PlayState extends MusicBeatState
 			#if LUA_ALLOWED
 			for (tween in modchartTweens) tween.active = false;
 			for (timer in modchartTimers) timer.active = false;
+			#if VIDEOS_ALLOWED
 			for (video in modchartVideos) video.bitmap.pause();
+			#end
 			#end
 		}
 
@@ -2203,6 +2209,7 @@ class PlayState extends MusicBeatState
 			if (startTimer != null && !startTimer.finished) startTimer.active = true;
 			if (finishTimer != null && !finishTimer.finished) finishTimer.active = true;
 			if (songSpeedTween != null) songSpeedTween.active = true;
+			if (blurbTimer != null && !blurbTimer.finished) blurbTimer.active = true;
 
 			var chars:Array<Character> = [boyfriend, gf, dad];
 			for (char in chars)
@@ -2212,7 +2219,9 @@ class PlayState extends MusicBeatState
 			#if LUA_ALLOWED
 			for (tween in modchartTweens) tween.active = true;
 			for (timer in modchartTimers) timer.active = true;
+			#if VIDEOS_ALLOWED
 			for (video in modchartVideos) video.bitmap.resume();
+			#end
 			#end
 
 			paused = false;
@@ -2228,9 +2237,11 @@ class PlayState extends MusicBeatState
 		if (health > 0 && !paused) resetRPC(Conductor.songPosition > 0.0);
 		super.onFocus();
 		#if LUA_ALLOWED
+		#if VIDEOS_ALLOWED
 		if (paused) {
 			for (video in modchartVideos) video.bitmap.pause();
 		}
+		#end
 		#end
 	}
 

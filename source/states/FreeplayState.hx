@@ -47,7 +47,9 @@ class FreeplayState extends MusicBeatState
 	public var modchartTexts:Map<String, FlxText> = new Map<String, FlxText>();
 	public var modchartSaves:Map<String, FlxSave> = new Map<String, FlxSave>();
 	public var modchartBackdrops:Map<String, ModchartBackdrop> = new Map<String, ModchartBackdrop>();
+	#if VIDEOS_ALLOWED
 	public var modchartVideos:Map<String, ModchartVideo> = new Map<String, ModchartVideo>();
+	#end
 	#end
 
 	public var paused:Bool = false;
@@ -209,10 +211,23 @@ class FreeplayState extends MusicBeatState
 		discThing.angle = 0;
 		add(discThing);
 
+		albumCover = new FlxSprite(565, 240);
 		if (songs[curSelected].album == '' || songs[curSelected].album == null)
-			albumCover = new FlxSprite(565, 240).loadGraphic(Paths.image('albums/blank'));
+			albumCover.loadGraphic(Paths.image('albums/blank'));
 		else
-			albumCover = new FlxSprite(565, 240).loadGraphic(Paths.image('albums/' + songs[curSelected].album));
+		{
+			#if MODS_ALLOWED
+			if (FileSystem.exists('assets/images/albums/' + songs[curSelected].album + '.png') || FileSystem.exists(Paths.modFolders('images/albums/' + songs[curSelected].album + '.png')))
+				albumCover.loadGraphic(Paths.image('albums/' + songs[curSelected].album));
+			else
+				albumCover.loadGraphic(Paths.image('albums/blank'));
+			#else
+			if (OpenFlAssets.exists(Paths.image('albums/' + songs[curSelected].album)))
+				albumCover.loadGraphic(Paths.image('albums/' + songs[curSelected].album));
+			else
+				albumCover.loadGraphic(Paths.image('albums/blank'));
+			#end
+		}
 		albumCover.setGraphicSize(Std.int(albumCover.width * 0.5));
 		albumCover.updateHitbox();
 		add(albumCover);
@@ -601,8 +616,6 @@ class FreeplayState extends MusicBeatState
 		if (curSelected >= songs.length)
 			curSelected = 0;
 
-		reloadAlbumCover();
-
 		var bulltrash:Int = 0;
 
 		for (item in grpSongs.members)
@@ -634,6 +647,7 @@ class FreeplayState extends MusicBeatState
 
 		changeDiff();
 		_updateSongLastDifficulty();
+		reloadAlbumCover();
 		selectedItem = songs[curSelected].songName;
 		curAlbum = songs[curSelected].album;
 		selectedDifficulty = Difficulty.getString(curDifficulty);
@@ -663,7 +677,20 @@ class FreeplayState extends MusicBeatState
 		if (songs[curSelected].album == '' || songs[curSelected].album == null)
 			albumCover.loadGraphic(Paths.image('albums/blank'));
 		else
-			albumCover.loadGraphic(Paths.image('albums/' + songs[curSelected].album));
+		{
+			#if MODS_ALLOWED
+			if (FileSystem.exists('assets/images/albums/' + songs[curSelected].album + '.png') || FileSystem.exists(Paths.modFolders('images/albums/' + songs[curSelected].album + '.png')))
+				albumCover.loadGraphic(Paths.image('albums/' + songs[curSelected].album));
+			else
+				albumCover.loadGraphic(Paths.image('albums/blank'));
+			#else
+			if (OpenFlAssets.exists(Paths.image('albums/' + songs[curSelected].album)))
+				albumCover.loadGraphic(Paths.image('albums/' + songs[curSelected].album));
+			else
+				albumCover.loadGraphic(Paths.image('albums/blank'));
+			#end
+		}
+		albumCover.setGraphicSize(350);
 		albumCover.updateHitbox();
 	}
 

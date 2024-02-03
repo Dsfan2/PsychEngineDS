@@ -46,11 +46,13 @@ class MainMenuState extends MusicBeatState
 	public var modchartTexts:Map<String, FlxText> = new Map<String, FlxText>();
 	public var modchartSaves:Map<String, FlxSave> = new Map<String, FlxSave>();
 	public var modchartBackdrops:Map<String, ModchartBackdrop> = new Map<String, ModchartBackdrop>();
+	#if VIDEOS_ALLOWED
 	public var modchartVideos:Map<String, ModchartVideo> = new Map<String, ModchartVideo>();
+	#end
 	#end
 
 	public var paused:Bool = false;
-	public static var psychEngineVersion:String = '2.0.0'; //This is also used for Discord RPC
+	public static var psychEngineVersion:String = '2.0.1'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;

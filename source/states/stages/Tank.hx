@@ -20,7 +20,9 @@ class Tank extends BaseStage
 	var tankmanRun:FlxTypedGroup<TankmenBG>;
 	var foregroundSprites:FlxTypedGroup<BGSprite>;
 
+	#if VIDEOS_ALLOWED
 	var tankascends:VideoSprite;
+	#end
 
 	override function create()
 	{
@@ -106,6 +108,7 @@ class Tank extends BaseStage
 			}
 		}
 
+		#if VIDEOS_ALLOWED
 		tankascends = new VideoSprite();
 		tankascends.playVideo(Paths.video('tankboi-ascends'), true);
 		tankascends.bitmap.canSkip = false;
@@ -117,6 +120,7 @@ class Tank extends BaseStage
 		else tankascends.cameras = [camHUD];
 		tankascends.alpha = 0;
 		add(tankascends);
+		#end
 	}
 	override function createPost()
 	{
@@ -164,6 +168,7 @@ class Tank extends BaseStage
 		});
 	}
 
+	#if VIDEOS_ALLOWED
 	override function stepHit()
 	{
 		if (songName == 'guns') {
@@ -179,6 +184,7 @@ class Tank extends BaseStage
 			}
 		}
 	}
+	#end
 
 	// Cutscenes
 	public function presongDialogue()
@@ -223,6 +229,7 @@ class Tank extends BaseStage
 		}
 	}
 
+	#if VIDEOS_ALLOWED
 	override function openSubState(SubState:flixel.FlxSubState)
 	{
 		if(paused)
@@ -238,4 +245,5 @@ class Tank extends BaseStage
 			tankascends.bitmap.resume();
 		}
 	}
+	#end
 }

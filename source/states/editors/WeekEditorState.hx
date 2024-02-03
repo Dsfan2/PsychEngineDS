@@ -582,6 +582,7 @@ class WeekEditorFreeplayState extends MusicBeatState
 	}
 
 	var bg:FlxSprite;
+	var spotlight:FlxSprite;
 	private var grpSongs:FlxTypedGroup<CoolScrollText>;
 
 	var albumCover:FlxSprite;
@@ -594,6 +595,12 @@ class WeekEditorFreeplayState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);
 		bg.screenCenter();
+
+		spotlight = new FlxSprite().loadGraphic(Paths.image('menuFreeplay-light'));
+		spotlight.antialiasing = ClientPrefs.data.antialiasing;
+		add(spotlight);
+		spotlight.screenCenter();
+		spotlight.color = FlxColor.WHITE;
 
 		grpSongs = new FlxTypedGroup<CoolScrollText>();
 		add(grpSongs);
