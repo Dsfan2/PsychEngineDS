@@ -1494,7 +1494,16 @@ class PlayState extends MusicBeatState
 		var name:String = SONG.song;
 
 		var songName:String = Paths.formatToSongPath(SONG.song);
-		var compFile:String = Paths.txt(songName + '/Composer');
+		var compFile:String;
+
+		#if MODS_ALLOWED
+		if (FileSystem.exists(Paths.modFolders('data/' + songName + '/Composer.txt')))
+			compFile = Paths.modFolders('data/' + songName + '/Composer.txt');
+		else
+			compFile = Paths.txt(songName + '/Composer');
+		#else
+		compFile = Paths.txt(songName + '/Composer');
+		#end
 		
 		var compName:Array<String> = CoolUtil.coolTextFile(compFile);
 

@@ -49,6 +49,7 @@ class DialogueDSEditorState extends MusicBeatState
 			expression: 'talk',
 			text: DEFAULT_TEXT,
 			disableFadeBG: false,
+			boxAnimPrefix: 'text box',
 			speed: 0.05,
 			dialogueSound: 'dialogue'
 		};
@@ -138,6 +139,7 @@ class DialogueDSEditorState extends MusicBeatState
 	var speedStepper:FlxUINumericStepper;
 	var soundInputText:FlxUIInputText;
 	var fadeBGCheckbox:FlxUICheckBox;
+	var prefixInputText:FlxUIInputText;
 
 	var boxskinInputText:FlxUIInputText;
 	var fontInputText:FlxUIInputText;
@@ -159,6 +161,9 @@ class DialogueDSEditorState extends MusicBeatState
 		characterInputText = new FlxUIInputText(10, 20, 80, DialogueCharacter.DEFAULT_CHARACTER, 8);
 		blockPressWhileTypingOn.push(characterInputText);
 
+		prefixInputText = new FlxUIInputText(characterInputText.x + 120, characterInputText.y, 100, 'text box', 8);
+		blockPressWhileTypingOn.push(prefixInputText);
+
 		speedStepper = new FlxUINumericStepper(10, characterInputText.y + 40, 0.005, 0.05, 0, 0.5, 3);
 
 		fadeBGCheckbox = new FlxUICheckBox(speedStepper.x + 120, speedStepper.y, null, null, "Disable Fade BG", 200);
@@ -175,12 +180,15 @@ class DialogueDSEditorState extends MusicBeatState
 
 		tab_group_A.add(new FlxText(10, speedStepper.y - 18, 0, 'Interval/Speed (ms):'));
 		tab_group_A.add(new FlxText(10, characterInputText.y - 18, 0, 'Character:'));
+		tab_group_A.add(new FlxText(prefixInputText.x, prefixInputText.y - 18, 0, 'Box Animation:'));
 		tab_group_A.add(new FlxText(10, soundInputText.y - 18, 0, 'Sound file name:'));
 		tab_group_A.add(new FlxText(10, lineInputText.y - 18, 0, 'Text:'));
 		tab_group_A.add(characterInputText);
+		tab_group_A.add(prefixInputText);
 		tab_group_A.add(speedStepper);
 		tab_group_A.add(soundInputText);
 		tab_group_A.add(lineInputText);
+		tab_group_A.add(fadeBGCheckbox);
 		UI_box.addGroup(tab_group_A);
 	}
 
@@ -296,15 +304,18 @@ class DialogueDSEditorState extends MusicBeatState
 			text: defaultLine.text,
 			disableFadeBG: defaultLine.disableFadeBG,
 			speed: defaultLine.speed,
-			dialogueSound: defaultLine.dialogueSound
+			dialogueSound: defaultLine.dialogueSound,
+			boxAnimPrefix: defaultLine.boxAnimPrefix
 		};
 		return copyLine;
 	}
 
-	function updateTextBox() {
-		var anim:String = 'idle';
-
-		box.animation.addByPrefix('idle', 'text box idle', 24);
+	function updateTextBox(name:String = '') {
+		//var name:String = prefixInputText.text;
+		if (name != '')
+			box.animation.addByPrefix('idle', name + ' idle', 24);
+		else
+			box.animation.addByPrefix('idle', 'text box idle', 24);
 		box.animation.play('idle', true);
 		DialogueBoxDS.updateBoxOffsets(box);
 	}
@@ -435,6 +446,12 @@ class DialogueDSEditorState extends MusicBeatState
 				if (soundInputText.text == null) soundInputText.text = '';
 				daText.sounds = [FlxG.sound.load(Paths.sound(soundInputText.text), 0.6)];
 			}
+			else if (sender == prefixInputText)
+			{
+				dialogueFile.dialogue[curSelected].boxAnimPrefix = prefixInputText.text;
+				if (prefixInputText.text == null) prefixInputText.text = '';
+				updateTextBox(prefixInputText.text);
+			}
 			else if(sender == boxskinInputText)
 			{
 				dialogueFile.boxSkin = boxskinInputText.text;
@@ -504,6 +521,11 @@ class DialogueDSEditorState extends MusicBeatState
 			super.update(elapsed);
 			return;
 		}
+
+		if (UI_box.selected_tab == 0)
+			UI_box.resize(300, 210);
+		else
+			UI_box.resize(300, 300);
 
 		dropText.text = daText.text;
 
@@ -596,6 +618,8 @@ class DialogueDSEditorState extends MusicBeatState
 		characterInputText.text = curDialogue.portrait;
 		lineInputText.text = curDialogue.text;
 		speedStepper.value = curDialogue.speed;
+		fadeBGCheckbox.checked = curDialogue.disableFadeBG;
+		prefixInputText.text = curDialogue.boxAnimPrefix;
 
 		daText.delay = speedStepper.value;
 		daText.sounds = [FlxG.sound.load(Paths.sound(soundInputText.text), 0.6)];

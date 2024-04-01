@@ -1743,6 +1743,37 @@ class ChartingState extends MusicBeatState
 		Conductor.songPosition = FlxG.sound.music.time;
 		_song.song = UI_songTitle.text;
 
+		var blockInput:Bool = false;
+		for (inputText in blockPressWhileTypingOn) {
+			if(inputText.hasFocus) {
+				ClientPrefs.toggleVolumeKeys(false);
+				blockInput = true;
+				break;
+			}
+		}
+
+		if(!blockInput) {
+			for (stepper in blockPressWhileTypingOnStepper) {
+				@:privateAccess
+				var leText:FlxUIInputText = cast (stepper.text_field, FlxUIInputText);
+				if(leText.hasFocus) {
+					ClientPrefs.toggleVolumeKeys(false);
+					blockInput = true;
+					break;
+				}
+			}
+		}
+
+		if(!blockInput) {
+			ClientPrefs.toggleVolumeKeys(true);
+			for (dropDownMenu in blockPressWhileScrolling) {
+				if(dropDownMenu.dropPanel.visible) {
+					blockInput = true;
+					break;
+				}
+			}
+		}
+
 		var left = FlxG.keys.justPressed.ONE;
 		var down = FlxG.keys.justPressed.TWO;
 		var up = FlxG.keys.justPressed.THREE;
@@ -1754,7 +1785,8 @@ class ChartingState extends MusicBeatState
 
 		var pressArray = [left, down, up, right, leftO, downO, upO, rightO];
 		var delete = false;
-		curRenderedNotes.forEach(function(note:Note)
+		if (!blockInput) {
+			curRenderedNotes.forEach(function(note:Note)
 			{
 				if (strumLine.overlaps(note) && pressArray[Math.floor(Math.abs(note.noteData))])
 				{
@@ -1762,12 +1794,13 @@ class ChartingState extends MusicBeatState
 					delete = true;
 				}
 			});
-		for (p in 0...pressArray.length)
-		{
-			var i = pressArray[p];
-			if (i && !delete)
+			for (p in 0...pressArray.length)
 			{
-				addNote(Conductor.songPosition, p, currentType);
+				var i = pressArray[p];
+				if (i && !delete)
+				{	
+					addNote(Conductor.songPosition, p, currentType);
+				}
 			}
 		}
 
@@ -1851,7 +1884,7 @@ class ChartingState extends MusicBeatState
 			}
 		}
 
-		var blockInput:Bool = false;
+		/*var blockInput:Bool = false;
 		for (inputText in blockPressWhileTypingOn) {
 			if(inputText.hasFocus) {
 				ClientPrefs.toggleVolumeKeys(false);
@@ -1880,7 +1913,7 @@ class ChartingState extends MusicBeatState
 					break;
 				}
 			}
-		}
+		}*/
 
 		if (!blockInput)
 		{

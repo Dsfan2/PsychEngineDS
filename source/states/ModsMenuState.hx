@@ -319,6 +319,7 @@ class ModsMenuState extends MusicBeatState
 			{
 				TitleState.initialized = false;
 				TitleState.closedState = false;
+				TeamDSIntro.leftState = false;
 				FlxG.sound.music.fadeOut(0.3);
 				if(FreeplayState.vocals != null)
 				{
