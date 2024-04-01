@@ -26,6 +26,8 @@ This is to ensure all the needed libraries are at the correct version in order f
 
 Once you do all that you should be good to go!
 
+If you're having trouble compiling, open either the "read_this_if_you_cant_compile.txt" or "read_this_if_you_STILL_cant_compile.txt" files for more help on how to compile properly.
+
 ## Customization:
 
 if you wish to disable things like *Lua Scripts* or *Video Cutscenes*, you can read over to `Project.xml`
