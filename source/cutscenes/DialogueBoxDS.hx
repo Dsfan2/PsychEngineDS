@@ -34,6 +34,7 @@ typedef DialogueLineDS = {
 	var speed:Null<Float>;
 	var dialogueSound:Null<String>;
 	var disableFadeBG:Null<Bool>;
+	var boxAnimPrefix:Null<String>;
 }
 
 // TO DO: Clean code? Maybe? idk
@@ -49,6 +50,8 @@ class DialogueBoxDS extends FlxSpriteGroup
 	var bgFade:FlxSprite = null;
 	var box:FlxSprite;
 	var textToType:String = '';
+
+	var lastBoxPrefix:String = '';
 
 	var arrayCharacters:Array<DialogueCharacter> = [];
 
@@ -84,9 +87,9 @@ class DialogueBoxDS extends FlxSpriteGroup
 		box.frames = Paths.getSparrowAtlas(dialogueList.boxSkin);
 		boxSize = box.width;
 		box.scrollFactor.set();
-		box.animation.addByPrefix('idle', 'text box idle', 24);
-		box.animation.addByPrefix('open', 'text box open', 24, false);
-		box.animation.play('open', true);
+		//box.animation.addByPrefix('idle', 'text box idle', 24);
+		//box.animation.addByPrefix('open', 'text box open', 24, false);
+		//box.animation.play('open', true);
 		box.visible = false;
 		box.setGraphicSize(Std.int(box.width * 0.9));
 		box.updateHitbox();
@@ -238,6 +241,7 @@ class DialogueBoxDS extends FlxSpriteGroup
 					updateBoxOffsets(box);
 					FlxG.sound.music.fadeOut(1, 0);
 				} else {
+					lastBoxPrefix = dialogueList.dialogue[currentText].boxAnimPrefix;
 					startNextDialog();
 				}
 				FlxG.sound.play(Paths.sound(closeSound), closeVolume);
@@ -353,12 +357,21 @@ class DialogueBoxDS extends FlxSpriteGroup
 	}
 
 	var lastCharacter:Int = -1;
+	var boxPrefix:String = "text box";
 	function startNextDialog():Void
 	{
 		var curDialogue:DialogueLineDS = null;
 		do {
 			curDialogue = dialogueList.dialogue[currentText];
 		} while(curDialogue == null);
+
+		boxPrefix = curDialogue.boxAnimPrefix;
+
+		if (boxPrefix == null || boxPrefix == '')
+			boxPrefix = 'text box';
+		
+		box.animation.addByPrefix('idle', boxPrefix + ' idle', 24);
+		box.animation.addByPrefix('open', boxPrefix + ' open', 24, false);
 
 		if(curDialogue.text == null || curDialogue.text.length < 1) curDialogue.text = ' ';
 		if(curDialogue.speed == null || Math.isNaN(curDialogue.speed)) curDialogue.speed = 0.05;
@@ -381,7 +394,7 @@ class DialogueBoxDS extends FlxSpriteGroup
 		var lePosition:String = arrayCharacters[character].jsonFile.dialogue_pos;
 		if(lePosition == 'center') centerPrefix = 'center-';
 
-		if (lastCharacter == -1) {
+		if (lastCharacter == -1 || curDialogue.boxAnimPrefix != lastBoxPrefix) {
 			box.animation.play('open', true);
 			updateBoxOffsets(box);
 		} else {
