@@ -1,5 +1,5 @@
-If you're having trouble installing certain libraries, copy THIS Google Drive link and paste it into your web browser: 
-https://drive.google.com/file/d/1kEkB7iWvlrKjRySvg-IHFoOyVOIHzUAz/view?usp=sharing
+If you're having trouble installing certain libraries, copy THIS Media Fire link and paste it into your web browser: 
+https://www.mediafire.com/file/kpeh756hfb12r4i/UNZIP_THIS_IN_MAIN_FOLDER.zip/file
 
 Once you download it, there should be a .zip folder called "UNZIP THIS IN MAIN FOLDER.zip"
 
